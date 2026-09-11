@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 
 const require = createRequire(import.meta.url);
-const handler = require("../api/live.js");
+const handler = require("../api/live-v2.js");
 
 let payload = null;
 let statusCode = 200;
