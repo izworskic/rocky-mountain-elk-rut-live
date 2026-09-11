@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "api/live.js"
+      - "api/live-v2.js"
       - "scripts/snapshot-live.mjs"
       - ".github/workflows/refresh-live.yml"
   schedule:
@@ -32,6 +33,12 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Synchronize main
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
       - name: Generate live snapshot
         run: node scripts/snapshot-live.mjs
 
@@ -39,10 +46,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/live.json
+          git add public/v1/live.json
           if git diff --cached --quiet; then
             echo "No snapshot change to commit"
             exit 0
           fi
           git commit -m "Refresh elk rut live snapshot"
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 2
+          done
+          exit 1
