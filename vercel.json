@@ -2,7 +2,8 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "functions": {
-    "api/live.js": { "maxDuration": 25 }
+    "api/live.js": { "maxDuration": 25 },
+    "api/live-v2.js": { "maxDuration": 25 }
   },
   "headers": [
     {
@@ -14,6 +15,7 @@
   ],
   "rewrites": [
     { "source": "/", "destination": "/national-tools/elk-rut/index.html" },
+    { "source": "/api/live", "destination": "/api/live-v2" },
     { "source": "/national-tools/elk-rut", "destination": "/national-tools/elk-rut/index.html" },
     { "source": "/national-tools/elk-rut/", "destination": "/national-tools/elk-rut/index.html" }
   ],
