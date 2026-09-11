@@ -1,0 +1,27 @@
+name: Verify Elk Rut Live
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "api/**"
+      - "public/**"
+      - "scripts/**"
+      - "tests/**"
+      - "package.json"
+      - "vercel.json"
+      - ".github/workflows/verify.yml"
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm run verify
