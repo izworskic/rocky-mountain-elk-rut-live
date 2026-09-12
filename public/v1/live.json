@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T23:34:10.709Z",
+  "generatedAt": "2026-09-12T01:35:43.107Z",
   "localDate": "2026-09-11",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -20,23 +20,23 @@
     "arrival": "2026-09-11T23:33:14.000Z",
     "arrivalLabel": "5:33 PM MDT",
     "rutSeasonScore": 82,
-    "score": 83,
+    "score": 85,
     "label": "Excellent",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 85,
-        "temperature": 66,
-        "windMph": 8,
-        "precipChance": 16,
+        "score": 93,
+        "temperature": 63,
+        "windMph": 7,
+        "precipChance": 15,
         "summary": "Slight Chance Rain Showers"
       },
       "west": {
-        "score": 89,
-        "temperature": 64,
-        "windMph": 9,
-        "precipChance": 15,
+        "score": 93,
+        "temperature": 61,
+        "windMph": 7,
+        "precipChance": 14,
         "summary": "Slight Chance Rain Showers"
       }
     }
@@ -56,23 +56,23 @@
       "arrival": "2026-09-11T23:33:14.000Z",
       "arrivalLabel": "5:33 PM MDT",
       "rutSeasonScore": 82,
-      "score": 83,
+      "score": 85,
       "label": "Excellent",
       "bestZone": "east",
       "confidence": "High",
       "weather": {
         "east": {
-          "score": 85,
-          "temperature": 66,
-          "windMph": 8,
-          "precipChance": 16,
+          "score": 93,
+          "temperature": 63,
+          "windMph": 7,
+          "precipChance": 15,
           "summary": "Slight Chance Rain Showers"
         },
         "west": {
-          "score": 89,
-          "temperature": 64,
-          "windMph": 9,
-          "precipChance": 15,
+          "score": 93,
+          "temperature": 61,
+          "windMph": 7,
+          "precipChance": 14,
           "summary": "Slight Chance Rain Showers"
         }
       }
@@ -255,25 +255,6 @@
   ],
   "spots": [
     {
-      "id": "harbison-meadow",
-      "name": "Harbison Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 94,
-      "place": "Kawuneeche Valley / west side",
-      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
-      "lat": 40.271,
-      "lon": -105.837,
-      "score": 85,
-      "scoreLabel": "Excellent",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
       "id": "moraine-park",
       "name": "Moraine Park",
       "zone": "east",
@@ -283,7 +264,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 84,
+      "score": 86,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Timed Entry+ required",
@@ -302,7 +283,26 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 84,
+      "score": 86,
+      "scoreLabel": "Excellent",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "harbison-meadow",
+      "name": "Harbison Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 94,
+      "place": "Kawuneeche Valley / west side",
+      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
+      "lat": 40.271,
+      "lon": -105.837,
+      "score": 86,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
@@ -321,7 +321,7 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 84,
+      "score": 85,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
@@ -340,7 +340,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 84,
+      "score": 85,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
@@ -361,7 +361,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 84,
+      "score": 86,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Timed Entry+ required",
@@ -380,7 +380,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 84,
+      "score": 86,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
@@ -399,7 +399,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 85,
+      "score": 86,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
