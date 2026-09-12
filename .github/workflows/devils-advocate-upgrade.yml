@@ -5,7 +5,7 @@ on:
     branches: [improve/elk-devils-advocate]
     paths:
       - ".github/workflows/devils-advocate-upgrade.yml"
-      - "scripts/apply-elk-devils-advocate.mjs"
+      - "scripts/apply-elk-upgrade-v2.mjs"
   workflow_dispatch:
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 22
       - name: Apply upgrades
-        run: node scripts/apply-elk-devils-advocate.mjs
+        run: node scripts/apply-elk-upgrade-v2.mjs
       - name: Verify
         run: npm run verify
       - name: Commit verified changes
