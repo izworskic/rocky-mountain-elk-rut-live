@@ -98,6 +98,20 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.25rem,5vw,4.4re
 .metric{border:1px solid var(--line);border-radius:12px;padding:11px}
 .metric span{display:block;font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em}
 .metric strong{display:block;font-size:.97rem;margin-top:3px}
+.decision-strip{display:grid;grid-template-columns:1.2fr .8fr;gap:10px;margin:14px 0 4px}
+.choice-card{border:1px solid var(--line);border-radius:12px;padding:12px;background:#faf9f3}
+.choice-card.best{background:var(--green-soft);border-color:#b9caba}
+.choice-card span{display:block;font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;font-weight:760}
+.choice-card strong{display:block;margin-top:3px}
+.choice-card small{display:block;color:var(--muted);margin-top:3px}
+.action-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.action-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border:1px solid #bfc8bf;border-radius:9px;padding:8px 10px;font-size:.82rem;font-weight:760;background:#fff}
+.action-link.primary{background:var(--forest);border-color:var(--forest);color:#fff}
+.countdown{font-size:.82rem;font-weight:760;color:var(--forest);margin-top:7px}
+.spot-fit{font-weight:800;color:var(--forest);font-size:.83rem;text-align:right}
+.spot-actions{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.spot-actions a{font-size:.78rem;font-weight:740;text-underline-offset:3px}
+.permit-release{margin-top:10px;padding:10px 11px;border-radius:10px;background:#fff8ed;color:#68401f;font-size:.82rem}
 .arrival{padding:24px}
 .arrival h2,.section h2{font-size:1.5rem;line-height:1.18;margin:0 0 8px}
 .arrival p{margin:0 0 14px;color:var(--muted)}
@@ -156,7 +170,7 @@ button.retry{border:0;background:var(--forest);color:white;border-radius:9px;pad
   .decision,.arrival{padding:18px}
   .decision-top{display:block}
   .score-wrap{text-align:left;margin:14px 0}
-  .metric-row{grid-template-columns:1fr}
+  .metric-row,.decision-strip{grid-template-columns:1fr}
   .windows{grid-template-columns:1fr}
   h1{font-size:2.55rem}
 }
@@ -216,15 +230,22 @@ button.retry{border:0;background:var(--forest);color:white;border-radius:9px;pad
         <div class="metric"><span>Forecast</span><strong id="metric-weather">--</strong></div>
         <div class="metric"><span>Confidence</span><strong id="metric-confidence">--</strong></div>
       </div>
+      <div class="decision-strip">
+        <div class="choice-card best"><span>Best within 42 hours</span><strong id="best-choice">Loading…</strong><small id="best-choice-detail"></small></div>
+        <div class="choice-card"><span>Next window</span><strong id="next-choice">Loading…</strong><small id="next-choice-detail"></small></div>
+      </div>
     </article>
 
     <aside class="panel arrival">
       <p class="kicker">When to be in position</p>
       <h2>Arrive before the window starts.</h2>
       <div class="arrival-time" id="arrival-time">--</div>
+      <div class="countdown" id="arrival-countdown">Calculating time to arrival…</div>
       <p id="arrival-copy">The recommended arrival builds in setup time before the crepuscular activity window.</p>
       <span class="access-pill" id="access-pill">Checking access…</span>
       <p id="access-detail" style="margin-top:12px">Moraine Park has different timed-entry rules from most of the park.</p>
+      <div class="permit-release"><strong>No reservation yet?</strong> Additional next-day timed-entry reservations are released at <strong>7:00 PM MDT</strong> on Recreation.gov, subject to availability.</div>
+      <div class="action-row"><a class="action-link primary" href="https://www.recreation.gov/timed-entry/10086986" target="_blank" rel="noopener">Timed entry ↗</a><a class="action-link" href="https://www.nps.gov/romo/learn/photosmultimedia/webcams.htm" target="_blank" rel="noopener">NPS webcams ↗</a></div>
     </aside>
   </section>
 
@@ -247,8 +268,8 @@ button.retry{border:0;background:var(--forest);color:white;border-radius:9px;pad
 
   <section class="section" aria-labelledby="spots-title">
     <div class="section-head">
-      <div><p class="kicker">Where to watch</p><h2 id="spots-title">Best elk viewing areas for the next window</h2></div>
-      <p>Scores combine the same rut/weather window with a small destination preference. They do not imply that elk are currently standing in a specific meadow.</p>
+      <div><p class="kicker">Where to watch</p><h2 id="spots-title">Best planning fits for the recommended window</h2></div>
+      <p>These are planning fits, not live elk-location scores. Weather, access and the meadow’s viewing usefulness shape the order; elk can move anywhere.</p>
     </div>
     <div class="spots" id="spots-grid"></div>
   </section>
@@ -331,10 +352,23 @@ function renderWindows(data) {
 function renderSpots(data) {
   const grid = $("spots-grid");
   grid.innerHTML = (data.spots || []).map(s => `<article class="panel spot">
-    <div class="spot-head"><div><h3>${esc(s.name)}</h3><div class="place">${esc(s.place)}</div></div><div class="spot-score">${esc(s.score)}/100</div></div>
+    <div class="spot-head"><div><h3>${esc(s.name)}</h3><div class="place">${esc(s.place)}</div></div><div class="spot-fit">${esc(s.scoreLabel)} fit</div></div>
     <p>${esc(s.note)}</p>
+    <div class="spot-actions"><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(String(s.lat) + "," + String(s.lon))}" target="_blank" rel="noopener">Open map ↗</a>${s.id === "harbison-meadow" ? "<a href=\"https://www.nps.gov/romo/learn/photosmultimedia/webcams.htm\" target=\"_blank\" rel=\"noopener\">Check Kawuneeche webcam ↗</a>" : ""}</div>
     <div class="access">${esc(s.access?.status || "")}: ${esc(s.access?.detail || "")}</div>
   </article>`).join("");
+}
+
+let countdownTimer = null;
+function countdownText(targetIso) {
+  const diff = new Date(targetIso).getTime() - Date.now();
+  if (!Number.isFinite(diff)) return "";
+  if (diff <= 0) return "Recommended arrival time has passed — use current conditions and go only if access still works.";
+  const mins = Math.round(diff / 60000);
+  if (mins < 60) return "Leave soon: recommended arrival in " + mins + " min";
+  const hours = Math.floor(mins / 60);
+  const rem = mins % 60;
+  return "Recommended arrival in " + hours + " hr" + (hours === 1 ? "" : "s") + (rem ? " " + rem + " min" : "");
 }
 
 function renderPrimary(data) {
@@ -343,11 +377,13 @@ function renderPrimary(data) {
   const wx = w.weather?.[w.bestZone];
   $("primary-kicker").textContent = `${w.date} · ${w.period}`;
   $("primary-title").classList.remove("loading");
-  $("primary-title").textContent = `${w.label} elk-rut viewing window`;
-  $("primary-verdict").textContent =
-    w.score >= 82 ? "This is a strong window to choose if you can make the access logistics work." :
-    w.score >= 72 ? "A worthwhile window, though conditions are not quite at the top tier." :
-    "The rut is active seasonally, but this window has meaningful tradeoffs.";
+  $("primary-title").textContent = w.label + ": " + w.date + " " + w.period + " is the best near-term window";
+  const hazard = w.weather?.[w.bestZone]?.hazard;
+  $("primary-verdict").textContent = hazard
+    ? "The rut may be strong, but the live weather creates a real viewing tradeoff. The score is intentionally capped so seasonality cannot hide that."
+    : w.score >= 82 ? "This is the strongest near-term choice if the access logistics work for you."
+    : w.score >= 72 ? "A worthwhile near-term choice, though another window may be close enough to compare."
+    : "The rut is active seasonally, but this window has meaningful visitor-condition tradeoffs.";
   $("primary-score").textContent = w.score;
   $("primary-window").textContent = `${w.startLabel}–${w.endLabel}`;
   $("primary-date").textContent = `${w.period === "Dawn" ? "Sunrise" : "Sunset"}: ${w.anchorLabel}`;
@@ -355,6 +391,16 @@ function renderPrimary(data) {
   $("metric-weather").textContent = wx?.score == null ? "Unavailable" : `${wx.score}/100`;
   $("metric-confidence").textContent = w.confidence;
   $("arrival-time").textContent = w.arrivalLabel;
+  const next = data.nextWindow || data.windows?.[0] || w;
+  const same = next?.key === w.key;
+  $("best-choice").textContent = w.date + " " + w.period + " · " + w.score + "/100";
+  $("best-choice-detail").textContent = w.startLabel + "–" + w.endLabel + " · " + (w.bestZone === "west" ? "West side" : "East side") + " favored";
+  $("next-choice").textContent = next.date + " " + next.period + " · " + next.score + "/100";
+  $("next-choice-detail").textContent = same ? "The next window is also the best near-term choice." : next.startLabel + "–" + next.endLabel + " · " + (w.score > next.score ? (w.score - next.score) + " points below the best" : "Comparable to the best");
+  const updateCountdown = () => { $("arrival-countdown").textContent = countdownText(w.arrival); };
+  updateCountdown();
+  if (countdownTimer) clearInterval(countdownTimer);
+  countdownTimer = setInterval(updateCountdown, 60000);
 
   const moraine = (data.spots || []).find(s => s.id === "moraine-park");
   if (moraine?.access) {

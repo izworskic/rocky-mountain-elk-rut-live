@@ -50,3 +50,15 @@ test("weather score rewards quieter and drier viewing conditions", () => {
   }]);
   assert.ok(calm.score > rough.score);
 });
+
+
+test("hazardous weather caps the visitor-facing score even during peak rut", () => {
+  assert.equal(elk.combinedScore(96, 50, "thunder"), 55);
+  assert.equal(elk.combinedScore(96, 55, "winter"), 50);
+  assert.equal(elk.combinedScore(96, 60, "visibility"), 68);
+});
+
+test("low visitor-quality scores are not mislabeled as off-peak rut", () => {
+  assert.equal(elk.scoreLabel(54), "Poor");
+  assert.equal(elk.scoreLabel(63), "Marginal");
+});
