@@ -294,9 +294,17 @@ function weatherQuality(periods) {
 
   const text = periods.map(p => `${p.shortForecast || ""} ${p.detailedForecast || ""}`).join(" ").toLowerCase();
   let conditionMultiplier = 1;
-  if (/thunder|severe/.test(text)) conditionMultiplier = 0.62;
-  else if (/fog|dense fog/.test(text)) conditionMultiplier = 0.78;
-  else if (/heavy snow|blizzard/.test(text)) conditionMultiplier = 0.70;
+  let hazard = null;
+  if (/thunder|severe/.test(text)) {
+    conditionMultiplier = 0.62;
+    hazard = "thunder";
+  } else if (/heavy snow|blizzard/.test(text)) {
+    conditionMultiplier = 0.70;
+    hazard = "winter";
+  } else if (/fog|dense fog/.test(text)) {
+    conditionMultiplier = 0.78;
+    hazard = "visibility";
+  }
 
   const score = round((0.25 * tempScore + 0.35 * windScore + 0.40 * precipScore) * conditionMultiplier);
   const summary = periods[0]?.shortForecast || "NWS hourly forecast";
@@ -306,20 +314,25 @@ function weatherQuality(periods) {
     windMph: wind == null ? null : round(wind),
     precipChance: pop == null ? null : round(pop),
     summary,
+    hazard,
   };
 }
 
-function combinedScore(rutScore, weatherScore) {
+function combinedScore(rutScore, weatherScore, hazard = null) {
   if (weatherScore == null) return rutScore;
-  return round(0.72 * rutScore + 0.28 * weatherScore);
+  let score = round(0.72 * rutScore + 0.28 * weatherScore);
+  if (hazard === "thunder") score = Math.min(score, 55);
+  else if (hazard === "winter") score = Math.min(score, 50);
+  else if (hazard === "visibility") score = Math.min(score, 68);
+  return score;
 }
 
 function scoreLabel(score) {
   if (score >= 90) return "Prime";
   if (score >= 82) return "Excellent";
   if (score >= 72) return "Good";
-  if (score >= 58) return "Fair";
-  return "Off peak";
+  if (score >= 58) return "Marginal";
+  return "Poor";
 }
 
 function confidenceFor(hoursAhead, hasWeather) {
@@ -440,15 +453,15 @@ function makeWindows(todayYmd, now, forecasts) {
     }
   }
 
-  const future = windows.filter(w => w.end.getTime() > now.getTime() - 15 * 60000).slice(0, 6);
+  const future = windows.filter(w => w.end.getTime() > now.getTime()).slice(0, 6);
   return future.map(w => {
     const rut = seasonScore(w.ymd);
     const eastPeriods = periodsForWindow(forecasts.east, w.start, w.end);
     const westPeriods = periodsForWindow(forecasts.west, w.start, w.end);
     const eastWeather = weatherQuality(eastPeriods);
     const westWeather = weatherQuality(westPeriods);
-    const eastScore = combinedScore(rut, eastWeather.score);
-    const westScore = combinedScore(rut, westWeather.score);
+    const eastScore = combinedScore(rut, eastWeather.score, eastWeather.hazard);
+    const westScore = combinedScore(rut, westWeather.score, westWeather.hazard);
     const bestZone = westScore > eastScore + 2 ? "west" : "east";
     const bestWeather = bestZone === "west" ? westWeather : eastWeather;
     const hoursAhead = Math.max(0, (w.start.getTime() - now.getTime()) / 3600000);
@@ -483,7 +496,7 @@ function spotPayload(window, forecasts) {
   if (!window) return SPOTS.map(spot => ({ ...spot }));
   return SPOTS.map(spot => {
     const zoneWeather = window.weather?.[spot.zone] || {};
-    const zoneScore = combinedScore(window.rutSeasonScore, zoneWeather.score);
+    const zoneScore = combinedScore(window.rutSeasonScore, zoneWeather.score, zoneWeather.hazard);
     const access = accessAdvice(spot, new Date(window.arrival));
     const score = clamp(round(zoneScore * 0.92 + spot.rank * 0.08), 0, 100);
     return {
@@ -521,7 +534,9 @@ async function handler(req, res) {
   else errors.push(`west forecast: ${String(results[1].reason?.message || results[1].reason)}`);
 
   const windows = makeWindows(todayYmd, now, forecasts);
-  const primary = windows[0] || null;
+  const nextWindow = windows[0] || null;
+  const decisionHorizon = windows.filter(w => new Date(w.start).getTime() <= now.getTime() + 42 * 3600000);
+  const primary = (decisionHorizon.length ? decisionHorizon : windows).reduce((best, w) => !best || w.score > best.score ? w : best, null);
   const spots = spotPayload(primary, forecasts);
   const classic = spots.find(s => s.id === "moraine-park");
   const easiest = spots.find(s => s.id === "horseshoe-park");
@@ -538,6 +553,7 @@ async function handler(req, res) {
       : "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
     errors: errors.map(x => x.slice(0, 180)),
     primary,
+    nextWindow,
     windows,
     spots,
     recommendations: {
@@ -587,6 +603,7 @@ module.exports._test = {
   sunTime,
   weatherQuality,
   combinedScore,
+  scoreLabel,
   accessAdvice,
   localParts,
   currentLocalDate,
