@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T11:17:05.976Z",
+  "generatedAt": "2026-09-12T13:11:47.650Z",
   "localDate": "2026-09-12",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -27,17 +27,19 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 49,
+        "temperature": 51,
         "windMph": 3,
-        "precipChance": 7,
-        "summary": "Partly Cloudy"
+        "precipChance": 5,
+        "summary": "Sunny",
+        "hazard": null
       },
       "west": {
         "score": 100,
-        "temperature": 42,
+        "temperature": 43,
         "windMph": 3,
-        "precipChance": 8,
-        "summary": "Slight Chance Rain Showers"
+        "precipChance": 6,
+        "summary": "Sunny",
+        "hazard": null
       }
     }
   },
@@ -63,17 +65,19 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 49,
+          "temperature": 51,
           "windMph": 3,
-          "precipChance": 7,
-          "summary": "Partly Cloudy"
+          "precipChance": 5,
+          "summary": "Sunny",
+          "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 42,
+          "temperature": 43,
           "windMph": 3,
-          "precipChance": 8,
-          "summary": "Slight Chance Rain Showers"
+          "precipChance": 6,
+          "summary": "Sunny",
+          "hazard": null
         }
       }
     },
@@ -101,14 +105,16 @@
           "temperature": 64,
           "windMph": 5,
           "precipChance": 12,
-          "summary": "Slight Chance Rain Showers"
+          "summary": "Slight Chance Rain Showers",
+          "hazard": null
         },
         "west": {
           "score": 93,
           "temperature": 63,
           "windMph": 7,
           "precipChance": 12,
-          "summary": "Slight Chance Rain Showers"
+          "summary": "Slight Chance Rain Showers",
+          "hazard": null
         }
       }
     },
@@ -136,14 +142,16 @@
           "temperature": 56,
           "windMph": 8,
           "precipChance": 4,
-          "summary": "Partly Cloudy"
+          "summary": "Partly Cloudy",
+          "hazard": null
         },
         "west": {
           "score": 100,
           "temperature": 43,
           "windMph": 3,
           "precipChance": 5,
-          "summary": "Mostly Clear"
+          "summary": "Mostly Clear",
+          "hazard": null
         }
       }
     },
@@ -171,14 +179,16 @@
           "temperature": 68,
           "windMph": 6,
           "precipChance": 33,
-          "summary": "Chance Showers And Thunderstorms"
+          "summary": "Chance Showers And Thunderstorms",
+          "hazard": "thunder"
         },
         "west": {
           "score": 51,
           "temperature": 66,
           "windMph": 8,
           "precipChance": 32,
-          "summary": "Chance Showers And Thunderstorms"
+          "summary": "Chance Showers And Thunderstorms",
+          "hazard": "thunder"
         }
       }
     },
@@ -206,14 +216,16 @@
           "temperature": 59,
           "windMph": 13,
           "precipChance": 9,
-          "summary": "Mostly Cloudy"
+          "summary": "Mostly Cloudy",
+          "hazard": null
         },
         "west": {
           "score": 85,
           "temperature": 45,
           "windMph": 9,
           "precipChance": 35,
-          "summary": "Chance Rain Showers"
+          "summary": "Chance Rain Showers",
+          "hazard": null
         }
       }
     },
@@ -241,14 +253,16 @@
           "temperature": 64,
           "windMph": 7,
           "precipChance": 31,
-          "summary": "Chance Rain Showers"
+          "summary": "Chance Rain Showers",
+          "hazard": null
         },
         "west": {
           "score": 86,
           "temperature": 58,
           "windMph": 7,
           "precipChance": 32,
-          "summary": "Chance Rain Showers"
+          "summary": "Chance Rain Showers",
+          "hazard": null
         }
       }
     }
