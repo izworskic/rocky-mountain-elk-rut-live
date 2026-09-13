@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T16:35:14.015Z",
+  "generatedAt": "2026-09-13T18:59:17.593Z",
   "localDate": "2026-09-13",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -20,15 +20,15 @@
     "arrival": "2026-09-13T23:29:54.000Z",
     "arrivalLabel": "5:29 PM MDT",
     "rutSeasonScore": 86,
-    "score": 76,
+    "score": 77,
     "label": "Good",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 51,
-        "temperature": 67,
-        "windMph": 8,
+        "score": 53,
+        "temperature": 65,
+        "windMph": 6,
         "precipChance": 46,
         "summary": "Chance Showers And Thunderstorms",
         "hazard": "thunder"
@@ -36,7 +36,7 @@
       "west": {
         "score": 53,
         "temperature": 64,
-        "windMph": 8,
+        "windMph": 7,
         "precipChance": 39,
         "summary": "Chance Showers And Thunderstorms",
         "hazard": "thunder"
@@ -58,15 +58,15 @@
       "arrival": "2026-09-13T23:29:54.000Z",
       "arrivalLabel": "5:29 PM MDT",
       "rutSeasonScore": 86,
-      "score": 76,
+      "score": 77,
       "label": "Good",
       "bestZone": "east",
       "confidence": "High",
       "weather": {
         "east": {
-          "score": 51,
-          "temperature": 67,
-          "windMph": 8,
+          "score": 53,
+          "temperature": 65,
+          "windMph": 6,
           "precipChance": 46,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
@@ -74,7 +74,7 @@
         "west": {
           "score": 53,
           "temperature": 64,
-          "windMph": 8,
+          "windMph": 7,
           "precipChance": 39,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
@@ -98,13 +98,13 @@
       "score": 86,
       "label": "Excellent",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 82,
-          "temperature": 56,
+          "temperature": 57,
           "windMph": 14,
-          "precipChance": 44,
+          "precipChance": 42,
           "summary": "Chance Rain Showers",
           "hazard": null
         },
@@ -112,7 +112,7 @@
           "score": 77,
           "temperature": 44,
           "windMph": 9,
-          "precipChance": 64,
+          "precipChance": 63,
           "summary": "Rain Showers Likely",
           "hazard": null
         }
@@ -132,26 +132,26 @@
       "arrival": "2026-09-14T23:28:14.000Z",
       "arrivalLabel": "5:28 PM MDT",
       "rutSeasonScore": 88,
-      "score": 88,
+      "score": 86,
       "label": "Excellent",
       "bestZone": "east",
       "confidence": "Medium-high",
       "weather": {
         "east": {
-          "score": 89,
-          "temperature": 63,
+          "score": 82,
+          "temperature": 65,
           "windMph": 9,
-          "precipChance": 17,
-          "summary": "Slight Chance Rain Showers",
+          "precipChance": 47,
+          "summary": "Chance Rain Showers",
           "hazard": null
         },
         "west": {
-          "score": 89,
+          "score": 51,
           "temperature": 58,
-          "windMph": 8,
-          "precipChance": 20,
-          "summary": "Slight Chance Rain Showers",
-          "hazard": null
+          "windMph": 9,
+          "precipChance": 50,
+          "summary": "Chance Showers And Thunderstorms",
+          "hazard": "thunder"
         }
       }
     },
@@ -172,21 +172,21 @@
       "score": 94,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 88,
-          "temperature": 46,
-          "windMph": 2,
-          "precipChance": 32,
+          "temperature": 47,
+          "windMph": 1,
+          "precipChance": 46,
           "summary": "Chance Rain Showers",
           "hazard": null
         },
         "west": {
           "score": 88,
           "temperature": 38,
-          "windMph": 3,
-          "precipChance": 41,
+          "windMph": 2,
+          "precipChance": 49,
           "summary": "Chance Rain Showers",
           "hazard": null
         }
@@ -206,24 +206,24 @@
       "arrival": "2026-09-15T23:26:34.000Z",
       "arrivalLabel": "5:26 PM MDT",
       "rutSeasonScore": 96,
-      "score": 93,
-      "label": "Prime",
+      "score": 84,
+      "label": "Excellent",
       "bestZone": "east",
       "confidence": "Medium",
       "weather": {
         "east": {
-          "score": 86,
-          "temperature": 56,
+          "score": 53,
+          "temperature": 58,
           "windMph": 3,
-          "precipChance": 45,
-          "summary": "Chance Rain Showers",
-          "hazard": null
+          "precipChance": 42,
+          "summary": "Chance Showers And Thunderstorms",
+          "hazard": "thunder"
         },
         "west": {
           "score": 53,
-          "temperature": 56,
+          "temperature": 57,
           "windMph": 6,
-          "precipChance": 45,
+          "precipChance": 46,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
@@ -246,22 +246,22 @@
       "score": 97,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 47,
+          "temperature": 46,
           "windMph": 4,
-          "precipChance": 6,
-          "summary": "Slight Chance Rain Showers",
+          "precipChance": 4,
+          "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
-          "score": 95,
-          "temperature": 38,
+          "score": 100,
+          "temperature": 39,
           "windMph": 2,
-          "precipChance": 14,
-          "summary": "Slight Chance Rain Showers",
+          "precipChance": 8,
+          "summary": "Partly Cloudy",
           "hazard": null
         }
       }
@@ -278,7 +278,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 78,
+      "score": 79,
       "scoreLabel": "Good",
       "access": {
         "status": "Timed Entry+ required",
@@ -297,6 +297,25 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
+      "score": 79,
+      "scoreLabel": "Good",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "upper-beaver-meadows",
+      "name": "Upper Beaver Meadows",
+      "zone": "east",
+      "corridor": "rest",
+      "rank": 90,
+      "place": "Beaver Meadows / east side",
+      "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
+      "lat": 40.365,
+      "lon": -105.577,
       "score": 78,
       "scoreLabel": "Good",
       "access": {
@@ -343,25 +362,6 @@
         "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
       },
       "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "upper-beaver-meadows",
-      "name": "Upper Beaver Meadows",
-      "zone": "east",
-      "corridor": "rest",
-      "rank": 90,
-      "place": "Beaver Meadows / east side",
-      "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
-      "lat": 40.365,
-      "lon": -105.577,
-      "score": 77,
-      "scoreLabel": "Good",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
     }
   ],
   "recommendations": {
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 78,
+      "score": 79,
       "scoreLabel": "Good",
       "access": {
         "status": "Timed Entry+ required",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 78,
+      "score": 79,
       "scoreLabel": "Good",
       "access": {
         "status": "Outside timed-entry hours",
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-09-13T06:46:24+00:00"
+      "updated": "2026-09-13T18:46:19+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-09-13T06:46:24+00:00"
+      "updated": "2026-09-13T18:46:19+00:00"
     }
   ],
   "schemaVersion": 1
