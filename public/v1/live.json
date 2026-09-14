@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T07:09:08.148Z",
+  "generatedAt": "2026-09-14T14:08:12.568Z",
   "localDate": "2026-09-14",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -20,22 +20,22 @@
     "arrival": "2026-09-14T10:57:02.000Z",
     "arrivalLabel": "4:57 AM MDT",
     "rutSeasonScore": 88,
-    "score": 85,
+    "score": 86,
     "label": "Excellent",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 76,
-        "temperature": 59,
-        "windMph": 15,
+        "score": 82,
+        "temperature": 60,
+        "windMph": 14,
         "precipChance": 49,
         "summary": "Chance Rain Showers",
         "hazard": null
       },
       "west": {
         "score": 77,
-        "temperature": 45,
+        "temperature": 46,
         "windMph": 10,
         "precipChance": 63,
         "summary": "Rain Showers Likely",
@@ -58,22 +58,22 @@
       "arrival": "2026-09-14T10:57:02.000Z",
       "arrivalLabel": "4:57 AM MDT",
       "rutSeasonScore": 88,
-      "score": 85,
+      "score": 86,
       "label": "Excellent",
       "bestZone": "east",
       "confidence": "High",
       "weather": {
         "east": {
-          "score": 76,
-          "temperature": 59,
-          "windMph": 15,
+          "score": 82,
+          "temperature": 60,
+          "windMph": 14,
           "precipChance": 49,
           "summary": "Chance Rain Showers",
           "hazard": null
         },
         "west": {
           "score": 77,
-          "temperature": 45,
+          "temperature": 46,
           "windMph": 10,
           "precipChance": 63,
           "summary": "Rain Showers Likely",
@@ -278,7 +278,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 86,
+      "score": 87,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
@@ -297,6 +297,25 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
+      "score": 87,
+      "scoreLabel": "Excellent",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "upper-beaver-meadows",
+      "name": "Upper Beaver Meadows",
+      "zone": "east",
+      "corridor": "rest",
+      "rank": 90,
+      "place": "Beaver Meadows / east side",
+      "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
+      "lat": 40.365,
+      "lon": -105.577,
       "score": 86,
       "scoreLabel": "Excellent",
       "access": {
@@ -317,25 +336,6 @@
       "lat": 40.271,
       "lon": -105.837,
       "score": 86,
-      "scoreLabel": "Excellent",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "upper-beaver-meadows",
-      "name": "Upper Beaver Meadows",
-      "zone": "east",
-      "corridor": "rest",
-      "rank": 90,
-      "place": "Beaver Meadows / east side",
-      "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
-      "lat": 40.365,
-      "lon": -105.577,
-      "score": 85,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 86,
+      "score": 87,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 86,
+      "score": 87,
       "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
