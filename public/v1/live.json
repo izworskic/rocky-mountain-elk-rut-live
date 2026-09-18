@@ -1,86 +1,50 @@
 {
-  "generatedAt": "2026-09-18T01:18:18.048Z",
-  "localDate": "2026-09-17",
+  "generatedAt": "2026-09-18T06:30:47.456Z",
+  "localDate": "2026-09-18",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
-  "mode": "live",
-  "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
-  "errors": [],
+  "mode": "degraded",
+  "dataNote": "One or more NWS feeds are temporarily unavailable. Rut timing still uses the NPS seasonal baseline and solar windows; missing weather is not guessed.",
+  "errors": [
+    "east forecast: api.weather.gov returned 503"
+  ],
   "primary": {
-    "key": "2026-09-17-dusk",
-    "date": "Thu, Sep 17",
-    "ymd": "2026-09-17",
-    "period": "Dusk",
-    "start": "2026-09-17T23:53:13.000Z",
-    "end": "2026-09-18T02:38:13.000Z",
-    "anchor": "2026-09-18T01:08:13.000Z",
-    "startLabel": "5:53 PM MDT",
-    "endLabel": "8:38 PM MDT",
-    "anchorLabel": "7:08 PM MDT",
-    "arrival": "2026-09-17T23:23:13.000Z",
-    "arrivalLabel": "5:23 PM MDT",
+    "key": "2026-09-18-dawn",
+    "date": "Fri, Sep 18",
+    "ymd": "2026-09-18",
+    "period": "Dawn",
+    "start": "2026-09-18T11:30:53.000Z",
+    "end": "2026-09-18T14:00:53.000Z",
+    "anchor": "2026-09-18T12:45:53.000Z",
+    "startLabel": "5:30 AM MDT",
+    "endLabel": "8:00 AM MDT",
+    "anchorLabel": "6:45 AM MDT",
+    "arrival": "2026-09-18T11:00:53.000Z",
+    "arrivalLabel": "5:00 AM MDT",
     "rutSeasonScore": 96,
-    "score": 95,
+    "score": 96,
     "label": "Prime",
     "bestZone": "east",
-    "confidence": "High",
+    "confidence": "Seasonal only",
     "weather": {
       "east": {
-        "score": 93,
-        "temperature": 60,
-        "windMph": 5,
-        "precipChance": 21,
-        "summary": "Slight Chance Rain Showers",
-        "hazard": null
+        "score": null,
+        "temperature": null,
+        "windMph": null,
+        "precipChance": null,
+        "summary": "Live weather unavailable"
       },
       "west": {
-        "score": 93,
-        "temperature": 56,
-        "windMph": 4,
-        "precipChance": 23,
-        "summary": "Chance Rain Showers",
+        "score": 100,
+        "temperature": 50,
+        "windMph": 2,
+        "precipChance": 8,
+        "summary": "Mostly Cloudy",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-09-17-dusk",
-      "date": "Thu, Sep 17",
-      "ymd": "2026-09-17",
-      "period": "Dusk",
-      "start": "2026-09-17T23:53:13.000Z",
-      "end": "2026-09-18T02:38:13.000Z",
-      "anchor": "2026-09-18T01:08:13.000Z",
-      "startLabel": "5:53 PM MDT",
-      "endLabel": "8:38 PM MDT",
-      "anchorLabel": "7:08 PM MDT",
-      "arrival": "2026-09-17T23:23:13.000Z",
-      "arrivalLabel": "5:23 PM MDT",
-      "rutSeasonScore": 96,
-      "score": 95,
-      "label": "Prime",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 93,
-          "temperature": 60,
-          "windMph": 5,
-          "precipChance": 21,
-          "summary": "Slight Chance Rain Showers",
-          "hazard": null
-        },
-        "west": {
-          "score": 93,
-          "temperature": 56,
-          "windMph": 4,
-          "precipChance": 23,
-          "summary": "Chance Rain Showers",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-09-18-dawn",
       "date": "Fri, Sep 18",
@@ -95,18 +59,17 @@
       "arrival": "2026-09-18T11:00:53.000Z",
       "arrivalLabel": "5:00 AM MDT",
       "rutSeasonScore": 96,
-      "score": 97,
+      "score": 96,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "High",
+      "confidence": "Seasonal only",
       "weather": {
         "east": {
-          "score": 100,
-          "temperature": 54,
-          "windMph": 7,
-          "precipChance": 7,
-          "summary": "Partly Cloudy",
-          "hazard": null
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         },
         "west": {
           "score": 100,
@@ -132,18 +95,17 @@
       "arrival": "2026-09-18T23:21:32.000Z",
       "arrivalLabel": "5:21 PM MDT",
       "rutSeasonScore": 96,
-      "score": 84,
-      "label": "Excellent",
+      "score": 96,
+      "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "Seasonal only",
       "weather": {
         "east": {
-          "score": 53,
-          "temperature": 58,
-          "windMph": 2,
-          "precipChance": 36,
-          "summary": "Chance Showers And Thunderstorms",
-          "hazard": "thunder"
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         },
         "west": {
           "score": 57,
@@ -172,15 +134,14 @@
       "score": 96,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "Seasonal only",
       "weather": {
         "east": {
-          "score": 95,
-          "temperature": 47,
-          "windMph": 3,
-          "precipChance": 19,
-          "summary": "Partly Cloudy",
-          "hazard": null
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         },
         "west": {
           "score": 95,
@@ -206,18 +167,17 @@
       "arrival": "2026-09-19T23:19:52.000Z",
       "arrivalLabel": "5:19 PM MDT",
       "rutSeasonScore": 96,
-      "score": 83,
-      "label": "Excellent",
+      "score": 96,
+      "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Seasonal only",
       "weather": {
         "east": {
-          "score": 49,
-          "temperature": 58,
-          "windMph": 3,
-          "precipChance": 52,
-          "summary": "Chance Showers And Thunderstorms",
-          "hazard": "thunder"
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         },
         "west": {
           "score": 55,
@@ -246,15 +206,14 @@
       "score": 96,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Seasonal only",
       "weather": {
         "east": {
-          "score": 95,
-          "temperature": 44,
-          "windMph": 2,
-          "precipChance": 26,
-          "summary": "Slight Chance Rain Showers",
-          "hazard": null
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         },
         "west": {
           "score": 88,
@@ -265,9 +224,64 @@
           "hazard": null
         }
       }
+    },
+    {
+      "key": "2026-09-20-dusk",
+      "date": "Sun, Sep 20",
+      "ymd": "2026-09-20",
+      "period": "Dusk",
+      "start": "2026-09-20T23:48:11.000Z",
+      "end": "2026-09-21T02:33:11.000Z",
+      "anchor": "2026-09-21T01:03:11.000Z",
+      "startLabel": "5:48 PM MDT",
+      "endLabel": "8:33 PM MDT",
+      "anchorLabel": "7:03 PM MDT",
+      "arrival": "2026-09-20T23:18:11.000Z",
+      "arrivalLabel": "5:18 PM MDT",
+      "rutSeasonScore": 96,
+      "score": 96,
+      "label": "Prime",
+      "bestZone": "east",
+      "confidence": "Seasonal only",
+      "weather": {
+        "east": {
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
+        },
+        "west": {
+          "score": 100,
+          "temperature": 52,
+          "windMph": 5,
+          "precipChance": 6,
+          "summary": "Partly Cloudy",
+          "hazard": null
+        }
+      }
     }
   ],
   "spots": [
+    {
+      "id": "harbison-meadow",
+      "name": "Harbison Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 94,
+      "place": "Kawuneeche Valley / west side",
+      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
+      "lat": 40.271,
+      "lon": -105.837,
+      "score": 97,
+      "scoreLabel": "Prime",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
     {
       "id": "moraine-park",
       "name": "Moraine Park",
@@ -278,7 +292,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 95,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
@@ -297,7 +311,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 95,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -316,26 +330,7 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 95,
-      "scoreLabel": "Prime",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "harbison-meadow",
-      "name": "Harbison Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 94,
-      "place": "Kawuneeche Valley / west side",
-      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
-      "lat": 40.271,
-      "lon": -105.837,
-      "score": 95,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -354,7 +349,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 94,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,7 +370,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 95,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
@@ -394,7 +389,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 95,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +408,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 95,
+      "score": 97,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -462,11 +457,6 @@
     }
   ],
   "weatherSources": [
-    {
-      "zone": "east",
-      "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-09-17T18:46:40+00:00"
-    },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
