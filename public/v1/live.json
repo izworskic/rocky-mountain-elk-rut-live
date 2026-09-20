@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T17:37:32.354Z",
+  "generatedAt": "2026-09-20T19:48:00.259Z",
   "localDate": "2026-09-20",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -214,7 +214,7 @@
         "east": {
           "score": 57,
           "temperature": 60,
-          "windMph": 3,
+          "windMph": 4,
           "precipChance": 18,
           "summary": "Slight Chance Showers And Thunderstorms",
           "hazard": "thunder"
@@ -222,8 +222,8 @@
         "west": {
           "score": 93,
           "temperature": 57,
-          "windMph": 4,
-          "precipChance": 17,
+          "windMph": 5,
+          "precipChance": 15,
           "summary": "Mostly Sunny",
           "hazard": null
         }
@@ -252,15 +252,15 @@
           "score": 100,
           "temperature": 47,
           "windMph": 4,
-          "precipChance": 4,
+          "precipChance": 7,
           "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
-          "score": 100,
+          "score": 95,
           "temperature": 35,
           "windMph": 1,
-          "precipChance": 7,
+          "precipChance": 14,
           "summary": "Mostly Cloudy",
           "hazard": null
         }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-09-20T17:21:43+00:00"
+      "updated": "2026-09-20T18:46:38+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-09-20T17:21:43+00:00"
+      "updated": "2026-09-20T18:46:38+00:00"
     }
   ],
   "schemaVersion": 1
