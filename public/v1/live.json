@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T00:26:24.029Z",
+  "generatedAt": "2026-09-21T05:21:56.084Z",
   "localDate": "2026-09-20",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-09-20-dusk",
-    "date": "Sun, Sep 20",
-    "ymd": "2026-09-20",
-    "period": "Dusk",
-    "start": "2026-09-20T23:48:11.000Z",
-    "end": "2026-09-21T02:33:11.000Z",
-    "anchor": "2026-09-21T01:03:11.000Z",
-    "startLabel": "5:48 PM MDT",
-    "endLabel": "8:33 PM MDT",
-    "anchorLabel": "7:03 PM MDT",
-    "arrival": "2026-09-20T23:18:11.000Z",
-    "arrivalLabel": "5:18 PM MDT",
+    "key": "2026-09-21-dawn",
+    "date": "Mon, Sep 21",
+    "ymd": "2026-09-21",
+    "period": "Dawn",
+    "start": "2026-09-21T11:33:47.000Z",
+    "end": "2026-09-21T14:03:47.000Z",
+    "anchor": "2026-09-21T12:48:47.000Z",
+    "startLabel": "5:33 AM MDT",
+    "endLabel": "8:03 AM MDT",
+    "anchorLabel": "6:48 AM MDT",
+    "arrival": "2026-09-21T11:03:47.000Z",
+    "arrivalLabel": "5:03 AM MDT",
     "rutSeasonScore": 96,
     "score": 97,
     "label": "Prime",
@@ -27,60 +27,23 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 54,
-        "windMph": 4,
-        "precipChance": 5,
+        "temperature": 40,
+        "windMph": 2,
+        "precipChance": 0,
         "summary": "Mostly Clear",
         "hazard": null
       },
       "west": {
         "score": 100,
-        "temperature": 52,
-        "windMph": 6,
-        "precipChance": 1,
+        "temperature": 33,
+        "windMph": 2,
+        "precipChance": 0,
         "summary": "Mostly Clear",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-09-20-dusk",
-      "date": "Sun, Sep 20",
-      "ymd": "2026-09-20",
-      "period": "Dusk",
-      "start": "2026-09-20T23:48:11.000Z",
-      "end": "2026-09-21T02:33:11.000Z",
-      "anchor": "2026-09-21T01:03:11.000Z",
-      "startLabel": "5:48 PM MDT",
-      "endLabel": "8:33 PM MDT",
-      "anchorLabel": "7:03 PM MDT",
-      "arrival": "2026-09-20T23:18:11.000Z",
-      "arrivalLabel": "5:18 PM MDT",
-      "rutSeasonScore": 96,
-      "score": 97,
-      "label": "Prime",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 54,
-          "windMph": 4,
-          "precipChance": 5,
-          "summary": "Mostly Clear",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 52,
-          "windMph": 6,
-          "precipChance": 1,
-          "summary": "Mostly Clear",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-09-21-dawn",
       "date": "Mon, Sep 21",
@@ -263,6 +226,43 @@
           "precipChance": 14,
           "summary": "Mostly Cloudy",
           "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-09-23-dusk",
+      "date": "Wed, Sep 23",
+      "ymd": "2026-09-23",
+      "period": "Dusk",
+      "start": "2026-09-23T23:43:10.000Z",
+      "end": "2026-09-24T02:28:10.000Z",
+      "anchor": "2026-09-24T00:58:10.000Z",
+      "startLabel": "5:43 PM MDT",
+      "endLabel": "8:28 PM MDT",
+      "anchorLabel": "6:58 PM MDT",
+      "arrival": "2026-09-23T23:13:10.000Z",
+      "arrivalLabel": "5:13 PM MDT",
+      "rutSeasonScore": 96,
+      "score": 85,
+      "label": "Excellent",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 57,
+          "temperature": 60,
+          "windMph": 2,
+          "precipChance": 18,
+          "summary": "Chance Showers And Thunderstorms",
+          "hazard": "thunder"
+        },
+        "west": {
+          "score": 57,
+          "temperature": 55,
+          "windMph": 3,
+          "precipChance": 13,
+          "summary": "Chance Showers And Thunderstorms",
+          "hazard": "thunder"
         }
       }
     }
