@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T05:03:11.162Z",
-  "localDate": "2026-09-21",
+  "generatedAt": "2026-09-22T10:01:57.390Z",
+  "localDate": "2026-09-22",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
   "mode": "live",
@@ -28,17 +28,17 @@
       "east": {
         "score": 100,
         "temperature": 46,
-        "windMph": 5,
+        "windMph": 3,
         "precipChance": 1,
-        "summary": "Mostly Cloudy",
+        "summary": "Mostly Clear",
         "hazard": null
       },
       "west": {
         "score": 100,
         "temperature": 34,
-        "windMph": 2,
+        "windMph": 1,
         "precipChance": 1,
-        "summary": "Partly Cloudy",
+        "summary": "Mostly Clear",
         "hazard": null
       }
     }
@@ -66,17 +66,17 @@
         "east": {
           "score": 100,
           "temperature": 46,
-          "windMph": 5,
+          "windMph": 3,
           "precipChance": 1,
-          "summary": "Mostly Cloudy",
+          "summary": "Mostly Clear",
           "hazard": null
         },
         "west": {
           "score": 100,
           "temperature": 34,
-          "windMph": 2,
+          "windMph": 1,
           "precipChance": 1,
-          "summary": "Partly Cloudy",
+          "summary": "Mostly Clear",
           "hazard": null
         }
       }
@@ -98,21 +98,21 @@
       "score": 85,
       "label": "Excellent",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 57,
           "temperature": 60,
-          "windMph": 3,
-          "precipChance": 15,
+          "windMph": 4,
+          "precipChance": 17,
           "summary": "Slight Chance Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
-          "score": 59,
-          "temperature": 55,
+          "score": 57,
+          "temperature": 56,
           "windMph": 4,
-          "precipChance": 14,
+          "precipChance": 15,
           "summary": "Slight Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
@@ -140,16 +140,16 @@
         "east": {
           "score": 100,
           "temperature": 48,
-          "windMph": 5,
-          "precipChance": 4,
+          "windMph": 6,
+          "precipChance": 1,
           "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 36,
+          "temperature": 37,
           "windMph": 2,
-          "precipChance": 9,
+          "precipChance": 1,
           "summary": "Mostly Cloudy",
           "hazard": null
         }
@@ -172,22 +172,22 @@
       "score": 84,
       "label": "Excellent",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 53,
           "temperature": 60,
           "windMph": 2,
-          "precipChance": 35,
+          "precipChance": 36,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
           "score": 59,
-          "temperature": 53,
+          "temperature": 55,
           "windMph": 3,
-          "precipChance": 29,
-          "summary": "Chance Showers And Thunderstorms",
+          "precipChance": 11,
+          "summary": "Slight Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
       }
@@ -215,16 +215,16 @@
           "score": 88,
           "temperature": 47,
           "windMph": 0,
-          "precipChance": 35,
+          "precipChance": 48,
           "summary": "Chance Rain Showers",
           "hazard": null
         },
         "west": {
-          "score": 95,
-          "temperature": 36,
-          "windMph": 1,
-          "precipChance": 30,
-          "summary": "Slight Chance Rain Showers",
+          "score": 88,
+          "temperature": 39,
+          "windMph": 2,
+          "precipChance": 44,
+          "summary": "Chance Rain Showers",
           "hazard": null
         }
       }
@@ -246,21 +246,21 @@
       "score": 84,
       "label": "Excellent",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
           "score": 53,
-          "temperature": 58,
+          "temperature": 57,
           "windMph": 3,
-          "precipChance": 48,
-          "summary": "Showers And Thunderstorms Likely",
+          "precipChance": 41,
+          "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
           "score": 55,
-          "temperature": 53,
+          "temperature": 52,
           "windMph": 5,
-          "precipChance": 33,
+          "precipChance": 42,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-09-21T18:46:48+00:00"
+      "updated": "2026-09-22T08:49:05+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-09-21T18:46:48+00:00"
+      "updated": "2026-09-22T08:49:05+00:00"
     }
   ],
   "schemaVersion": 1
