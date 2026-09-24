@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T06:01:33.761Z",
+  "generatedAt": "2026-09-24T11:52:14.121Z",
   "localDate": "2026-09-24",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -29,16 +29,16 @@
         "score": 95,
         "temperature": 48,
         "windMph": 1,
-        "precipChance": 26,
-        "summary": "Slight Chance Rain Showers",
+        "precipChance": 10,
+        "summary": "Cloudy",
         "hazard": null
       },
       "west": {
-        "score": 95,
-        "temperature": 40,
+        "score": 100,
+        "temperature": 39,
         "windMph": 2,
-        "precipChance": 26,
-        "summary": "Slight Chance Rain Showers",
+        "precipChance": 9,
+        "summary": "Mostly Cloudy",
         "hazard": null
       }
     }
@@ -67,16 +67,16 @@
           "score": 95,
           "temperature": 48,
           "windMph": 1,
-          "precipChance": 26,
-          "summary": "Slight Chance Rain Showers",
+          "precipChance": 10,
+          "summary": "Cloudy",
           "hazard": null
         },
         "west": {
-          "score": 95,
-          "temperature": 40,
+          "score": 100,
+          "temperature": 39,
           "windMph": 2,
-          "precipChance": 26,
-          "summary": "Slight Chance Rain Showers",
+          "precipChance": 9,
+          "summary": "Mostly Cloudy",
           "hazard": null
         }
       }
@@ -102,9 +102,9 @@
       "weather": {
         "east": {
           "score": 49,
-          "temperature": 57,
-          "windMph": 3,
-          "precipChance": 68,
+          "temperature": 58,
+          "windMph": 4,
+          "precipChance": 62,
           "summary": "Showers And Thunderstorms Likely",
           "hazard": "thunder"
         },
@@ -112,8 +112,8 @@
           "score": 55,
           "temperature": 52,
           "windMph": 5,
-          "precipChance": 38,
-          "summary": "Showers And Thunderstorms Likely",
+          "precipChance": 35,
+          "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
       }
@@ -132,26 +132,26 @@
       "arrival": "2026-09-25T11:07:41.000Z",
       "arrivalLabel": "5:07 AM MDT",
       "rutSeasonScore": 96,
-      "score": 96,
+      "score": 97,
       "label": "Prime",
       "bestZone": "east",
       "confidence": "Medium-high",
       "weather": {
         "east": {
-          "score": 95,
-          "temperature": 45,
-          "windMph": 1,
-          "precipChance": 22,
-          "summary": "Chance Rain Showers",
+          "score": 100,
+          "temperature": 46,
+          "windMph": 0,
+          "precipChance": 5,
+          "summary": "Slight Chance Rain Showers",
           "hazard": null
         },
         "west": {
-          "score": 88,
+          "score": 78,
           "temperature": 37,
           "windMph": 1,
-          "precipChance": 38,
+          "precipChance": 8,
           "summary": "Chance Rain Showers",
-          "hazard": null
+          "hazard": "visibility"
         }
       }
     },
@@ -177,16 +177,16 @@
         "east": {
           "score": 57,
           "temperature": 59,
-          "windMph": 7,
-          "precipChance": 12,
+          "windMph": 4,
+          "precipChance": 21,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
           "score": 59,
-          "temperature": 52,
-          "windMph": 7,
-          "precipChance": 12,
+          "temperature": 51,
+          "windMph": 4,
+          "precipChance": 25,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
@@ -206,23 +206,23 @@
       "arrival": "2026-09-26T11:08:40.000Z",
       "arrivalLabel": "5:08 AM MDT",
       "rutSeasonScore": 96,
-      "score": 96,
+      "score": 97,
       "label": "Prime",
       "bestZone": "east",
       "confidence": "Medium",
       "weather": {
         "east": {
-          "score": 97,
-          "temperature": 47,
-          "windMph": 9,
+          "score": 100,
+          "temperature": 46,
+          "windMph": 8,
           "precipChance": 0,
           "summary": "Mostly Clear",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 34,
-          "windMph": 3,
+          "temperature": 35,
+          "windMph": 2,
           "precipChance": 0,
           "summary": "Mostly Clear",
           "hazard": null
@@ -251,16 +251,16 @@
         "east": {
           "score": 98,
           "temperature": 63,
-          "windMph": 4,
-          "precipChance": 0,
+          "windMph": 3,
+          "precipChance": 1,
           "summary": "Mostly Sunny",
           "hazard": null
         },
         "west": {
           "score": 98,
-          "temperature": 56,
+          "temperature": 57,
           "windMph": 4,
-          "precipChance": 0,
+          "precipChance": 1,
           "summary": "Mostly Sunny",
           "hazard": null
         }
@@ -268,6 +268,25 @@
     }
   ],
   "spots": [
+    {
+      "id": "harbison-meadow",
+      "name": "Harbison Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 94,
+      "place": "Kawuneeche Valley / west side",
+      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
+      "lat": 40.271,
+      "lon": -105.837,
+      "score": 97,
+      "scoreLabel": "Prime",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
     {
       "id": "moraine-park",
       "name": "Moraine Park",
@@ -326,25 +345,6 @@
       "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
     },
     {
-      "id": "harbison-meadow",
-      "name": "Harbison Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 94,
-      "place": "Kawuneeche Valley / west side",
-      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
-      "lat": 40.271,
-      "lon": -105.837,
-      "score": 96,
-      "scoreLabel": "Prime",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
       "id": "holzwarth-meadow",
       "name": "Holzwarth Meadow",
       "zone": "west",
@@ -354,7 +354,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 95,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 96,
+      "score": 97,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-09-23T18:46:56+00:00"
+      "updated": "2026-09-24T06:46:50+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-09-23T18:46:56+00:00"
+      "updated": "2026-09-24T06:46:50+00:00"
     }
   ],
   "schemaVersion": 1
