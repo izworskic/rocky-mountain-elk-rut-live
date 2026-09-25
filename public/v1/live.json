@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T07:35:34.786Z",
+  "generatedAt": "2026-09-25T13:00:56.333Z",
   "localDate": "2026-09-25",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -28,16 +28,16 @@
       "east": {
         "score": 100,
         "temperature": 46,
-        "windMph": 2,
-        "precipChance": 10,
-        "summary": "Slight Chance Rain Showers",
+        "windMph": 1,
+        "precipChance": 6,
+        "summary": "Mostly Cloudy",
         "hazard": null
       },
       "west": {
-        "score": 74,
-        "temperature": 40,
+        "score": 78,
+        "temperature": 39,
         "windMph": 2,
-        "precipChance": 11,
+        "precipChance": 7,
         "summary": "Patchy Fog",
         "hazard": "visibility"
       }
@@ -66,16 +66,16 @@
         "east": {
           "score": 100,
           "temperature": 46,
-          "windMph": 2,
-          "precipChance": 10,
-          "summary": "Slight Chance Rain Showers",
+          "windMph": 1,
+          "precipChance": 6,
+          "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
-          "score": 74,
-          "temperature": 40,
+          "score": 78,
+          "temperature": 39,
           "windMph": 2,
-          "precipChance": 11,
+          "precipChance": 7,
           "summary": "Patchy Fog",
           "hazard": "visibility"
         }
@@ -335,7 +335,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 90,
+      "score": 91,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -354,7 +354,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 90,
+      "score": 91,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 90,
+      "score": 91,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
