@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T21:29:01.118Z",
+  "generatedAt": "2026-09-26T00:07:44.165Z",
   "localDate": "2026-09-25",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -20,26 +20,26 @@
     "arrival": "2026-09-25T23:09:49.000Z",
     "arrivalLabel": "5:09 PM MDT",
     "rutSeasonScore": 96,
-    "score": 85,
-    "label": "Excellent",
+    "score": 95,
+    "label": "Prime",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 57,
-        "temperature": 58,
+        "score": 93,
+        "temperature": 57,
         "windMph": 6,
-        "precipChance": 22,
-        "summary": "Showers And Thunderstorms Likely",
-        "hazard": "thunder"
+        "precipChance": 13,
+        "summary": "Slight Chance Rain Showers",
+        "hazard": null
       },
       "west": {
-        "score": 59,
-        "temperature": 50,
+        "score": 95,
+        "temperature": 49,
         "windMph": 6,
-        "precipChance": 20,
-        "summary": "Chance Showers And Thunderstorms",
-        "hazard": "thunder"
+        "precipChance": 13,
+        "summary": "Slight Chance Rain Showers",
+        "hazard": null
       }
     }
   },
@@ -58,26 +58,26 @@
       "arrival": "2026-09-25T23:09:49.000Z",
       "arrivalLabel": "5:09 PM MDT",
       "rutSeasonScore": 96,
-      "score": 85,
-      "label": "Excellent",
+      "score": 95,
+      "label": "Prime",
       "bestZone": "east",
       "confidence": "High",
       "weather": {
         "east": {
-          "score": 57,
-          "temperature": 58,
+          "score": 93,
+          "temperature": 57,
           "windMph": 6,
-          "precipChance": 22,
-          "summary": "Showers And Thunderstorms Likely",
-          "hazard": "thunder"
+          "precipChance": 13,
+          "summary": "Slight Chance Rain Showers",
+          "hazard": null
         },
         "west": {
-          "score": 59,
-          "temperature": 50,
+          "score": 95,
+          "temperature": 49,
           "windMph": 6,
-          "precipChance": 20,
-          "summary": "Chance Showers And Thunderstorms",
-          "hazard": "thunder"
+          "precipChance": 13,
+          "summary": "Slight Chance Rain Showers",
+          "hazard": null
         }
       }
     },
@@ -278,8 +278,8 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 87,
-      "scoreLabel": "Excellent",
+      "score": 96,
+      "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
@@ -297,8 +297,8 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 86,
-      "scoreLabel": "Excellent",
+      "score": 95,
+      "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
         "tone": "permit",
@@ -316,27 +316,8 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 86,
-      "scoreLabel": "Excellent",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "holzwarth-meadow",
-      "name": "Holzwarth Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 88,
-      "place": "Upper Kawuneeche Valley",
-      "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
-      "lat": 40.371,
-      "lon": -105.853,
-      "score": 86,
-      "scoreLabel": "Excellent",
+      "score": 95,
+      "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
@@ -354,8 +335,27 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 85,
-      "scoreLabel": "Excellent",
+      "score": 95,
+      "scoreLabel": "Prime",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "holzwarth-meadow",
+      "name": "Holzwarth Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 88,
+      "place": "Upper Kawuneeche Valley",
+      "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
+      "lat": 40.371,
+      "lon": -105.853,
+      "score": 95,
+      "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
@@ -375,8 +375,8 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 86,
-      "scoreLabel": "Excellent",
+      "score": 95,
+      "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
         "tone": "permit",
@@ -394,8 +394,8 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 86,
-      "scoreLabel": "Excellent",
+      "score": 95,
+      "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
@@ -413,8 +413,8 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 87,
-      "scoreLabel": "Excellent",
+      "score": 96,
+      "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
