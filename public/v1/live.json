@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-27T01:51:48.876Z",
-  "localDate": "2026-09-26",
+  "generatedAt": "2026-09-27T07:58:23.375Z",
+  "localDate": "2026-09-27",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
   "mode": "live",
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-09-26-dusk",
-    "date": "Sat, Sep 26",
-    "ymd": "2026-09-26",
-    "period": "Dusk",
-    "start": "2026-09-26T23:38:09.000Z",
-    "end": "2026-09-27T02:23:09.000Z",
-    "anchor": "2026-09-27T00:53:09.000Z",
-    "startLabel": "5:38 PM MDT",
-    "endLabel": "8:23 PM MDT",
-    "anchorLabel": "6:53 PM MDT",
-    "arrival": "2026-09-26T23:08:09.000Z",
-    "arrivalLabel": "5:08 PM MDT",
+    "key": "2026-09-27-dawn",
+    "date": "Sun, Sep 27",
+    "ymd": "2026-09-27",
+    "period": "Dawn",
+    "start": "2026-09-27T11:39:39.000Z",
+    "end": "2026-09-27T14:09:39.000Z",
+    "anchor": "2026-09-27T12:54:39.000Z",
+    "startLabel": "5:39 AM MDT",
+    "endLabel": "8:09 AM MDT",
+    "anchorLabel": "6:54 AM MDT",
+    "arrival": "2026-09-27T11:09:39.000Z",
+    "arrivalLabel": "5:09 AM MDT",
     "rutSeasonScore": 96,
     "score": 97,
     "label": "Prime",
@@ -26,8 +26,8 @@
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 98,
-        "temperature": 58,
+        "score": 100,
+        "temperature": 47,
         "windMph": 5,
         "precipChance": 1,
         "summary": "Partly Cloudy",
@@ -35,52 +35,15 @@
       },
       "west": {
         "score": 100,
-        "temperature": 54,
-        "windMph": 4,
-        "precipChance": 2,
-        "summary": "Mostly Cloudy",
+        "temperature": 36,
+        "windMph": 1,
+        "precipChance": 0,
+        "summary": "Partly Cloudy",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-09-26-dusk",
-      "date": "Sat, Sep 26",
-      "ymd": "2026-09-26",
-      "period": "Dusk",
-      "start": "2026-09-26T23:38:09.000Z",
-      "end": "2026-09-27T02:23:09.000Z",
-      "anchor": "2026-09-27T00:53:09.000Z",
-      "startLabel": "5:38 PM MDT",
-      "endLabel": "8:23 PM MDT",
-      "anchorLabel": "6:53 PM MDT",
-      "arrival": "2026-09-26T23:08:09.000Z",
-      "arrivalLabel": "5:08 PM MDT",
-      "rutSeasonScore": 96,
-      "score": 97,
-      "label": "Prime",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 98,
-          "temperature": 58,
-          "windMph": 5,
-          "precipChance": 1,
-          "summary": "Partly Cloudy",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 54,
-          "windMph": 4,
-          "precipChance": 2,
-          "summary": "Mostly Cloudy",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-09-27-dawn",
       "date": "Sun, Sep 27",
@@ -104,7 +67,7 @@
           "score": 100,
           "temperature": 47,
           "windMph": 5,
-          "precipChance": 0,
+          "precipChance": 1,
           "summary": "Partly Cloudy",
           "hazard": null
         },
@@ -113,7 +76,7 @@
           "temperature": 36,
           "windMph": 1,
           "precipChance": 0,
-          "summary": "Mostly Cloudy",
+          "summary": "Partly Cloudy",
           "hazard": null
         }
       }
@@ -135,22 +98,22 @@
       "score": 85,
       "label": "Excellent",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 57,
           "temperature": 60,
-          "windMph": 6,
+          "windMph": 5,
           "precipChance": 30,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
           "score": 57,
-          "temperature": 57,
+          "temperature": 56,
           "windMph": 5,
           "precipChance": 30,
-          "summary": "Chance Showers And Thunderstorms",
+          "summary": "Slight Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
       }
@@ -169,25 +132,25 @@
       "arrival": "2026-09-28T11:10:38.000Z",
       "arrivalLabel": "5:10 AM MDT",
       "rutSeasonScore": 96,
-      "score": 96,
+      "score": 97,
       "label": "Prime",
       "bestZone": "east",
       "confidence": "Medium-high",
       "weather": {
         "east": {
-          "score": 95,
-          "temperature": 47,
+          "score": 100,
+          "temperature": 48,
           "windMph": 5,
-          "precipChance": 11,
-          "summary": "Cloudy",
+          "precipChance": 10,
+          "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
           "score": 95,
           "temperature": 38,
           "windMph": 2,
-          "precipChance": 11,
-          "summary": "Partly Cloudy",
+          "precipChance": 12,
+          "summary": "Mostly Cloudy",
           "hazard": null
         }
       }
@@ -209,22 +172,22 @@
       "score": 84,
       "label": "Excellent",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 53,
           "temperature": 56,
           "windMph": 4,
-          "precipChance": 44,
-          "summary": "Showers And Thunderstorms Likely",
+          "precipChance": 46,
+          "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
-          "score": 55,
-          "temperature": 50,
+          "score": 50,
+          "temperature": 51,
           "windMph": 4,
-          "precipChance": 50,
-          "summary": "Showers And Thunderstorms Likely",
+          "precipChance": 52,
+          "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
       }
@@ -251,18 +214,55 @@
         "east": {
           "score": 81,
           "temperature": 45,
-          "windMph": 2,
-          "precipChance": 51,
-          "summary": "Chance Rain Showers",
+          "windMph": 1,
+          "precipChance": 66,
+          "summary": "Rain Showers Likely",
           "hazard": null
         },
         "west": {
           "score": 81,
           "temperature": 37,
           "windMph": 1,
-          "precipChance": 53,
-          "summary": "Chance Rain Showers",
+          "precipChance": 59,
+          "summary": "Rain Showers Likely",
           "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-09-29-dusk",
+      "date": "Tue, Sep 29",
+      "ymd": "2026-09-29",
+      "period": "Dusk",
+      "start": "2026-09-29T23:33:11.000Z",
+      "end": "2026-09-30T02:18:11.000Z",
+      "anchor": "2026-09-30T00:48:11.000Z",
+      "startLabel": "5:33 PM MDT",
+      "endLabel": "8:18 PM MDT",
+      "anchorLabel": "6:48 PM MDT",
+      "arrival": "2026-09-29T23:03:11.000Z",
+      "arrivalLabel": "5:03 PM MDT",
+      "rutSeasonScore": 96,
+      "score": 83,
+      "label": "Excellent",
+      "bestZone": "east",
+      "confidence": "Medium",
+      "weather": {
+        "east": {
+          "score": 50,
+          "temperature": 53,
+          "windMph": 3,
+          "precipChance": 51,
+          "summary": "Showers And Thunderstorms Likely",
+          "hazard": "thunder"
+        },
+        "west": {
+          "score": 55,
+          "temperature": 50,
+          "windMph": 3,
+          "precipChance": 40,
+          "summary": "Showers And Thunderstorms Likely",
+          "hazard": "thunder"
         }
       }
     }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-09-26T18:46:38+00:00"
+      "updated": "2026-09-27T06:46:40+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-09-26T18:46:38+00:00"
+      "updated": "2026-09-27T06:46:40+00:00"
     }
   ],
   "schemaVersion": 1
