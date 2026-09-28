@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T05:06:12.139Z",
-  "localDate": "2026-09-27",
+  "generatedAt": "2026-09-28T11:44:20.753Z",
+  "localDate": "2026-09-28",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
   "mode": "live",
@@ -29,15 +29,15 @@
         "score": 100,
         "temperature": 48,
         "windMph": 5,
-        "precipChance": 8,
+        "precipChance": 9,
         "summary": "Mostly Cloudy",
         "hazard": null
       },
       "west": {
-        "score": 100,
+        "score": 95,
         "temperature": 38,
         "windMph": 2,
-        "precipChance": 10,
+        "precipChance": 12,
         "summary": "Mostly Cloudy",
         "hazard": null
       }
@@ -67,15 +67,15 @@
           "score": 100,
           "temperature": 48,
           "windMph": 5,
-          "precipChance": 8,
+          "precipChance": 9,
           "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
-          "score": 100,
+          "score": 95,
           "temperature": 38,
           "windMph": 2,
-          "precipChance": 10,
+          "precipChance": 12,
           "summary": "Mostly Cloudy",
           "hazard": null
         }
@@ -95,25 +95,25 @@
       "arrival": "2026-09-28T23:04:50.000Z",
       "arrivalLabel": "5:04 PM MDT",
       "rutSeasonScore": 96,
-      "score": 84,
+      "score": 83,
       "label": "Excellent",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
-          "score": 53,
-          "temperature": 58,
-          "windMph": 4,
-          "precipChance": 46,
-          "summary": "Showers And Thunderstorms Likely",
+          "score": 49,
+          "temperature": 56,
+          "windMph": 3,
+          "precipChance": 59,
+          "summary": "Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
-          "score": 55,
-          "temperature": 52,
+          "score": 50,
+          "temperature": 51,
           "windMph": 4,
-          "precipChance": 48,
-          "summary": "Showers And Thunderstorms Likely",
+          "precipChance": 61,
+          "summary": "Showers And Thunderstorms",
           "hazard": "thunder"
         }
       }
@@ -132,25 +132,25 @@
       "arrival": "2026-09-29T11:11:37.000Z",
       "arrivalLabel": "5:11 AM MDT",
       "rutSeasonScore": 96,
-      "score": 90,
+      "score": 92,
       "label": "Prime",
       "bestZone": "east",
       "confidence": "Medium-high",
       "weather": {
         "east": {
-          "score": 74,
+          "score": 81,
           "temperature": 46,
-          "windMph": 2,
-          "precipChance": 71,
-          "summary": "Rain Showers Likely",
+          "windMph": 1,
+          "precipChance": 56,
+          "summary": "Chance Rain Showers",
           "hazard": null
         },
         "west": {
           "score": 81,
           "temperature": 39,
           "windMph": 1,
-          "precipChance": 70,
-          "summary": "Rain Showers",
+          "precipChance": 59,
+          "summary": "Chance Rain Showers",
           "hazard": null
         }
       }
@@ -172,21 +172,21 @@
       "score": 83,
       "label": "Excellent",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
-          "score": 49,
-          "temperature": 56,
-          "windMph": 4,
-          "precipChance": 64,
-          "summary": "Showers And Thunderstorms Likely",
+          "score": 50,
+          "temperature": 54,
+          "windMph": 3,
+          "precipChance": 67,
+          "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
-          "score": 50,
+          "score": 55,
           "temperature": 51,
-          "windMph": 5,
-          "precipChance": 51,
+          "windMph": 4,
+          "precipChance": 49,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
@@ -206,16 +206,16 @@
       "arrival": "2026-09-30T11:12:37.000Z",
       "arrivalLabel": "5:12 AM MDT",
       "rutSeasonScore": 96,
-      "score": 92,
+      "score": 94,
       "label": "Prime",
       "bestZone": "east",
       "confidence": "Medium",
       "weather": {
         "east": {
-          "score": 81,
+          "score": 88,
           "temperature": 44,
-          "windMph": 3,
-          "precipChance": 50,
+          "windMph": 2,
+          "precipChance": 49,
           "summary": "Chance Rain Showers",
           "hazard": null
         },
@@ -243,24 +243,24 @@
       "arrival": "2026-09-30T23:01:32.000Z",
       "arrivalLabel": "5:01 PM MDT",
       "rutSeasonScore": 96,
-      "score": 84,
+      "score": 85,
       "label": "Excellent",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
-          "score": 53,
-          "temperature": 55,
-          "windMph": 4,
-          "precipChance": 43,
+          "score": 55,
+          "temperature": 54,
+          "windMph": 3,
+          "precipChance": 36,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
-          "score": 55,
-          "temperature": 52,
+          "score": 59,
+          "temperature": 50,
           "windMph": 6,
-          "precipChance": 36,
+          "precipChance": 28,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
@@ -307,25 +307,6 @@
       "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
     },
     {
-      "id": "harbison-meadow",
-      "name": "Harbison Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 94,
-      "place": "Kawuneeche Valley / west side",
-      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
-      "lat": 40.271,
-      "lon": -105.837,
-      "score": 97,
-      "scoreLabel": "Prime",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
       "id": "upper-beaver-meadows",
       "name": "Upper Beaver Meadows",
       "zone": "east",
@@ -345,6 +326,25 @@
       "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
     },
     {
+      "id": "harbison-meadow",
+      "name": "Harbison Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 94,
+      "place": "Kawuneeche Valley / west side",
+      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
+      "lat": 40.271,
+      "lon": -105.837,
+      "score": 96,
+      "scoreLabel": "Prime",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
       "id": "holzwarth-meadow",
       "name": "Holzwarth Meadow",
       "zone": "west",
@@ -354,7 +354,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 96,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 97,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-09-27T18:46:37+00:00"
+      "updated": "2026-09-28T06:46:38+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-09-27T18:46:37+00:00"
+      "updated": "2026-09-28T06:46:38+00:00"
     }
   ],
   "schemaVersion": 1
