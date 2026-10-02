@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T11:23:40.056Z",
+  "generatedAt": "2026-10-02T16:47:26.109Z",
   "localDate": "2026-10-02",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-02-dawn",
+    "key": "2026-10-02-dusk",
     "date": "Fri, Oct 2",
     "ymd": "2026-10-02",
-    "period": "Dawn",
-    "start": "2026-10-02T11:44:37.000Z",
-    "end": "2026-10-02T14:14:37.000Z",
-    "anchor": "2026-10-02T12:59:37.000Z",
-    "startLabel": "5:44 AM MDT",
-    "endLabel": "8:14 AM MDT",
-    "anchorLabel": "6:59 AM MDT",
-    "arrival": "2026-10-02T11:14:37.000Z",
-    "arrivalLabel": "5:14 AM MDT",
+    "period": "Dusk",
+    "start": "2026-10-02T23:28:15.000Z",
+    "end": "2026-10-03T02:13:15.000Z",
+    "anchor": "2026-10-03T00:43:15.000Z",
+    "startLabel": "5:28 PM MDT",
+    "endLabel": "8:13 PM MDT",
+    "anchorLabel": "6:43 PM MDT",
+    "arrival": "2026-10-02T22:58:15.000Z",
+    "arrivalLabel": "4:58 PM MDT",
     "rutSeasonScore": 96,
     "score": 97,
     "label": "Prime",
@@ -26,61 +26,24 @@
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 100,
-        "temperature": 43,
-        "windMph": 5,
+        "score": 98,
+        "temperature": 65,
+        "windMph": 6,
         "precipChance": 0,
-        "summary": "Clear",
+        "summary": "Sunny",
         "hazard": null
       },
       "west": {
-        "score": 100,
-        "temperature": 31,
-        "windMph": 2,
+        "score": 98,
+        "temperature": 62,
+        "windMph": 7,
         "precipChance": 0,
-        "summary": "Clear",
+        "summary": "Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-02-dawn",
-      "date": "Fri, Oct 2",
-      "ymd": "2026-10-02",
-      "period": "Dawn",
-      "start": "2026-10-02T11:44:37.000Z",
-      "end": "2026-10-02T14:14:37.000Z",
-      "anchor": "2026-10-02T12:59:37.000Z",
-      "startLabel": "5:44 AM MDT",
-      "endLabel": "8:14 AM MDT",
-      "anchorLabel": "6:59 AM MDT",
-      "arrival": "2026-10-02T11:14:37.000Z",
-      "arrivalLabel": "5:14 AM MDT",
-      "rutSeasonScore": 96,
-      "score": 97,
-      "label": "Prime",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 43,
-          "windMph": 5,
-          "precipChance": 0,
-          "summary": "Clear",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 31,
-          "windMph": 2,
-          "precipChance": 0,
-          "summary": "Clear",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-02-dusk",
       "date": "Fri, Oct 2",
@@ -260,6 +223,43 @@
           "score": 98,
           "temperature": 63,
           "windMph": 5,
+          "precipChance": 0,
+          "summary": "Sunny",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-10-05-dawn",
+      "date": "Mon, Oct 5",
+      "ymd": "2026-10-05",
+      "period": "Dawn",
+      "start": "2026-10-05T11:47:39.000Z",
+      "end": "2026-10-05T14:17:39.000Z",
+      "anchor": "2026-10-05T13:02:39.000Z",
+      "startLabel": "5:47 AM MDT",
+      "endLabel": "8:17 AM MDT",
+      "anchorLabel": "7:02 AM MDT",
+      "arrival": "2026-10-05T11:17:39.000Z",
+      "arrivalLabel": "5:17 AM MDT",
+      "rutSeasonScore": 96,
+      "score": 97,
+      "label": "Prime",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 100,
+          "temperature": 53,
+          "windMph": 8,
+          "precipChance": 0,
+          "summary": "Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 100,
+          "temperature": 42,
+          "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-10-02T06:46:33+00:00"
+      "updated": "2026-10-02T13:41:06+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-10-02T06:46:33+00:00"
+      "updated": "2026-10-02T13:41:06+00:00"
     }
   ],
   "schemaVersion": 1
