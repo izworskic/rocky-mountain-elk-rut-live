@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:30:42.015Z",
+  "generatedAt": "2026-10-03T15:14:54.843Z",
   "localDate": "2026-10-03",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-03-dawn",
+    "key": "2026-10-03-dusk",
     "date": "Sat, Oct 3",
     "ymd": "2026-10-03",
-    "period": "Dawn",
-    "start": "2026-10-03T11:45:37.000Z",
-    "end": "2026-10-03T14:15:37.000Z",
-    "anchor": "2026-10-03T13:00:37.000Z",
-    "startLabel": "5:45 AM MDT",
-    "endLabel": "8:15 AM MDT",
-    "anchorLabel": "7:00 AM MDT",
-    "arrival": "2026-10-03T11:15:37.000Z",
-    "arrivalLabel": "5:15 AM MDT",
+    "period": "Dusk",
+    "start": "2026-10-03T23:26:37.000Z",
+    "end": "2026-10-04T02:11:37.000Z",
+    "anchor": "2026-10-04T00:41:37.000Z",
+    "startLabel": "5:26 PM MDT",
+    "endLabel": "8:11 PM MDT",
+    "anchorLabel": "6:41 PM MDT",
+    "arrival": "2026-10-03T22:56:37.000Z",
+    "arrivalLabel": "4:56 PM MDT",
     "rutSeasonScore": 96,
     "score": 97,
     "label": "Prime",
@@ -26,61 +26,24 @@
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 100,
-        "temperature": 51,
-        "windMph": 8,
-        "precipChance": 0,
-        "summary": "Mostly Cloudy",
+        "score": 98,
+        "temperature": 64,
+        "windMph": 6,
+        "precipChance": 6,
+        "summary": "Sunny",
         "hazard": null
       },
       "west": {
-        "score": 100,
-        "temperature": 35,
-        "windMph": 3,
-        "precipChance": 0,
-        "summary": "Mostly Sunny",
+        "score": 98,
+        "temperature": 61,
+        "windMph": 6,
+        "precipChance": 3,
+        "summary": "Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-03-dawn",
-      "date": "Sat, Oct 3",
-      "ymd": "2026-10-03",
-      "period": "Dawn",
-      "start": "2026-10-03T11:45:37.000Z",
-      "end": "2026-10-03T14:15:37.000Z",
-      "anchor": "2026-10-03T13:00:37.000Z",
-      "startLabel": "5:45 AM MDT",
-      "endLabel": "8:15 AM MDT",
-      "anchorLabel": "7:00 AM MDT",
-      "arrival": "2026-10-03T11:15:37.000Z",
-      "arrivalLabel": "5:15 AM MDT",
-      "rutSeasonScore": 96,
-      "score": 97,
-      "label": "Prime",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 51,
-          "windMph": 8,
-          "precipChance": 0,
-          "summary": "Mostly Cloudy",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 35,
-          "windMph": 3,
-          "precipChance": 0,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-03-dusk",
       "date": "Sat, Oct 3",
@@ -260,6 +223,43 @@
           "score": 98,
           "temperature": 63,
           "windMph": 4,
+          "precipChance": 1,
+          "summary": "Mostly Sunny",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-10-06-dawn",
+      "date": "Tue, Oct 6",
+      "ymd": "2026-10-06",
+      "period": "Dawn",
+      "start": "2026-10-06T11:48:40.000Z",
+      "end": "2026-10-06T14:18:40.000Z",
+      "anchor": "2026-10-06T13:03:40.000Z",
+      "startLabel": "5:48 AM MDT",
+      "endLabel": "8:18 AM MDT",
+      "anchorLabel": "7:03 AM MDT",
+      "arrival": "2026-10-06T11:18:40.000Z",
+      "arrivalLabel": "5:18 AM MDT",
+      "rutSeasonScore": 96,
+      "score": 97,
+      "label": "Prime",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 100,
+          "temperature": 54,
+          "windMph": 6,
+          "precipChance": 0,
+          "summary": "Mostly Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 100,
+          "temperature": 43,
+          "windMph": 1,
           "precipChance": 1,
           "summary": "Mostly Sunny",
           "hazard": null
