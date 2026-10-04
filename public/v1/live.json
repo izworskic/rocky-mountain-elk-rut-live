@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-04T00:27:44.529Z",
-  "localDate": "2026-10-03",
+  "generatedAt": "2026-10-04T06:15:47.796Z",
+  "localDate": "2026-10-04",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
   "mode": "live",
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-03-dusk",
-    "date": "Sat, Oct 3",
-    "ymd": "2026-10-03",
-    "period": "Dusk",
-    "start": "2026-10-03T23:26:37.000Z",
-    "end": "2026-10-04T02:11:37.000Z",
-    "anchor": "2026-10-04T00:41:37.000Z",
-    "startLabel": "5:26 PM MDT",
-    "endLabel": "8:11 PM MDT",
-    "anchorLabel": "6:41 PM MDT",
-    "arrival": "2026-10-03T22:56:37.000Z",
-    "arrivalLabel": "4:56 PM MDT",
+    "key": "2026-10-04-dawn",
+    "date": "Sun, Oct 4",
+    "ymd": "2026-10-04",
+    "period": "Dawn",
+    "start": "2026-10-04T11:46:38.000Z",
+    "end": "2026-10-04T14:16:38.000Z",
+    "anchor": "2026-10-04T13:01:38.000Z",
+    "startLabel": "5:46 AM MDT",
+    "endLabel": "8:16 AM MDT",
+    "anchorLabel": "7:01 AM MDT",
+    "arrival": "2026-10-04T11:16:38.000Z",
+    "arrivalLabel": "5:16 AM MDT",
     "rutSeasonScore": 96,
     "score": 97,
     "label": "Prime",
@@ -26,61 +26,24 @@
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 98,
-        "temperature": 60,
-        "windMph": 6,
-        "precipChance": 8,
-        "summary": "Mostly Clear",
+        "score": 100,
+        "temperature": 48,
+        "windMph": 5,
+        "precipChance": 0,
+        "summary": "Sunny",
         "hazard": null
       },
       "west": {
-        "score": 98,
-        "temperature": 57,
-        "windMph": 6,
-        "precipChance": 3,
-        "summary": "Mostly Clear",
+        "score": 100,
+        "temperature": 36,
+        "windMph": 2,
+        "precipChance": 0,
+        "summary": "Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-03-dusk",
-      "date": "Sat, Oct 3",
-      "ymd": "2026-10-03",
-      "period": "Dusk",
-      "start": "2026-10-03T23:26:37.000Z",
-      "end": "2026-10-04T02:11:37.000Z",
-      "anchor": "2026-10-04T00:41:37.000Z",
-      "startLabel": "5:26 PM MDT",
-      "endLabel": "8:11 PM MDT",
-      "anchorLabel": "6:41 PM MDT",
-      "arrival": "2026-10-03T22:56:37.000Z",
-      "arrivalLabel": "4:56 PM MDT",
-      "rutSeasonScore": 96,
-      "score": 97,
-      "label": "Prime",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 98,
-          "temperature": 60,
-          "windMph": 6,
-          "precipChance": 8,
-          "summary": "Mostly Clear",
-          "hazard": null
-        },
-        "west": {
-          "score": 98,
-          "temperature": 57,
-          "windMph": 6,
-          "precipChance": 3,
-          "summary": "Mostly Clear",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-04-dawn",
       "date": "Sun, Oct 4",
@@ -135,7 +98,7 @@
       "score": 95,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 94,
@@ -209,7 +172,7 @@
       "score": 95,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 94,
@@ -263,6 +226,43 @@
           "precipChance": 0,
           "summary": "Mostly Sunny",
           "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-10-06-dusk",
+      "date": "Tue, Oct 6",
+      "ymd": "2026-10-06",
+      "period": "Dusk",
+      "start": "2026-10-06T23:21:46.000Z",
+      "end": "2026-10-07T02:06:46.000Z",
+      "anchor": "2026-10-07T00:36:46.000Z",
+      "startLabel": "5:21 PM MDT",
+      "endLabel": "8:06 PM MDT",
+      "anchorLabel": "6:36 PM MDT",
+      "arrival": "2026-10-06T22:51:46.000Z",
+      "arrivalLabel": "4:51 PM MDT",
+      "rutSeasonScore": 96,
+      "score": 95,
+      "label": "Prime",
+      "bestZone": "east",
+      "confidence": "Medium",
+      "weather": {
+        "east": {
+          "score": 93,
+          "temperature": 63,
+          "windMph": 3,
+          "precipChance": 14,
+          "summary": "Slight Chance Rain Showers",
+          "hazard": null
+        },
+        "west": {
+          "score": 57,
+          "temperature": 59,
+          "windMph": 3,
+          "precipChance": 11,
+          "summary": "Slight Chance Showers And Thunderstorms",
+          "hazard": "thunder"
         }
       }
     }
