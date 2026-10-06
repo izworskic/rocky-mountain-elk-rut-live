@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:51:46.998Z",
+  "generatedAt": "2026-10-06T00:43:54.020Z",
   "localDate": "2026-10-05",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -20,25 +20,25 @@
     "arrival": "2026-10-05T22:53:22.000Z",
     "arrivalLabel": "4:53 PM MDT",
     "rutSeasonScore": 96,
-    "score": 97,
+    "score": 95,
     "label": "Prime",
-    "bestZone": "west",
+    "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 89,
-        "temperature": 68,
+        "score": 94,
+        "temperature": 66,
         "windMph": 4,
-        "precipChance": 12,
-        "summary": "Slight Chance Rain Showers",
+        "precipChance": 10,
+        "summary": "Mostly Clear",
         "hazard": null
       },
       "west": {
         "score": 98,
-        "temperature": 65,
+        "temperature": 62,
         "windMph": 5,
         "precipChance": 6,
-        "summary": "Sunny",
+        "summary": "Mostly Clear",
         "hazard": null
       }
     }
@@ -58,25 +58,25 @@
       "arrival": "2026-10-05T22:53:22.000Z",
       "arrivalLabel": "4:53 PM MDT",
       "rutSeasonScore": 96,
-      "score": 97,
+      "score": 95,
       "label": "Prime",
-      "bestZone": "west",
+      "bestZone": "east",
       "confidence": "High",
       "weather": {
         "east": {
-          "score": 89,
-          "temperature": 68,
+          "score": 94,
+          "temperature": 66,
           "windMph": 4,
-          "precipChance": 12,
-          "summary": "Slight Chance Rain Showers",
+          "precipChance": 10,
+          "summary": "Mostly Clear",
           "hazard": null
         },
         "west": {
           "score": 98,
-          "temperature": 65,
+          "temperature": 62,
           "windMph": 5,
           "precipChance": 6,
-          "summary": "Sunny",
+          "summary": "Mostly Clear",
           "hazard": null
         }
       }
@@ -316,7 +316,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 94,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
@@ -335,7 +335,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 94,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -354,7 +354,7 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 94,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 94,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 94,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
