@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T00:03:52.520Z",
+  "generatedAt": "2026-10-10T05:57:43.846Z",
   "localDate": "2026-10-09",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,80 +7,43 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-09-dusk",
-    "date": "Fri, Oct 9",
-    "ymd": "2026-10-09",
-    "period": "Dusk",
-    "start": "2026-10-09T23:16:59.000Z",
-    "end": "2026-10-10T02:01:59.000Z",
-    "anchor": "2026-10-10T00:31:59.000Z",
-    "startLabel": "5:16 PM MDT",
-    "endLabel": "8:01 PM MDT",
-    "anchorLabel": "6:31 PM MDT",
-    "arrival": "2026-10-09T22:46:59.000Z",
-    "arrivalLabel": "4:46 PM MDT",
+    "key": "2026-10-10-dawn",
+    "date": "Sat, Oct 10",
+    "ymd": "2026-10-10",
+    "period": "Dawn",
+    "start": "2026-10-10T11:52:47.000Z",
+    "end": "2026-10-10T14:22:47.000Z",
+    "anchor": "2026-10-10T13:07:47.000Z",
+    "startLabel": "5:52 AM MDT",
+    "endLabel": "8:22 AM MDT",
+    "anchorLabel": "7:07 AM MDT",
+    "arrival": "2026-10-10T11:22:47.000Z",
+    "arrivalLabel": "5:22 AM MDT",
     "rutSeasonScore": 96,
-    "score": 94,
+    "score": 97,
     "label": "Prime",
-    "bestZone": "east",
+    "bestZone": "west",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 89,
-        "temperature": 62,
-        "windMph": 10,
-        "precipChance": 14,
-        "summary": "Slight Chance Rain Showers",
+        "score": 90,
+        "temperature": 51,
+        "windMph": 15,
+        "precipChance": 0,
+        "summary": "Sunny",
         "hazard": null
       },
       "west": {
-        "score": 93,
-        "temperature": 58,
-        "windMph": 7,
-        "precipChance": 17,
-        "summary": "Slight Chance Rain Showers",
+        "score": 100,
+        "temperature": 38,
+        "windMph": 5,
+        "precipChance": 1,
+        "summary": "Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-09-dusk",
-      "date": "Fri, Oct 9",
-      "ymd": "2026-10-09",
-      "period": "Dusk",
-      "start": "2026-10-09T23:16:59.000Z",
-      "end": "2026-10-10T02:01:59.000Z",
-      "anchor": "2026-10-10T00:31:59.000Z",
-      "startLabel": "5:16 PM MDT",
-      "endLabel": "8:01 PM MDT",
-      "anchorLabel": "6:31 PM MDT",
-      "arrival": "2026-10-09T22:46:59.000Z",
-      "arrivalLabel": "4:46 PM MDT",
-      "rutSeasonScore": 96,
-      "score": 94,
-      "label": "Prime",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 89,
-          "temperature": 62,
-          "windMph": 10,
-          "precipChance": 14,
-          "summary": "Slight Chance Rain Showers",
-          "hazard": null
-        },
-        "west": {
-          "score": 93,
-          "temperature": 58,
-          "windMph": 7,
-          "precipChance": 17,
-          "summary": "Slight Chance Rain Showers",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-10-dawn",
       "date": "Sat, Oct 10",
@@ -135,7 +98,7 @@
       "score": 97,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 98,
@@ -209,7 +172,7 @@
       "score": 95,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 93,
@@ -265,6 +228,43 @@
           "hazard": null
         }
       }
+    },
+    {
+      "key": "2026-10-12-dusk",
+      "date": "Mon, Oct 12",
+      "ymd": "2026-10-12",
+      "period": "Dusk",
+      "start": "2026-10-12T23:12:19.000Z",
+      "end": "2026-10-13T01:57:19.000Z",
+      "anchor": "2026-10-13T00:27:19.000Z",
+      "startLabel": "5:12 PM MDT",
+      "endLabel": "7:57 PM MDT",
+      "anchorLabel": "6:27 PM MDT",
+      "arrival": "2026-10-12T22:42:19.000Z",
+      "arrivalLabel": "4:42 PM MDT",
+      "rutSeasonScore": 96,
+      "score": 95,
+      "label": "Prime",
+      "bestZone": "east",
+      "confidence": "Medium",
+      "weather": {
+        "east": {
+          "score": 93,
+          "temperature": 61,
+          "windMph": 6,
+          "precipChance": 15,
+          "summary": "Mostly Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 93,
+          "temperature": 57,
+          "windMph": 6,
+          "precipChance": 13,
+          "summary": "Mostly Sunny",
+          "hazard": null
+        }
+      }
     }
   ],
   "spots": [
@@ -278,7 +278,26 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 95,
+      "score": 97,
+      "scoreLabel": "Prime",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "holzwarth-meadow",
+      "name": "Holzwarth Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 88,
+      "place": "Upper Kawuneeche Valley",
+      "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
+      "lat": 40.371,
+      "lon": -105.853,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -343,25 +362,6 @@
         "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
       },
       "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "holzwarth-meadow",
-      "name": "Holzwarth Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 88,
-      "place": "Upper Kawuneeche Valley",
-      "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
-      "lat": 40.371,
-      "lon": -105.853,
-      "score": 94,
-      "scoreLabel": "Prime",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
     }
   ],
   "recommendations": {
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 95,
+      "score": 97,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
