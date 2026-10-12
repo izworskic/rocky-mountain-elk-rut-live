@@ -1,11 +1,13 @@
 {
-  "generatedAt": "2026-10-11T20:52:49.189Z",
+  "generatedAt": "2026-10-12T00:24:55.477Z",
   "localDate": "2026-10-11",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
-  "mode": "live",
-  "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
-  "errors": [],
+  "mode": "degraded",
+  "dataNote": "One or more NWS feeds are temporarily unavailable. Rut timing still uses the NPS seasonal baseline and solar windows; missing weather is not guessed.",
+  "errors": [
+    "west forecast: api.weather.gov returned 500"
+  ],
   "primary": {
     "key": "2026-10-11-dusk",
     "date": "Sun, Oct 11",
@@ -27,19 +29,18 @@
     "weather": {
       "east": {
         "score": 93,
-        "temperature": 63,
-        "windMph": 6,
-        "precipChance": 17,
-        "summary": "Partly Sunny",
+        "temperature": 61,
+        "windMph": 5,
+        "precipChance": 23,
+        "summary": "Slight Chance Rain Showers",
         "hazard": null
       },
       "west": {
-        "score": 93,
-        "temperature": 60,
-        "windMph": 7,
-        "precipChance": 25,
-        "summary": "Mostly Cloudy",
-        "hazard": null
+        "score": null,
+        "temperature": null,
+        "windMph": null,
+        "precipChance": null,
+        "summary": "Live weather unavailable"
       }
     }
   },
@@ -65,19 +66,18 @@
       "weather": {
         "east": {
           "score": 93,
-          "temperature": 63,
-          "windMph": 6,
-          "precipChance": 17,
-          "summary": "Partly Sunny",
+          "temperature": 61,
+          "windMph": 5,
+          "precipChance": 23,
+          "summary": "Slight Chance Rain Showers",
           "hazard": null
         },
         "west": {
-          "score": 93,
-          "temperature": 60,
-          "windMph": 7,
-          "precipChance": 25,
-          "summary": "Mostly Cloudy",
-          "hazard": null
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         }
       }
     },
@@ -109,12 +109,11 @@
           "hazard": null
         },
         "west": {
-          "score": 92,
-          "temperature": 38,
-          "windMph": 12,
-          "precipChance": 13,
-          "summary": "Partly Sunny",
-          "hazard": null
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         }
       }
     },
@@ -146,12 +145,11 @@
           "hazard": null
         },
         "west": {
-          "score": 95,
-          "temperature": 54,
-          "windMph": 6,
-          "precipChance": 13,
-          "summary": "Sunny",
-          "hazard": null
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         }
       }
     },
@@ -183,12 +181,11 @@
           "hazard": null
         },
         "west": {
-          "score": 88,
-          "temperature": 33,
-          "windMph": 1,
-          "precipChance": 41,
-          "summary": "Chance Rain Showers",
-          "hazard": null
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         }
       }
     },
@@ -206,10 +203,10 @@
       "arrival": "2026-10-13T22:40:46.000Z",
       "arrivalLabel": "4:40 PM MDT",
       "rutSeasonScore": 96,
-      "score": 83,
-      "label": "Excellent",
-      "bestZone": "east",
-      "confidence": "Medium",
+      "score": 96,
+      "label": "Prime",
+      "bestZone": "west",
+      "confidence": "Seasonal only",
       "weather": {
         "east": {
           "score": 50,
@@ -220,12 +217,11 @@
           "hazard": "thunder"
         },
         "west": {
-          "score": 50,
-          "temperature": 50,
-          "windMph": 4,
-          "precipChance": 57,
-          "summary": "Chance Showers And Thunderstorms",
-          "hazard": "thunder"
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         }
       }
     },
@@ -243,10 +239,10 @@
       "arrival": "2026-10-14T11:27:00.000Z",
       "arrivalLabel": "5:27 AM MDT",
       "rutSeasonScore": 96,
-      "score": 90,
+      "score": 96,
       "label": "Prime",
-      "bestZone": "east",
-      "confidence": "Medium",
+      "bestZone": "west",
+      "confidence": "Seasonal only",
       "weather": {
         "east": {
           "score": 74,
@@ -257,17 +253,35 @@
           "hazard": null
         },
         "west": {
-          "score": 74,
-          "temperature": 32,
-          "windMph": 4,
-          "precipChance": 81,
-          "summary": "Rain And Snow Showers",
-          "hazard": null
+          "score": null,
+          "temperature": null,
+          "windMph": null,
+          "precipChance": null,
+          "summary": "Live weather unavailable"
         }
       }
     }
   ],
   "spots": [
+    {
+      "id": "harbison-meadow",
+      "name": "Harbison Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 94,
+      "place": "Kawuneeche Valley / west side",
+      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
+      "lat": 40.271,
+      "lon": -105.837,
+      "score": 96,
+      "scoreLabel": "Prime",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
     {
       "id": "moraine-park",
       "name": "Moraine Park",
@@ -326,25 +340,6 @@
       "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
     },
     {
-      "id": "harbison-meadow",
-      "name": "Harbison Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 94,
-      "place": "Kawuneeche Valley / west side",
-      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
-      "lat": 40.271,
-      "lon": -105.837,
-      "score": 95,
-      "scoreLabel": "Prime",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "This window falls before 9:00 AM or after 2:00 PM, outside the standard 2026 timed-entry reservation hours."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
       "id": "holzwarth-meadow",
       "name": "Holzwarth Meadow",
       "zone": "west",
@@ -354,7 +349,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 94,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +408,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 95,
+      "score": 96,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -465,11 +460,6 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-10-11T18:46:41+00:00"
-    },
-    {
-      "zone": "west",
-      "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
       "updated": "2026-10-11T18:46:41+00:00"
     }
   ],
