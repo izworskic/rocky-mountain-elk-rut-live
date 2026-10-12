@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T15:58:21.176Z",
+  "generatedAt": "2026-10-12T22:53:18.215Z",
   "localDate": "2026-10-12",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -20,24 +20,24 @@
     "arrival": "2026-10-12T22:42:19.000Z",
     "arrivalLabel": "4:42 PM MDT",
     "rutSeasonScore": 96,
-    "score": 97,
+    "score": 95,
     "label": "Prime",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 98,
-        "temperature": 58,
-        "windMph": 4,
-        "precipChance": 10,
+        "score": 93,
+        "temperature": 59,
+        "windMph": 5,
+        "precipChance": 11,
         "summary": "Sunny",
         "hazard": null
       },
       "west": {
         "score": 93,
-        "temperature": 56,
-        "windMph": 6,
-        "precipChance": 11,
+        "temperature": 57,
+        "windMph": 5,
+        "precipChance": 13,
         "summary": "Sunny",
         "hazard": null
       }
@@ -58,24 +58,24 @@
       "arrival": "2026-10-12T22:42:19.000Z",
       "arrivalLabel": "4:42 PM MDT",
       "rutSeasonScore": 96,
-      "score": 97,
+      "score": 95,
       "label": "Prime",
       "bestZone": "east",
       "confidence": "High",
       "weather": {
         "east": {
-          "score": 98,
-          "temperature": 58,
-          "windMph": 4,
-          "precipChance": 10,
+          "score": 93,
+          "temperature": 59,
+          "windMph": 5,
+          "precipChance": 11,
           "summary": "Sunny",
           "hazard": null
         },
         "west": {
           "score": 93,
-          "temperature": 56,
-          "windMph": 6,
-          "precipChance": 11,
+          "temperature": 57,
+          "windMph": 5,
+          "precipChance": 13,
           "summary": "Sunny",
           "hazard": null
         }
@@ -98,22 +98,22 @@
       "score": 96,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 95,
           "temperature": 42,
-          "windMph": 1,
-          "precipChance": 23,
-          "summary": "Slight Chance Rain Showers",
+          "windMph": 3,
+          "precipChance": 30,
+          "summary": "Chance Rain Showers",
           "hazard": null
         },
         "west": {
-          "score": 95,
-          "temperature": 34,
-          "windMph": 1,
-          "precipChance": 24,
-          "summary": "Slight Chance Rain And Snow Showers",
+          "score": 88,
+          "temperature": 38,
+          "windMph": 2,
+          "precipChance": 34,
+          "summary": "Chance Rain And Snow Showers",
           "hazard": null
         }
       }
@@ -132,25 +132,25 @@
       "arrival": "2026-10-13T22:40:46.000Z",
       "arrivalLabel": "4:40 PM MDT",
       "rutSeasonScore": 96,
-      "score": 82,
+      "score": 83,
       "label": "Excellent",
       "bestZone": "east",
       "confidence": "Medium-high",
       "weather": {
         "east": {
-          "score": 46,
-          "temperature": 47,
-          "windMph": 3,
-          "precipChance": 74,
+          "score": 50,
+          "temperature": 46,
+          "windMph": 4,
+          "precipChance": 63,
           "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         },
         "west": {
           "score": 50,
-          "temperature": 45,
-          "windMph": 3,
-          "precipChance": 65,
-          "summary": "Chance Rain Showers",
+          "temperature": 48,
+          "windMph": 4,
+          "precipChance": 56,
+          "summary": "Chance Showers And Thunderstorms",
           "hazard": "thunder"
         }
       }
@@ -169,25 +169,25 @@
       "arrival": "2026-10-14T11:27:00.000Z",
       "arrivalLabel": "5:27 AM MDT",
       "rutSeasonScore": 96,
-      "score": 90,
+      "score": 94,
       "label": "Prime",
-      "bestZone": "east",
-      "confidence": "Medium",
+      "bestZone": "west",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 74,
           "temperature": 38,
-          "windMph": 3,
-          "precipChance": 90,
+          "windMph": 5,
+          "precipChance": 86,
           "summary": "Rain And Snow Showers",
           "hazard": null
         },
         "west": {
-          "score": 74,
-          "temperature": 30,
+          "score": 88,
+          "temperature": 37,
           "windMph": 6,
-          "precipChance": 78,
-          "summary": "Rain And Snow Showers",
+          "precipChance": 47,
+          "summary": "Chance Rain And Snow Showers",
           "hazard": null
         }
       }
@@ -215,16 +215,16 @@
           "score": 74,
           "temperature": 39,
           "windMph": 3,
-          "precipChance": 77,
-          "summary": "Rain And Snow Showers",
+          "precipChance": 87,
+          "summary": "Rain And Snow Showers Likely",
           "hazard": null
         },
         "west": {
           "score": 74,
-          "temperature": 38,
+          "temperature": 39,
           "windMph": 6,
-          "precipChance": 80,
-          "summary": "Rain And Snow Showers",
+          "precipChance": 86,
+          "summary": "Rain And Snow Showers Likely",
           "hazard": null
         }
       }
@@ -243,25 +243,25 @@
       "arrival": "2026-10-15T11:28:04.000Z",
       "arrivalLabel": "5:28 AM MDT",
       "rutSeasonScore": 96,
-      "score": 92,
+      "score": 90,
       "label": "Prime",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
-          "score": 81,
+          "score": 74,
           "temperature": 36,
-          "windMph": 4,
-          "precipChance": 59,
-          "summary": "Rain And Snow Showers Likely",
+          "windMph": 3,
+          "precipChance": 81,
+          "summary": "Snow Showers",
           "hazard": null
         },
         "west": {
-          "score": 78,
-          "temperature": 25,
-          "windMph": 3,
-          "precipChance": 59,
-          "summary": "Snow Showers Likely",
+          "score": 74,
+          "temperature": 31,
+          "windMph": 2,
+          "precipChance": 80,
+          "summary": "Snow Showers",
           "hazard": null
         }
       }
@@ -278,7 +278,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 97,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
@@ -297,7 +297,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 97,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -316,7 +316,7 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 96,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 97,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 97,
+      "score": 95,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-10-12T06:46:34+00:00"
+      "updated": "2026-10-12T18:46:43+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-10-12T06:46:34+00:00"
+      "updated": "2026-10-12T18:46:43+00:00"
     }
   ],
   "schemaVersion": 1
