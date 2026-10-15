@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T18:35:36.799Z",
+  "generatedAt": "2026-10-15T21:49:32.012Z",
   "localDate": "2026-10-15",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-10-15T16:22:41+00:00"
+      "updated": "2026-10-15T18:46:21+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-10-15T16:22:41+00:00"
+      "updated": "2026-10-15T18:46:21+00:00"
     }
   ],
   "schemaVersion": 1
