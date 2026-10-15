@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T00:09:04.465Z",
+  "generatedAt": "2026-10-15T04:46:49.125Z",
   "localDate": "2026-10-14",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-14-dusk",
-    "date": "Wed, Oct 14",
-    "ymd": "2026-10-14",
-    "period": "Dusk",
-    "start": "2026-10-14T23:09:15.000Z",
-    "end": "2026-10-15T01:54:15.000Z",
-    "anchor": "2026-10-15T00:24:15.000Z",
-    "startLabel": "5:09 PM MDT",
-    "endLabel": "7:54 PM MDT",
-    "anchorLabel": "6:24 PM MDT",
-    "arrival": "2026-10-14T22:39:15.000Z",
-    "arrivalLabel": "4:39 PM MDT",
+    "key": "2026-10-15-dawn",
+    "date": "Thu, Oct 15",
+    "ymd": "2026-10-15",
+    "period": "Dawn",
+    "start": "2026-10-15T11:58:04.000Z",
+    "end": "2026-10-15T14:28:04.000Z",
+    "anchor": "2026-10-15T13:13:04.000Z",
+    "startLabel": "5:58 AM MDT",
+    "endLabel": "8:28 AM MDT",
+    "anchorLabel": "7:13 AM MDT",
+    "arrival": "2026-10-15T11:28:04.000Z",
+    "arrivalLabel": "5:28 AM MDT",
     "rutSeasonScore": 96,
     "score": 90,
     "label": "Prime",
@@ -27,60 +27,23 @@
     "weather": {
       "east": {
         "score": 74,
-        "temperature": 39,
-        "windMph": 2,
-        "precipChance": 98,
-        "summary": "Rain And Snow",
+        "temperature": 35,
+        "windMph": 4,
+        "precipChance": 84,
+        "summary": "Light Snow",
         "hazard": null
       },
       "west": {
         "score": 74,
-        "temperature": 40,
-        "windMph": 4,
-        "precipChance": 72,
-        "summary": "Rain And Snow Likely",
+        "temperature": 35,
+        "windMph": 6,
+        "precipChance": 78,
+        "summary": "Light Snow",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-14-dusk",
-      "date": "Wed, Oct 14",
-      "ymd": "2026-10-14",
-      "period": "Dusk",
-      "start": "2026-10-14T23:09:15.000Z",
-      "end": "2026-10-15T01:54:15.000Z",
-      "anchor": "2026-10-15T00:24:15.000Z",
-      "startLabel": "5:09 PM MDT",
-      "endLabel": "7:54 PM MDT",
-      "anchorLabel": "6:24 PM MDT",
-      "arrival": "2026-10-14T22:39:15.000Z",
-      "arrivalLabel": "4:39 PM MDT",
-      "rutSeasonScore": 96,
-      "score": 90,
-      "label": "Prime",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 74,
-          "temperature": 39,
-          "windMph": 2,
-          "precipChance": 98,
-          "summary": "Rain And Snow",
-          "hazard": null
-        },
-        "west": {
-          "score": 74,
-          "temperature": 40,
-          "windMph": 4,
-          "precipChance": 72,
-          "summary": "Rain And Snow Likely",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-15-dawn",
       "date": "Thu, Oct 15",
@@ -260,6 +223,43 @@
           "score": 98,
           "temperature": 28,
           "windMph": 1,
+          "precipChance": 0,
+          "summary": "Sunny",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-10-17-dusk",
+      "date": "Sat, Oct 17",
+      "ymd": "2026-10-17",
+      "period": "Dusk",
+      "start": "2026-10-17T23:04:45.000Z",
+      "end": "2026-10-18T01:49:45.000Z",
+      "anchor": "2026-10-18T00:19:45.000Z",
+      "startLabel": "5:04 PM MDT",
+      "endLabel": "7:49 PM MDT",
+      "anchorLabel": "6:19 PM MDT",
+      "arrival": "2026-10-17T22:34:45.000Z",
+      "arrivalLabel": "4:34 PM MDT",
+      "rutSeasonScore": 84,
+      "score": 88,
+      "label": "Excellent",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 100,
+          "temperature": 50,
+          "windMph": 7,
+          "precipChance": 0,
+          "summary": "Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 100,
+          "temperature": 46,
+          "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
