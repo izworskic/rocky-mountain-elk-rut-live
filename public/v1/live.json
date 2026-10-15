@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T09:44:36.271Z",
+  "generatedAt": "2026-10-15T14:28:06.466Z",
   "localDate": "2026-10-15",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -27,17 +27,17 @@
     "weather": {
       "east": {
         "score": 74,
-        "temperature": 35,
-        "windMph": 6,
-        "precipChance": 81,
+        "temperature": 36,
+        "windMph": 8,
+        "precipChance": 79,
         "summary": "Snow Showers",
         "hazard": null
       },
       "west": {
-        "score": 74,
-        "temperature": 34,
-        "windMph": 7,
-        "precipChance": 76,
+        "score": 81,
+        "temperature": 35,
+        "windMph": 8,
+        "precipChance": 70,
         "summary": "Snow Showers",
         "hazard": null
       }
@@ -65,17 +65,17 @@
       "weather": {
         "east": {
           "score": 74,
-          "temperature": 35,
-          "windMph": 6,
-          "precipChance": 81,
+          "temperature": 36,
+          "windMph": 8,
+          "precipChance": 79,
           "summary": "Snow Showers",
           "hazard": null
         },
         "west": {
-          "score": 74,
-          "temperature": 34,
-          "windMph": 7,
-          "precipChance": 76,
+          "score": 81,
+          "temperature": 35,
+          "windMph": 8,
+          "precipChance": 70,
           "summary": "Snow Showers",
           "hazard": null
         }
@@ -269,6 +269,44 @@
   ],
   "spots": [
     {
+      "id": "harbison-meadow",
+      "name": "Harbison Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 94,
+      "place": "Kawuneeche Valley / west side",
+      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
+      "lat": 40.271,
+      "lon": -105.837,
+      "score": 92,
+      "scoreLabel": "Prime",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "The standard 2026 timed-entry season is not active on this date."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "holzwarth-meadow",
+      "name": "Holzwarth Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 88,
+      "place": "Upper Kawuneeche Valley",
+      "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
+      "lat": 40.371,
+      "lon": -105.853,
+      "score": 92,
+      "scoreLabel": "Prime",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "The standard 2026 timed-entry season is not active on this date."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
       "id": "moraine-park",
       "name": "Moraine Park",
       "zone": "east",
@@ -316,44 +354,6 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 90,
-      "scoreLabel": "Prime",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "The standard 2026 timed-entry season is not active on this date."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "harbison-meadow",
-      "name": "Harbison Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 94,
-      "place": "Kawuneeche Valley / west side",
-      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
-      "lat": 40.271,
-      "lon": -105.837,
-      "score": 90,
-      "scoreLabel": "Prime",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "The standard 2026 timed-entry season is not active on this date."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "holzwarth-meadow",
-      "name": "Holzwarth Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 88,
-      "place": "Upper Kawuneeche Valley",
-      "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
-      "lat": 40.371,
-      "lon": -105.853,
       "score": 90,
       "scoreLabel": "Prime",
       "access": {
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 90,
+      "score": 92,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
