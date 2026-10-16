@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T00:13:39.458Z",
+  "generatedAt": "2026-10-16T04:42:39.255Z",
   "localDate": "2026-10-15",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,80 +7,43 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-15-dusk",
-    "date": "Thu, Oct 15",
-    "ymd": "2026-10-15",
-    "period": "Dusk",
-    "start": "2026-10-15T23:07:44.000Z",
-    "end": "2026-10-16T01:52:44.000Z",
-    "anchor": "2026-10-16T00:22:44.000Z",
-    "startLabel": "5:07 PM MDT",
-    "endLabel": "7:52 PM MDT",
-    "anchorLabel": "6:22 PM MDT",
-    "arrival": "2026-10-15T22:37:44.000Z",
-    "arrivalLabel": "4:37 PM MDT",
-    "rutSeasonScore": 96,
-    "score": 97,
+    "key": "2026-10-16-dawn",
+    "date": "Fri, Oct 16",
+    "ymd": "2026-10-16",
+    "period": "Dawn",
+    "start": "2026-10-16T11:59:08.000Z",
+    "end": "2026-10-16T14:29:08.000Z",
+    "anchor": "2026-10-16T13:14:08.000Z",
+    "startLabel": "5:59 AM MDT",
+    "endLabel": "8:29 AM MDT",
+    "anchorLabel": "7:14 AM MDT",
+    "arrival": "2026-10-16T11:29:08.000Z",
+    "arrivalLabel": "5:29 AM MDT",
+    "rutSeasonScore": 86,
+    "score": 90,
     "label": "Prime",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 37,
-        "windMph": 4,
+        "temperature": 29,
+        "windMph": 5,
         "precipChance": 0,
-        "summary": "Clear",
+        "summary": "Sunny",
         "hazard": null
       },
       "west": {
-        "score": 100,
-        "temperature": 32,
-        "windMph": 5,
+        "score": 94,
+        "temperature": 14,
+        "windMph": 2,
         "precipChance": 0,
-        "summary": "Clear",
+        "summary": "Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-15-dusk",
-      "date": "Thu, Oct 15",
-      "ymd": "2026-10-15",
-      "period": "Dusk",
-      "start": "2026-10-15T23:07:44.000Z",
-      "end": "2026-10-16T01:52:44.000Z",
-      "anchor": "2026-10-16T00:22:44.000Z",
-      "startLabel": "5:07 PM MDT",
-      "endLabel": "7:52 PM MDT",
-      "anchorLabel": "6:22 PM MDT",
-      "arrival": "2026-10-15T22:37:44.000Z",
-      "arrivalLabel": "4:37 PM MDT",
-      "rutSeasonScore": 96,
-      "score": 97,
-      "label": "Prime",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 37,
-          "windMph": 4,
-          "precipChance": 0,
-          "summary": "Clear",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 32,
-          "windMph": 5,
-          "precipChance": 0,
-          "summary": "Clear",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-16-dawn",
       "date": "Fri, Oct 16",
@@ -265,6 +228,43 @@
           "hazard": null
         }
       }
+    },
+    {
+      "key": "2026-10-18-dusk",
+      "date": "Sun, Oct 18",
+      "ymd": "2026-10-18",
+      "period": "Dusk",
+      "start": "2026-10-18T23:03:17.000Z",
+      "end": "2026-10-19T01:48:17.000Z",
+      "anchor": "2026-10-19T00:18:17.000Z",
+      "startLabel": "5:03 PM MDT",
+      "endLabel": "7:48 PM MDT",
+      "anchorLabel": "6:18 PM MDT",
+      "arrival": "2026-10-18T22:33:17.000Z",
+      "arrivalLabel": "4:33 PM MDT",
+      "rutSeasonScore": 82,
+      "score": 86,
+      "label": "Excellent",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 95,
+          "temperature": 54,
+          "windMph": 2,
+          "precipChance": 12,
+          "summary": "Partly Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 95,
+          "temperature": 50,
+          "windMph": 3,
+          "precipChance": 12,
+          "summary": "Partly Sunny",
+          "hazard": null
+        }
+      }
     }
   ],
   "spots": [
@@ -278,7 +278,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 97,
+      "score": 91,
       "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
@@ -297,26 +297,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 97,
-      "scoreLabel": "Prime",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "The standard 2026 timed-entry season is not active on this date."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "harbison-meadow",
-      "name": "Harbison Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 94,
-      "place": "Kawuneeche Valley / west side",
-      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
-      "lat": 40.271,
-      "lon": -105.837,
-      "score": 97,
+      "score": 90,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -335,8 +316,27 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 96,
+      "score": 90,
       "scoreLabel": "Prime",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "The standard 2026 timed-entry season is not active on this date."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "harbison-meadow",
+      "name": "Harbison Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 94,
+      "place": "Kawuneeche Valley / west side",
+      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
+      "lat": 40.271,
+      "lon": -105.837,
+      "score": 88,
+      "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
@@ -354,8 +354,8 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 96,
-      "scoreLabel": "Prime",
+      "score": 88,
+      "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 97,
+      "score": 91,
       "scoreLabel": "Prime",
       "access": {
         "status": "Timed Entry+ required",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 97,
+      "score": 90,
       "scoreLabel": "Prime",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,8 +413,8 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 97,
-      "scoreLabel": "Prime",
+      "score": 88,
+      "scoreLabel": "Excellent",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
