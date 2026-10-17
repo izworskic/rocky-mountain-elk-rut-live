@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:27:04.805Z",
+  "generatedAt": "2026-10-17T15:52:57.047Z",
   "localDate": "2026-10-17",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-17-dawn",
+    "key": "2026-10-17-dusk",
     "date": "Sat, Oct 17",
     "ymd": "2026-10-17",
-    "period": "Dawn",
-    "start": "2026-10-17T12:00:12.000Z",
-    "end": "2026-10-17T14:30:12.000Z",
-    "anchor": "2026-10-17T13:15:12.000Z",
-    "startLabel": "6:00 AM MDT",
-    "endLabel": "8:30 AM MDT",
-    "anchorLabel": "7:15 AM MDT",
-    "arrival": "2026-10-17T11:30:12.000Z",
-    "arrivalLabel": "5:30 AM MDT",
+    "period": "Dusk",
+    "start": "2026-10-17T23:04:45.000Z",
+    "end": "2026-10-18T01:49:45.000Z",
+    "anchor": "2026-10-18T00:19:45.000Z",
+    "startLabel": "5:04 PM MDT",
+    "endLabel": "7:49 PM MDT",
+    "anchorLabel": "6:19 PM MDT",
+    "arrival": "2026-10-17T22:34:45.000Z",
+    "arrivalLabel": "4:34 PM MDT",
     "rutSeasonScore": 84,
     "score": 88,
     "label": "Excellent",
@@ -26,17 +26,17 @@
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 97,
-        "temperature": 40,
-        "windMph": 9,
+        "score": 100,
+        "temperature": 55,
+        "windMph": 5,
         "precipChance": 0,
         "summary": "Sunny",
         "hazard": null
       },
       "west": {
-        "score": 98,
-        "temperature": 25,
-        "windMph": 3,
+        "score": 100,
+        "temperature": 49,
+        "windMph": 4,
         "precipChance": 0,
         "summary": "Sunny",
         "hazard": null
@@ -44,43 +44,6 @@
     }
   },
   "windows": [
-    {
-      "key": "2026-10-17-dawn",
-      "date": "Sat, Oct 17",
-      "ymd": "2026-10-17",
-      "period": "Dawn",
-      "start": "2026-10-17T12:00:12.000Z",
-      "end": "2026-10-17T14:30:12.000Z",
-      "anchor": "2026-10-17T13:15:12.000Z",
-      "startLabel": "6:00 AM MDT",
-      "endLabel": "8:30 AM MDT",
-      "anchorLabel": "7:15 AM MDT",
-      "arrival": "2026-10-17T11:30:12.000Z",
-      "arrivalLabel": "5:30 AM MDT",
-      "rutSeasonScore": 84,
-      "score": 88,
-      "label": "Excellent",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 97,
-          "temperature": 40,
-          "windMph": 9,
-          "precipChance": 0,
-          "summary": "Sunny",
-          "hazard": null
-        },
-        "west": {
-          "score": 98,
-          "temperature": 25,
-          "windMph": 3,
-          "precipChance": 0,
-          "summary": "Sunny",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-17-dusk",
       "date": "Sat, Oct 17",
@@ -262,6 +225,43 @@
           "windMph": 2,
           "precipChance": 13,
           "summary": "Partly Sunny",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-10-20-dawn",
+      "date": "Tue, Oct 20",
+      "ymd": "2026-10-20",
+      "period": "Dawn",
+      "start": "2026-10-20T12:03:28.000Z",
+      "end": "2026-10-20T14:33:28.000Z",
+      "anchor": "2026-10-20T13:18:28.000Z",
+      "startLabel": "6:03 AM MDT",
+      "endLabel": "8:33 AM MDT",
+      "anchorLabel": "7:18 AM MDT",
+      "arrival": "2026-10-20T11:33:28.000Z",
+      "arrivalLabel": "5:33 AM MDT",
+      "rutSeasonScore": 78,
+      "score": 84,
+      "label": "Excellent",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 100,
+          "temperature": 44,
+          "windMph": 4,
+          "precipChance": 0,
+          "summary": "Mostly Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 100,
+          "temperature": 33,
+          "windMph": 1,
+          "precipChance": 1,
+          "summary": "Sunny",
           "hazard": null
         }
       }
