@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T18:22:21.426Z",
+  "generatedAt": "2026-10-17T20:51:46.598Z",
   "localDate": "2026-10-17",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -27,7 +27,7 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 55,
+        "temperature": 53,
         "windMph": 5,
         "precipChance": 0,
         "summary": "Sunny",
@@ -35,8 +35,8 @@
       },
       "west": {
         "score": 100,
-        "temperature": 49,
-        "windMph": 4,
+        "temperature": 48,
+        "windMph": 3,
         "precipChance": 0,
         "summary": "Sunny",
         "hazard": null
@@ -65,7 +65,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 55,
+          "temperature": 53,
           "windMph": 5,
           "precipChance": 0,
           "summary": "Sunny",
@@ -73,8 +73,8 @@
         },
         "west": {
           "score": 100,
-          "temperature": 49,
-          "windMph": 4,
+          "temperature": 48,
+          "windMph": 3,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
@@ -109,7 +109,7 @@
           "hazard": null
         },
         "west": {
-          "score": 100,
+          "score": 98,
           "temperature": 28,
           "windMph": 1,
           "precipChance": 0,
@@ -140,7 +140,7 @@
         "east": {
           "score": 100,
           "temperature": 54,
-          "windMph": 3,
+          "windMph": 2,
           "precipChance": 2,
           "summary": "Partly Sunny",
           "hazard": null
@@ -176,18 +176,18 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 44,
-          "windMph": 1,
-          "precipChance": 3,
+          "temperature": 45,
+          "windMph": 0,
+          "precipChance": 2,
           "summary": "Partly Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 33,
+          "temperature": 35,
           "windMph": 0,
-          "precipChance": 3,
-          "summary": "Partly Sunny",
+          "precipChance": 1,
+          "summary": "Mostly Sunny",
           "hazard": null
         }
       }
@@ -206,25 +206,25 @@
       "arrival": "2026-10-19T22:31:49.000Z",
       "arrivalLabel": "4:31 PM MDT",
       "rutSeasonScore": 80,
-      "score": 84,
+      "score": 86,
       "label": "Excellent",
       "bestZone": "east",
       "confidence": "Medium",
       "weather": {
         "east": {
-          "score": 93,
-          "temperature": 56,
+          "score": 100,
+          "temperature": 54,
           "windMph": 2,
-          "precipChance": 12,
-          "summary": "Mostly Sunny",
+          "precipChance": 7,
+          "summary": "Partly Sunny",
           "hazard": null
         },
         "west": {
           "score": 95,
-          "temperature": 53,
+          "temperature": 52,
           "windMph": 2,
-          "precipChance": 13,
-          "summary": "Partly Sunny",
+          "precipChance": 12,
+          "summary": "Slight Chance Rain Showers",
           "hazard": null
         }
       }
@@ -250,7 +250,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 44,
+          "temperature": 45,
           "windMph": 4,
           "precipChance": 0,
           "summary": "Mostly Sunny",
@@ -258,10 +258,10 @@
         },
         "west": {
           "score": 100,
-          "temperature": 33,
+          "temperature": 37,
           "windMph": 1,
-          "precipChance": 1,
-          "summary": "Sunny",
+          "precipChance": 0,
+          "summary": "Mostly Sunny",
           "hazard": null
         }
       }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-10-17T06:46:11+00:00"
+      "updated": "2026-10-17T18:46:08+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-10-17T06:46:11+00:00"
+      "updated": "2026-10-17T18:46:08+00:00"
     }
   ],
   "schemaVersion": 1
