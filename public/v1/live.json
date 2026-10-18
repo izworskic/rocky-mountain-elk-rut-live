@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T13:54:34.051Z",
+  "generatedAt": "2026-10-18T17:13:33.448Z",
   "localDate": "2026-10-18",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-18-dawn",
+    "key": "2026-10-18-dusk",
     "date": "Sun, Oct 18",
     "ymd": "2026-10-18",
-    "period": "Dawn",
-    "start": "2026-10-18T12:01:17.000Z",
-    "end": "2026-10-18T14:31:17.000Z",
-    "anchor": "2026-10-18T13:16:17.000Z",
-    "startLabel": "6:01 AM MDT",
-    "endLabel": "8:31 AM MDT",
-    "anchorLabel": "7:16 AM MDT",
-    "arrival": "2026-10-18T11:31:17.000Z",
-    "arrivalLabel": "5:31 AM MDT",
+    "period": "Dusk",
+    "start": "2026-10-18T23:03:17.000Z",
+    "end": "2026-10-19T01:48:17.000Z",
+    "anchor": "2026-10-19T00:18:17.000Z",
+    "startLabel": "5:03 PM MDT",
+    "endLabel": "7:48 PM MDT",
+    "anchorLabel": "6:18 PM MDT",
+    "arrival": "2026-10-18T22:33:17.000Z",
+    "arrivalLabel": "4:33 PM MDT",
     "rutSeasonScore": 82,
     "score": 87,
     "label": "Excellent",
@@ -27,60 +27,23 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 45,
-        "windMph": 7,
-        "precipChance": 0,
-        "summary": "Mostly Sunny",
+        "temperature": 52,
+        "windMph": 3,
+        "precipChance": 2,
+        "summary": "Partly Sunny",
         "hazard": null
       },
       "west": {
         "score": 100,
-        "temperature": 30,
-        "windMph": 2,
-        "precipChance": 0,
-        "summary": "Mostly Sunny",
+        "temperature": 51,
+        "windMph": 3,
+        "precipChance": 2,
+        "summary": "Partly Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-18-dawn",
-      "date": "Sun, Oct 18",
-      "ymd": "2026-10-18",
-      "period": "Dawn",
-      "start": "2026-10-18T12:01:17.000Z",
-      "end": "2026-10-18T14:31:17.000Z",
-      "anchor": "2026-10-18T13:16:17.000Z",
-      "startLabel": "6:01 AM MDT",
-      "endLabel": "8:31 AM MDT",
-      "anchorLabel": "7:16 AM MDT",
-      "arrival": "2026-10-18T11:31:17.000Z",
-      "arrivalLabel": "5:31 AM MDT",
-      "rutSeasonScore": 82,
-      "score": 87,
-      "label": "Excellent",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 45,
-          "windMph": 7,
-          "precipChance": 0,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 30,
-          "windMph": 2,
-          "precipChance": 0,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-18-dusk",
       "date": "Sun, Oct 18",
@@ -262,6 +225,43 @@
           "windMph": 2,
           "precipChance": 4,
           "summary": "Mostly Sunny",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-10-21-dawn",
+      "date": "Wed, Oct 21",
+      "ymd": "2026-10-21",
+      "period": "Dawn",
+      "start": "2026-10-21T12:04:34.000Z",
+      "end": "2026-10-21T14:34:34.000Z",
+      "anchor": "2026-10-21T13:19:34.000Z",
+      "startLabel": "6:04 AM MDT",
+      "endLabel": "8:34 AM MDT",
+      "anchorLabel": "7:19 AM MDT",
+      "arrival": "2026-10-21T11:34:34.000Z",
+      "arrivalLabel": "5:34 AM MDT",
+      "rutSeasonScore": 76,
+      "score": 83,
+      "label": "Excellent",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 100,
+          "temperature": 48,
+          "windMph": 3,
+          "precipChance": 0,
+          "summary": "Mostly Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 100,
+          "temperature": 36,
+          "windMph": 1,
+          "precipChance": 0,
+          "summary": "Sunny",
           "hazard": null
         }
       }
