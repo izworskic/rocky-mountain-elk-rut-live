@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T10:21:16.069Z",
+  "generatedAt": "2026-10-20T15:19:46.604Z",
   "localDate": "2026-10-20",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-20-dawn",
+    "key": "2026-10-20-dusk",
     "date": "Tue, Oct 20",
     "ymd": "2026-10-20",
-    "period": "Dawn",
-    "start": "2026-10-20T12:03:28.000Z",
-    "end": "2026-10-20T14:33:28.000Z",
-    "anchor": "2026-10-20T13:18:28.000Z",
-    "startLabel": "6:03 AM MDT",
-    "endLabel": "8:33 AM MDT",
-    "anchorLabel": "7:18 AM MDT",
-    "arrival": "2026-10-20T11:33:28.000Z",
-    "arrivalLabel": "5:33 AM MDT",
+    "period": "Dusk",
+    "start": "2026-10-20T23:00:23.000Z",
+    "end": "2026-10-21T01:45:23.000Z",
+    "anchor": "2026-10-21T00:15:23.000Z",
+    "startLabel": "5:00 PM MDT",
+    "endLabel": "7:45 PM MDT",
+    "anchorLabel": "6:15 PM MDT",
+    "arrival": "2026-10-20T22:30:23.000Z",
+    "arrivalLabel": "4:30 PM MDT",
     "rutSeasonScore": 78,
     "score": 84,
     "label": "Excellent",
@@ -26,61 +26,24 @@
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 100,
-        "temperature": 45,
-        "windMph": 4,
-        "precipChance": 0,
-        "summary": "Mostly Sunny",
+        "score": 98,
+        "temperature": 58,
+        "windMph": 1,
+        "precipChance": 5,
+        "summary": "Slight Chance Rain Showers",
         "hazard": null
       },
       "west": {
         "score": 100,
-        "temperature": 33,
-        "windMph": 1,
-        "precipChance": 0,
+        "temperature": 54,
+        "windMph": 3,
+        "precipChance": 3,
         "summary": "Mostly Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-20-dawn",
-      "date": "Tue, Oct 20",
-      "ymd": "2026-10-20",
-      "period": "Dawn",
-      "start": "2026-10-20T12:03:28.000Z",
-      "end": "2026-10-20T14:33:28.000Z",
-      "anchor": "2026-10-20T13:18:28.000Z",
-      "startLabel": "6:03 AM MDT",
-      "endLabel": "8:33 AM MDT",
-      "anchorLabel": "7:18 AM MDT",
-      "arrival": "2026-10-20T11:33:28.000Z",
-      "arrivalLabel": "5:33 AM MDT",
-      "rutSeasonScore": 78,
-      "score": 84,
-      "label": "Excellent",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 45,
-          "windMph": 4,
-          "precipChance": 0,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 33,
-          "windMph": 1,
-          "precipChance": 0,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-20-dusk",
       "date": "Tue, Oct 20",
@@ -262,6 +225,43 @@
           "windMph": 3,
           "precipChance": 54,
           "summary": "Rain Showers Likely",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-10-23-dawn",
+      "date": "Fri, Oct 23",
+      "ymd": "2026-10-23",
+      "period": "Dawn",
+      "start": "2026-10-23T12:06:46.000Z",
+      "end": "2026-10-23T14:36:46.000Z",
+      "anchor": "2026-10-23T13:21:46.000Z",
+      "startLabel": "6:06 AM MDT",
+      "endLabel": "8:36 AM MDT",
+      "anchorLabel": "7:21 AM MDT",
+      "arrival": "2026-10-23T11:36:46.000Z",
+      "arrivalLabel": "5:36 AM MDT",
+      "rutSeasonScore": 72,
+      "score": 78,
+      "label": "Good",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 95,
+          "temperature": 49,
+          "windMph": 4,
+          "precipChance": 13,
+          "summary": "Partly Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 95,
+          "temperature": 38,
+          "windMph": 4,
+          "precipChance": 26,
+          "summary": "Chance Rain Showers",
           "hazard": null
         }
       }
