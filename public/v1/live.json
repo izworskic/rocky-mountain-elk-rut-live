@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T10:08:43.565Z",
+  "generatedAt": "2026-10-23T15:08:42.480Z",
   "localDate": "2026-10-23",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-23-dawn",
+    "key": "2026-10-23-dusk",
     "date": "Fri, Oct 23",
     "ymd": "2026-10-23",
-    "period": "Dawn",
-    "start": "2026-10-23T12:06:46.000Z",
-    "end": "2026-10-23T14:36:46.000Z",
-    "anchor": "2026-10-23T13:21:46.000Z",
-    "startLabel": "6:06 AM MDT",
-    "endLabel": "8:36 AM MDT",
-    "anchorLabel": "7:21 AM MDT",
-    "arrival": "2026-10-23T11:36:46.000Z",
-    "arrivalLabel": "5:36 AM MDT",
+    "period": "Dusk",
+    "start": "2026-10-23T22:56:10.000Z",
+    "end": "2026-10-24T01:41:10.000Z",
+    "anchor": "2026-10-24T00:11:10.000Z",
+    "startLabel": "4:56 PM MDT",
+    "endLabel": "7:41 PM MDT",
+    "anchorLabel": "6:11 PM MDT",
+    "arrival": "2026-10-23T22:26:10.000Z",
+    "arrivalLabel": "4:26 PM MDT",
     "rutSeasonScore": 72,
     "score": 80,
     "label": "Good",
@@ -27,60 +27,23 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 47,
-        "windMph": 6,
-        "precipChance": 10,
-        "summary": "Mostly Cloudy",
+        "temperature": 54,
+        "windMph": 8,
+        "precipChance": 5,
+        "summary": "Mostly Sunny",
         "hazard": null
       },
       "west": {
-        "score": 95,
-        "temperature": 37,
-        "windMph": 5,
-        "precipChance": 16,
-        "summary": "Slight Chance Rain Showers",
+        "score": 100,
+        "temperature": 52,
+        "windMph": 8,
+        "precipChance": 2,
+        "summary": "Mostly Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-23-dawn",
-      "date": "Fri, Oct 23",
-      "ymd": "2026-10-23",
-      "period": "Dawn",
-      "start": "2026-10-23T12:06:46.000Z",
-      "end": "2026-10-23T14:36:46.000Z",
-      "anchor": "2026-10-23T13:21:46.000Z",
-      "startLabel": "6:06 AM MDT",
-      "endLabel": "8:36 AM MDT",
-      "anchorLabel": "7:21 AM MDT",
-      "arrival": "2026-10-23T11:36:46.000Z",
-      "arrivalLabel": "5:36 AM MDT",
-      "rutSeasonScore": 72,
-      "score": 80,
-      "label": "Good",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 47,
-          "windMph": 6,
-          "precipChance": 10,
-          "summary": "Mostly Cloudy",
-          "hazard": null
-        },
-        "west": {
-          "score": 95,
-          "temperature": 37,
-          "windMph": 5,
-          "precipChance": 16,
-          "summary": "Slight Chance Rain Showers",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-23-dusk",
       "date": "Fri, Oct 23",
@@ -265,6 +228,43 @@
           "hazard": null
         }
       }
+    },
+    {
+      "key": "2026-10-26-dawn",
+      "date": "Mon, Oct 26",
+      "ymd": "2026-10-26",
+      "period": "Dawn",
+      "start": "2026-10-26T12:10:08.000Z",
+      "end": "2026-10-26T14:40:08.000Z",
+      "anchor": "2026-10-26T13:25:08.000Z",
+      "startLabel": "6:10 AM MDT",
+      "endLabel": "8:40 AM MDT",
+      "anchorLabel": "7:25 AM MDT",
+      "arrival": "2026-10-26T11:40:08.000Z",
+      "arrivalLabel": "5:40 AM MDT",
+      "rutSeasonScore": 66,
+      "score": 72,
+      "label": "Good",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 88,
+          "temperature": 38,
+          "windMph": 2,
+          "precipChance": 40,
+          "summary": "Chance Rain And Snow Showers",
+          "hazard": null
+        },
+        "west": {
+          "score": 86,
+          "temperature": 27,
+          "windMph": 3,
+          "precipChance": 42,
+          "summary": "Chance Rain And Snow Showers",
+          "hazard": null
+        }
+      }
     }
   ],
   "spots": [
@@ -335,7 +335,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 79,
+      "score": 81,
       "scoreLabel": "Good",
       "access": {
         "status": "Outside timed-entry hours",
@@ -354,7 +354,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 79,
+      "score": 81,
       "scoreLabel": "Good",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 79,
+      "score": 81,
       "scoreLabel": "Good",
       "access": {
         "status": "Outside timed-entry hours",
