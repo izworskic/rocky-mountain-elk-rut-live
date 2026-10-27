@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T18:42:57.181Z",
+  "generatedAt": "2026-10-27T22:39:34.608Z",
   "localDate": "2026-10-27",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -27,7 +27,7 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 47,
+        "temperature": 45,
         "windMph": 6,
         "precipChance": 0,
         "summary": "Mostly Sunny",
@@ -35,7 +35,7 @@
       },
       "west": {
         "score": 100,
-        "temperature": 44,
+        "temperature": 43,
         "windMph": 7,
         "precipChance": 0,
         "summary": "Sunny",
@@ -65,7 +65,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 47,
+          "temperature": 45,
           "windMph": 6,
           "precipChance": 0,
           "summary": "Mostly Sunny",
@@ -73,7 +73,7 @@
         },
         "west": {
           "score": 100,
-          "temperature": 44,
+          "temperature": 43,
           "windMph": 7,
           "precipChance": 0,
           "summary": "Sunny",
@@ -102,7 +102,7 @@
       "weather": {
         "east": {
           "score": 97,
-          "temperature": 38,
+          "temperature": 37,
           "windMph": 12,
           "precipChance": 6,
           "summary": "Mostly Sunny",
@@ -110,7 +110,7 @@
         },
         "west": {
           "score": 94,
-          "temperature": 27,
+          "temperature": 28,
           "windMph": 8,
           "precipChance": 4,
           "summary": "Sunny",
@@ -147,8 +147,8 @@
         },
         "west": {
           "score": 100,
-          "temperature": 43,
-          "windMph": 6,
+          "temperature": 44,
+          "windMph": 5,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
@@ -176,15 +176,15 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 39,
-          "windMph": 2,
+          "temperature": 37,
+          "windMph": 3,
           "precipChance": 0,
           "summary": "Mostly Sunny",
           "hazard": null
         },
         "west": {
           "score": 98,
-          "temperature": 27,
+          "temperature": 26,
           "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
@@ -213,7 +213,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 52,
+          "temperature": 50,
           "windMph": 1,
           "precipChance": 0,
           "summary": "Mostly Sunny",
@@ -221,10 +221,10 @@
         },
         "west": {
           "score": 100,
-          "temperature": 47,
+          "temperature": 45,
           "windMph": 2,
           "precipChance": 0,
-          "summary": "Mostly Sunny",
+          "summary": "Partly Sunny",
           "hazard": null
         }
       }
@@ -250,17 +250,17 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 42,
-          "windMph": 3,
-          "precipChance": 1,
-          "summary": "Mostly Cloudy",
+          "temperature": 43,
+          "windMph": 2,
+          "precipChance": 0,
+          "summary": "Partly Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 30,
+          "temperature": 33,
           "windMph": 1,
-          "precipChance": 1,
+          "precipChance": 0,
           "summary": "Partly Sunny",
           "hazard": null
         }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-10-27T12:35:45+00:00"
+      "updated": "2026-10-27T18:46:20+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-10-27T12:35:45+00:00"
+      "updated": "2026-10-27T18:46:20+00:00"
     }
   ],
   "schemaVersion": 1
