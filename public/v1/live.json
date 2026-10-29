@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T06:20:02.788Z",
+  "generatedAt": "2026-10-29T13:35:43.680Z",
   "localDate": "2026-10-29",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -27,7 +27,7 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 36,
+        "temperature": 37,
         "windMph": 4,
         "precipChance": 0,
         "summary": "Mostly Sunny",
@@ -35,7 +35,7 @@
       },
       "west": {
         "score": 98,
-        "temperature": 26,
+        "temperature": 27,
         "windMph": 2,
         "precipChance": 0,
         "summary": "Sunny",
@@ -65,7 +65,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 36,
+          "temperature": 37,
           "windMph": 4,
           "precipChance": 0,
           "summary": "Mostly Sunny",
@@ -73,7 +73,7 @@
         },
         "west": {
           "score": 98,
-          "temperature": 26,
+          "temperature": 27,
           "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
@@ -102,7 +102,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 46,
+          "temperature": 49,
           "windMph": 2,
           "precipChance": 0,
           "summary": "Mostly Sunny",
@@ -110,8 +110,8 @@
         },
         "west": {
           "score": 100,
-          "temperature": 42,
-          "windMph": 3,
+          "temperature": 44,
+          "windMph": 2,
           "precipChance": 0,
           "summary": "Mostly Sunny",
           "hazard": null
@@ -142,7 +142,7 @@
           "temperature": 41,
           "windMph": 3,
           "precipChance": 0,
-          "summary": "Partly Sunny",
+          "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
@@ -176,18 +176,18 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 48,
-          "windMph": 1,
+          "temperature": 51,
+          "windMph": 2,
           "precipChance": 1,
-          "summary": "Partly Sunny",
+          "summary": "Mostly Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 43,
+          "temperature": 49,
           "windMph": 2,
-          "precipChance": 2,
-          "summary": "Partly Sunny",
+          "precipChance": 1,
+          "summary": "Mostly Sunny",
           "hazard": null
         }
       }
@@ -215,15 +215,15 @@
           "score": 100,
           "temperature": 42,
           "windMph": 2,
-          "precipChance": 3,
+          "precipChance": 7,
           "summary": "Partly Sunny",
           "hazard": null
         },
         "west": {
-          "score": 100,
+          "score": 95,
           "temperature": 31,
-          "windMph": 1,
-          "precipChance": 4,
+          "windMph": 0,
+          "precipChance": 11,
           "summary": "Partly Sunny",
           "hazard": null
         }
@@ -251,17 +251,17 @@
         "east": {
           "score": 100,
           "temperature": 51,
-          "windMph": 2,
-          "precipChance": 5,
-          "summary": "Partly Sunny",
+          "windMph": 1,
+          "precipChance": 4,
+          "summary": "Mostly Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 45,
-          "windMph": 2,
+          "temperature": 46,
+          "windMph": 3,
           "precipChance": 5,
-          "summary": "Partly Sunny",
+          "summary": "Slight Chance Rain Showers",
           "hazard": null
         }
       }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-10-28T18:46:29+00:00"
+      "updated": "2026-10-29T06:46:24+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-10-28T18:46:29+00:00"
+      "updated": "2026-10-29T06:46:24+00:00"
     }
   ],
   "schemaVersion": 1
