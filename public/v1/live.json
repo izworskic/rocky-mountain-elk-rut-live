@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T13:35:43.680Z",
+  "generatedAt": "2026-10-29T19:16:18.403Z",
   "localDate": "2026-10-29",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-29-dawn",
+    "key": "2026-10-29-dusk",
     "date": "Thu, Oct 29",
     "ymd": "2026-10-29",
-    "period": "Dawn",
-    "start": "2026-10-29T12:13:32.000Z",
-    "end": "2026-10-29T14:43:32.000Z",
-    "anchor": "2026-10-29T13:28:32.000Z",
-    "startLabel": "6:13 AM MDT",
-    "endLabel": "8:43 AM MDT",
-    "anchorLabel": "7:28 AM MDT",
-    "arrival": "2026-10-29T11:43:32.000Z",
-    "arrivalLabel": "5:43 AM MDT",
+    "period": "Dusk",
+    "start": "2026-10-29T22:48:14.000Z",
+    "end": "2026-10-30T01:33:14.000Z",
+    "anchor": "2026-10-30T00:03:14.000Z",
+    "startLabel": "4:48 PM MDT",
+    "endLabel": "7:33 PM MDT",
+    "anchorLabel": "6:03 PM MDT",
+    "arrival": "2026-10-29T22:18:14.000Z",
+    "arrivalLabel": "4:18 PM MDT",
     "rutSeasonScore": 60,
     "score": 71,
     "label": "Fair",
@@ -27,60 +27,23 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 37,
-        "windMph": 4,
+        "temperature": 48,
+        "windMph": 3,
         "precipChance": 0,
         "summary": "Mostly Sunny",
         "hazard": null
       },
       "west": {
-        "score": 98,
-        "temperature": 27,
-        "windMph": 2,
+        "score": 100,
+        "temperature": 44,
+        "windMph": 3,
         "precipChance": 0,
-        "summary": "Sunny",
+        "summary": "Mostly Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-29-dawn",
-      "date": "Thu, Oct 29",
-      "ymd": "2026-10-29",
-      "period": "Dawn",
-      "start": "2026-10-29T12:13:32.000Z",
-      "end": "2026-10-29T14:43:32.000Z",
-      "anchor": "2026-10-29T13:28:32.000Z",
-      "startLabel": "6:13 AM MDT",
-      "endLabel": "8:43 AM MDT",
-      "anchorLabel": "7:28 AM MDT",
-      "arrival": "2026-10-29T11:43:32.000Z",
-      "arrivalLabel": "5:43 AM MDT",
-      "rutSeasonScore": 60,
-      "score": 71,
-      "label": "Fair",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 37,
-          "windMph": 4,
-          "precipChance": 0,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        },
-        "west": {
-          "score": 98,
-          "temperature": 27,
-          "windMph": 2,
-          "precipChance": 0,
-          "summary": "Sunny",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-29-dusk",
       "date": "Thu, Oct 29",
@@ -102,8 +65,8 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 49,
-          "windMph": 2,
+          "temperature": 48,
+          "windMph": 3,
           "precipChance": 0,
           "summary": "Mostly Sunny",
           "hazard": null
@@ -111,7 +74,7 @@
         "west": {
           "score": 100,
           "temperature": 44,
-          "windMph": 2,
+          "windMph": 3,
           "precipChance": 0,
           "summary": "Mostly Sunny",
           "hazard": null
@@ -135,22 +98,22 @@
       "score": 70,
       "label": "Fair",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 100,
           "temperature": 41,
-          "windMph": 3,
+          "windMph": 5,
           "precipChance": 0,
-          "summary": "Mostly Cloudy",
+          "summary": "Partly Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 30,
-          "windMph": 2,
+          "temperature": 32,
+          "windMph": 3,
           "precipChance": 0,
-          "summary": "Partly Sunny",
+          "summary": "Mostly Sunny",
           "hazard": null
         }
       }
@@ -176,18 +139,18 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 51,
-          "windMph": 2,
-          "precipChance": 1,
-          "summary": "Mostly Sunny",
+          "temperature": 50,
+          "windMph": 3,
+          "precipChance": 7,
+          "summary": "Partly Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 49,
-          "windMph": 2,
-          "precipChance": 1,
-          "summary": "Mostly Sunny",
+          "temperature": 47,
+          "windMph": 4,
+          "precipChance": 8,
+          "summary": "Partly Sunny",
           "hazard": null
         }
       }
@@ -209,21 +172,21 @@
       "score": 68,
       "label": "Fair",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 42,
+          "temperature": 44,
           "windMph": 2,
-          "precipChance": 7,
+          "precipChance": 5,
           "summary": "Partly Sunny",
           "hazard": null
         },
         "west": {
           "score": 95,
-          "temperature": 31,
-          "windMph": 0,
-          "precipChance": 11,
+          "temperature": 30,
+          "windMph": 2,
+          "precipChance": 13,
           "summary": "Partly Sunny",
           "hazard": null
         }
@@ -250,18 +213,55 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 51,
-          "windMph": 1,
-          "precipChance": 4,
-          "summary": "Mostly Sunny",
+          "temperature": 50,
+          "windMph": 2,
+          "precipChance": 6,
+          "summary": "Partly Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 46,
+          "temperature": 44,
           "windMph": 3,
-          "precipChance": 5,
+          "precipChance": 7,
           "summary": "Slight Chance Rain Showers",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-11-01-dawn",
+      "date": "Sun, Nov 1",
+      "ymd": "2026-11-01",
+      "period": "Dawn",
+      "start": "2026-11-01T12:16:58.000Z",
+      "end": "2026-11-01T14:46:58.000Z",
+      "anchor": "2026-11-01T13:31:58.000Z",
+      "startLabel": "5:16 AM MST",
+      "endLabel": "7:46 AM MST",
+      "anchorLabel": "6:31 AM MST",
+      "arrival": "2026-11-01T11:46:58.000Z",
+      "arrivalLabel": "4:46 AM MST",
+      "rutSeasonScore": 42,
+      "score": 57,
+      "label": "Off peak",
+      "bestZone": "east",
+      "confidence": "Medium",
+      "weather": {
+        "east": {
+          "score": 95,
+          "temperature": 43,
+          "windMph": 0,
+          "precipChance": 11,
+          "summary": "Mostly Cloudy",
+          "hazard": null
+        },
+        "west": {
+          "score": 95,
+          "temperature": 32,
+          "windMph": 1,
+          "precipChance": 12,
+          "summary": "Mostly Cloudy",
           "hazard": null
         }
       }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-10-29T06:46:24+00:00"
+      "updated": "2026-10-29T18:46:56+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-10-29T06:46:24+00:00"
+      "updated": "2026-10-29T18:46:56+00:00"
     }
   ],
   "schemaVersion": 1
