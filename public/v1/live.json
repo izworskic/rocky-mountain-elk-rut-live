@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T09:54:22.971Z",
+  "generatedAt": "2026-10-30T16:38:47.212Z",
   "localDate": "2026-10-30",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-10-30-dawn",
+    "key": "2026-10-30-dusk",
     "date": "Fri, Oct 30",
     "ymd": "2026-10-30",
-    "period": "Dawn",
-    "start": "2026-10-30T12:14:40.000Z",
-    "end": "2026-10-30T14:44:40.000Z",
-    "anchor": "2026-10-30T13:29:40.000Z",
-    "startLabel": "6:14 AM MDT",
-    "endLabel": "8:44 AM MDT",
-    "anchorLabel": "7:29 AM MDT",
-    "arrival": "2026-10-30T11:44:40.000Z",
-    "arrivalLabel": "5:44 AM MDT",
+    "period": "Dusk",
+    "start": "2026-10-30T22:46:59.000Z",
+    "end": "2026-10-31T01:31:59.000Z",
+    "anchor": "2026-10-31T00:01:59.000Z",
+    "startLabel": "4:46 PM MDT",
+    "endLabel": "7:31 PM MDT",
+    "anchorLabel": "6:01 PM MDT",
+    "arrival": "2026-10-30T22:16:59.000Z",
+    "arrivalLabel": "4:16 PM MDT",
     "rutSeasonScore": 58,
     "score": 70,
     "label": "Fair",
@@ -27,60 +27,23 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 42,
-        "windMph": 3,
-        "precipChance": 0,
+        "temperature": 50,
+        "windMph": 1,
+        "precipChance": 7,
         "summary": "Partly Sunny",
         "hazard": null
       },
       "west": {
         "score": 100,
-        "temperature": 31,
-        "windMph": 1,
-        "precipChance": 0,
+        "temperature": 46,
+        "windMph": 3,
+        "precipChance": 9,
         "summary": "Mostly Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-10-30-dawn",
-      "date": "Fri, Oct 30",
-      "ymd": "2026-10-30",
-      "period": "Dawn",
-      "start": "2026-10-30T12:14:40.000Z",
-      "end": "2026-10-30T14:44:40.000Z",
-      "anchor": "2026-10-30T13:29:40.000Z",
-      "startLabel": "6:14 AM MDT",
-      "endLabel": "8:44 AM MDT",
-      "anchorLabel": "7:29 AM MDT",
-      "arrival": "2026-10-30T11:44:40.000Z",
-      "arrivalLabel": "5:44 AM MDT",
-      "rutSeasonScore": 58,
-      "score": 70,
-      "label": "Fair",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 42,
-          "windMph": 3,
-          "precipChance": 0,
-          "summary": "Partly Sunny",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 31,
-          "windMph": 1,
-          "precipChance": 0,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-10-30-dusk",
       "date": "Fri, Oct 30",
@@ -262,6 +225,43 @@
           "windMph": 4,
           "precipChance": 51,
           "summary": "Slight Chance Rain Showers",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-11-02-dawn",
+      "date": "Mon, Nov 2",
+      "ymd": "2026-11-02",
+      "period": "Dawn",
+      "start": "2026-11-02T12:18:07.000Z",
+      "end": "2026-11-02T14:48:07.000Z",
+      "anchor": "2026-11-02T13:33:07.000Z",
+      "startLabel": "5:18 AM MST",
+      "endLabel": "7:48 AM MST",
+      "anchorLabel": "6:33 AM MST",
+      "arrival": "2026-11-02T11:48:07.000Z",
+      "arrivalLabel": "4:48 AM MST",
+      "rutSeasonScore": 40,
+      "score": 50,
+      "label": "Off peak",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 74,
+          "temperature": 40,
+          "windMph": 7,
+          "precipChance": 81,
+          "summary": "Rain And Snow Showers",
+          "hazard": null
+        },
+        "west": {
+          "score": 74,
+          "temperature": 30,
+          "windMph": 8,
+          "precipChance": 96,
+          "summary": "Rain And Snow Showers",
           "hazard": null
         }
       }
