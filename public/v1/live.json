@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T06:52:51.421Z",
+  "generatedAt": "2026-10-31T13:31:33.151Z",
   "localDate": "2026-10-31",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -27,9 +27,9 @@
     "weather": {
       "east": {
         "score": 95,
-        "temperature": 41,
+        "temperature": 40,
         "windMph": 5,
-        "precipChance": 26,
+        "precipChance": 25,
         "summary": "Chance Rain And Snow Showers",
         "hazard": null
       },
@@ -38,7 +38,7 @@
         "temperature": 31,
         "windMph": 2,
         "precipChance": 43,
-        "summary": "Chance Rain And Snow Showers",
+        "summary": "Chance Snow Showers",
         "hazard": null
       }
     }
@@ -65,9 +65,9 @@
       "weather": {
         "east": {
           "score": 95,
-          "temperature": 41,
+          "temperature": 40,
           "windMph": 5,
-          "precipChance": 26,
+          "precipChance": 25,
           "summary": "Chance Rain And Snow Showers",
           "hazard": null
         },
@@ -76,7 +76,7 @@
           "temperature": 31,
           "windMph": 2,
           "precipChance": 43,
-          "summary": "Chance Rain And Snow Showers",
+          "summary": "Chance Snow Showers",
           "hazard": null
         }
       }
