@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T22:41:17.440Z",
+  "generatedAt": "2026-11-02T01:53:29.593Z",
   "localDate": "2026-11-01",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,80 +7,43 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-11-01-dusk",
-    "date": "Sun, Nov 1",
-    "ymd": "2026-11-01",
-    "period": "Dusk",
-    "start": "2026-11-01T22:44:33.000Z",
-    "end": "2026-11-02T01:29:33.000Z",
-    "anchor": "2026-11-01T23:59:33.000Z",
-    "startLabel": "3:44 PM MST",
-    "endLabel": "6:29 PM MST",
-    "anchorLabel": "4:59 PM MST",
-    "arrival": "2026-11-01T22:14:33.000Z",
-    "arrivalLabel": "3:14 PM MST",
-    "rutSeasonScore": 42,
-    "score": 53,
+    "key": "2026-11-02-dawn",
+    "date": "Mon, Nov 2",
+    "ymd": "2026-11-02",
+    "period": "Dawn",
+    "start": "2026-11-02T12:18:07.000Z",
+    "end": "2026-11-02T14:48:07.000Z",
+    "anchor": "2026-11-02T13:33:07.000Z",
+    "startLabel": "5:18 AM MST",
+    "endLabel": "7:48 AM MST",
+    "anchorLabel": "6:33 AM MST",
+    "arrival": "2026-11-02T11:48:07.000Z",
+    "arrivalLabel": "4:48 AM MST",
+    "rutSeasonScore": 40,
+    "score": 51,
     "label": "Off peak",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
         "score": 81,
-        "temperature": 50,
-        "windMph": 2,
-        "precipChance": 62,
-        "summary": "Chance Light Rain",
+        "temperature": 38,
+        "windMph": 7,
+        "precipChance": 64,
+        "summary": "Light Rain Likely",
         "hazard": null
       },
       "west": {
         "score": 74,
-        "temperature": 48,
-        "windMph": 4,
-        "precipChance": 73,
-        "summary": "Chance Light Rain",
+        "temperature": 35,
+        "windMph": 8,
+        "precipChance": 75,
+        "summary": "Rain And Snow Likely",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-11-01-dusk",
-      "date": "Sun, Nov 1",
-      "ymd": "2026-11-01",
-      "period": "Dusk",
-      "start": "2026-11-01T22:44:33.000Z",
-      "end": "2026-11-02T01:29:33.000Z",
-      "anchor": "2026-11-01T23:59:33.000Z",
-      "startLabel": "3:44 PM MST",
-      "endLabel": "6:29 PM MST",
-      "anchorLabel": "4:59 PM MST",
-      "arrival": "2026-11-01T22:14:33.000Z",
-      "arrivalLabel": "3:14 PM MST",
-      "rutSeasonScore": 42,
-      "score": 53,
-      "label": "Off peak",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 81,
-          "temperature": 50,
-          "windMph": 2,
-          "precipChance": 62,
-          "summary": "Chance Light Rain",
-          "hazard": null
-        },
-        "west": {
-          "score": 74,
-          "temperature": 48,
-          "windMph": 4,
-          "precipChance": 73,
-          "summary": "Chance Light Rain",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-11-02-dawn",
       "date": "Mon, Nov 2",
@@ -265,6 +228,43 @@
           "hazard": null
         }
       }
+    },
+    {
+      "key": "2026-11-04-dusk",
+      "date": "Wed, Nov 4",
+      "ymd": "2026-11-04",
+      "period": "Dusk",
+      "start": "2026-11-04T22:41:04.000Z",
+      "end": "2026-11-05T01:26:04.000Z",
+      "anchor": "2026-11-04T23:56:04.000Z",
+      "startLabel": "3:41 PM MST",
+      "endLabel": "6:26 PM MST",
+      "anchorLabel": "4:56 PM MST",
+      "arrival": "2026-11-04T22:11:04.000Z",
+      "arrivalLabel": "3:11 PM MST",
+      "rutSeasonScore": 35,
+      "score": 50,
+      "label": "Off peak",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 88,
+          "temperature": 44,
+          "windMph": 3,
+          "precipChance": 41,
+          "summary": "Chance Rain And Snow Showers",
+          "hazard": null
+        },
+        "west": {
+          "score": 88,
+          "temperature": 42,
+          "windMph": 4,
+          "precipChance": 50,
+          "summary": "Chance Snow Showers",
+          "hazard": null
+        }
+      }
     }
   ],
   "spots": [
@@ -278,7 +278,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 57,
+      "score": 55,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -297,7 +297,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 56,
+      "score": 55,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -316,7 +316,7 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 56,
+      "score": 54,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -354,7 +354,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 54,
+      "score": 53,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 57,
+      "score": 55,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 56,
+      "score": 55,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
