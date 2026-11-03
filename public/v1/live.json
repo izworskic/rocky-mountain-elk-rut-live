@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T19:42:45.013Z",
+  "generatedAt": "2026-11-03T01:51:26.796Z",
   "localDate": "2026-11-02",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,80 +7,43 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-11-02-dusk",
-    "date": "Mon, Nov 2",
-    "ymd": "2026-11-02",
-    "period": "Dusk",
-    "start": "2026-11-02T22:43:22.000Z",
-    "end": "2026-11-03T01:28:22.000Z",
-    "anchor": "2026-11-02T23:58:22.000Z",
-    "startLabel": "3:43 PM MST",
-    "endLabel": "6:28 PM MST",
-    "anchorLabel": "4:58 PM MST",
-    "arrival": "2026-11-02T22:13:22.000Z",
-    "arrivalLabel": "3:13 PM MST",
-    "rutSeasonScore": 40,
-    "score": 50,
+    "key": "2026-11-03-dawn",
+    "date": "Tue, Nov 3",
+    "ymd": "2026-11-03",
+    "period": "Dawn",
+    "start": "2026-11-03T12:19:16.000Z",
+    "end": "2026-11-03T14:49:16.000Z",
+    "anchor": "2026-11-03T13:34:16.000Z",
+    "startLabel": "5:19 AM MST",
+    "endLabel": "7:49 AM MST",
+    "anchorLabel": "6:34 AM MST",
+    "arrival": "2026-11-03T11:49:16.000Z",
+    "arrivalLabel": "4:49 AM MST",
+    "rutSeasonScore": 37,
+    "score": 54,
     "label": "Off peak",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 77,
-        "temperature": 43,
-        "windMph": 12,
-        "precipChance": 56,
-        "summary": "Rain And Snow Showers Likely",
+        "score": 97,
+        "temperature": 33,
+        "windMph": 9,
+        "precipChance": 6,
+        "summary": "Mostly Cloudy",
         "hazard": null
       },
       "west": {
-        "score": 77,
-        "temperature": 38,
-        "windMph": 12,
-        "precipChance": 69,
-        "summary": "Snow Showers",
+        "score": 93,
+        "temperature": 25,
+        "windMph": 5,
+        "precipChance": 12,
+        "summary": "Mostly Cloudy",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-11-02-dusk",
-      "date": "Mon, Nov 2",
-      "ymd": "2026-11-02",
-      "period": "Dusk",
-      "start": "2026-11-02T22:43:22.000Z",
-      "end": "2026-11-03T01:28:22.000Z",
-      "anchor": "2026-11-02T23:58:22.000Z",
-      "startLabel": "3:43 PM MST",
-      "endLabel": "6:28 PM MST",
-      "anchorLabel": "4:58 PM MST",
-      "arrival": "2026-11-02T22:13:22.000Z",
-      "arrivalLabel": "3:13 PM MST",
-      "rutSeasonScore": 40,
-      "score": 50,
-      "label": "Off peak",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 77,
-          "temperature": 43,
-          "windMph": 12,
-          "precipChance": 56,
-          "summary": "Rain And Snow Showers Likely",
-          "hazard": null
-        },
-        "west": {
-          "score": 77,
-          "temperature": 38,
-          "windMph": 12,
-          "precipChance": 69,
-          "summary": "Snow Showers",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-11-03-dawn",
       "date": "Tue, Nov 3",
@@ -265,6 +228,43 @@
           "hazard": null
         }
       }
+    },
+    {
+      "key": "2026-11-05-dusk",
+      "date": "Thu, Nov 5",
+      "ymd": "2026-11-05",
+      "period": "Dusk",
+      "start": "2026-11-05T22:39:58.000Z",
+      "end": "2026-11-06T01:24:58.000Z",
+      "anchor": "2026-11-05T23:54:58.000Z",
+      "startLabel": "3:39 PM MST",
+      "endLabel": "6:24 PM MST",
+      "anchorLabel": "4:54 PM MST",
+      "arrival": "2026-11-05T22:09:58.000Z",
+      "arrivalLabel": "3:09 PM MST",
+      "rutSeasonScore": 32,
+      "score": 51,
+      "label": "Off peak",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 100,
+          "temperature": 45,
+          "windMph": 1,
+          "precipChance": 1,
+          "summary": "Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 100,
+          "temperature": 39,
+          "windMph": 1,
+          "precipChance": 1,
+          "summary": "Sunny",
+          "hazard": null
+        }
+      }
     }
   ],
   "spots": [
@@ -278,8 +278,8 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 54,
-      "scoreLabel": "Off peak",
+      "score": 58,
+      "scoreLabel": "Fair",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
@@ -297,26 +297,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 54,
-      "scoreLabel": "Off peak",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "The standard 2026 timed-entry season is not active on this date."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "harbison-meadow",
-      "name": "Harbison Meadow",
-      "zone": "west",
-      "corridor": "rest",
-      "rank": 94,
-      "place": "Kawuneeche Valley / west side",
-      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
-      "lat": 40.271,
-      "lon": -105.837,
-      "score": 54,
+      "score": 57,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -335,7 +316,26 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 53,
+      "score": 57,
+      "scoreLabel": "Off peak",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "The standard 2026 timed-entry season is not active on this date."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "harbison-meadow",
+      "name": "Harbison Meadow",
+      "zone": "west",
+      "corridor": "rest",
+      "rank": 94,
+      "place": "Kawuneeche Valley / west side",
+      "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
+      "lat": 40.271,
+      "lon": -105.837,
+      "score": 56,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -354,7 +354,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 53,
+      "score": 56,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,8 +375,8 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 54,
-      "scoreLabel": "Off peak",
+      "score": 58,
+      "scoreLabel": "Fair",
       "access": {
         "status": "Outside timed-entry hours",
         "tone": "open",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 54,
+      "score": 57,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 54,
+      "score": 56,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
