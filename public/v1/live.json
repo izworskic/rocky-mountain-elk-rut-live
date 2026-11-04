@@ -1,86 +1,49 @@
 {
-  "generatedAt": "2026-11-04T02:39:36.754Z",
-  "localDate": "2026-11-03",
+  "generatedAt": "2026-11-04T17:55:17.345Z",
+  "localDate": "2026-11-04",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
   "mode": "live",
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-11-04-dawn",
+    "key": "2026-11-04-dusk",
     "date": "Wed, Nov 4",
     "ymd": "2026-11-04",
-    "period": "Dawn",
-    "start": "2026-11-04T12:20:26.000Z",
-    "end": "2026-11-04T14:50:26.000Z",
-    "anchor": "2026-11-04T13:35:26.000Z",
-    "startLabel": "5:20 AM MST",
-    "endLabel": "7:50 AM MST",
-    "anchorLabel": "6:35 AM MST",
-    "arrival": "2026-11-04T11:50:26.000Z",
-    "arrivalLabel": "4:50 AM MST",
+    "period": "Dusk",
+    "start": "2026-11-04T22:41:04.000Z",
+    "end": "2026-11-05T01:26:04.000Z",
+    "anchor": "2026-11-04T23:56:04.000Z",
+    "startLabel": "3:41 PM MST",
+    "endLabel": "6:26 PM MST",
+    "anchorLabel": "4:56 PM MST",
+    "arrival": "2026-11-04T22:11:04.000Z",
+    "arrivalLabel": "3:11 PM MST",
     "rutSeasonScore": 35,
-    "score": 53,
+    "score": 52,
     "label": "Off peak",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 100,
-        "temperature": 31,
-        "windMph": 1,
-        "precipChance": 0,
+        "score": 95,
+        "temperature": 44,
+        "windMph": 3,
+        "precipChance": 15,
         "summary": "Mostly Cloudy",
         "hazard": null
       },
       "west": {
-        "score": 98,
-        "temperature": 21,
-        "windMph": 1,
-        "precipChance": 0,
-        "summary": "Mostly Cloudy",
+        "score": 95,
+        "temperature": 41,
+        "windMph": 4,
+        "precipChance": 23,
+        "summary": "Slight Chance Rain And Snow Showers",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-11-04-dawn",
-      "date": "Wed, Nov 4",
-      "ymd": "2026-11-04",
-      "period": "Dawn",
-      "start": "2026-11-04T12:20:26.000Z",
-      "end": "2026-11-04T14:50:26.000Z",
-      "anchor": "2026-11-04T13:35:26.000Z",
-      "startLabel": "5:20 AM MST",
-      "endLabel": "7:50 AM MST",
-      "anchorLabel": "6:35 AM MST",
-      "arrival": "2026-11-04T11:50:26.000Z",
-      "arrivalLabel": "4:50 AM MST",
-      "rutSeasonScore": 35,
-      "score": 53,
-      "label": "Off peak",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 31,
-          "windMph": 1,
-          "precipChance": 0,
-          "summary": "Mostly Cloudy",
-          "hazard": null
-        },
-        "west": {
-          "score": 98,
-          "temperature": 21,
-          "windMph": 1,
-          "precipChance": 0,
-          "summary": "Mostly Cloudy",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-11-04-dusk",
       "date": "Wed, Nov 4",
@@ -98,22 +61,22 @@
       "score": 52,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 95,
-          "temperature": 43,
+          "temperature": 44,
           "windMph": 3,
-          "precipChance": 13,
-          "summary": "Slight Chance Rain And Snow Showers",
+          "precipChance": 15,
+          "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
           "score": 95,
-          "temperature": 40,
+          "temperature": 41,
           "windMph": 4,
-          "precipChance": 24,
-          "summary": "Chance Snow Showers",
+          "precipChance": 23,
+          "summary": "Slight Chance Rain And Snow Showers",
           "hazard": null
         }
       }
@@ -140,14 +103,14 @@
         "east": {
           "score": 100,
           "temperature": 31,
-          "windMph": 4,
+          "windMph": 3,
           "precipChance": 0,
           "summary": "Partly Cloudy",
           "hazard": null
         },
         "west": {
-          "score": 94,
-          "temperature": 19,
+          "score": 98,
+          "temperature": 22,
           "windMph": 0,
           "precipChance": 0,
           "summary": "Partly Cloudy",
@@ -172,12 +135,12 @@
       "score": 51,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 46,
-          "windMph": 1,
+          "temperature": 45,
+          "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
@@ -185,7 +148,7 @@
         "west": {
           "score": 100,
           "temperature": 41,
-          "windMph": 1,
+          "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
@@ -213,18 +176,18 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 35,
-          "windMph": 4,
-          "precipChance": 1,
+          "temperature": 36,
+          "windMph": 3,
+          "precipChance": 3,
           "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
           "score": 98,
-          "temperature": 24,
-          "windMph": 0,
-          "precipChance": 4,
-          "summary": "Partly Cloudy",
+          "temperature": 26,
+          "windMph": 1,
+          "precipChance": 3,
+          "summary": "Mostly Cloudy",
           "hazard": null
         }
       }
@@ -246,22 +209,59 @@
       "score": 48,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
           "score": 95,
           "temperature": 44,
-          "windMph": 2,
-          "precipChance": 18,
-          "summary": "Slight Chance Rain And Snow Showers",
+          "windMph": 1,
+          "precipChance": 24,
+          "summary": "Chance Rain And Snow Showers",
           "hazard": null
         },
         "west": {
           "score": 95,
-          "temperature": 38,
-          "windMph": 3,
-          "precipChance": 18,
+          "temperature": 40,
+          "windMph": 2,
+          "precipChance": 24,
           "summary": "Slight Chance Snow Showers",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-11-07-dawn",
+      "date": "Sat, Nov 7",
+      "ymd": "2026-11-07",
+      "period": "Dawn",
+      "start": "2026-11-07T12:23:55.000Z",
+      "end": "2026-11-07T14:53:55.000Z",
+      "anchor": "2026-11-07T13:38:55.000Z",
+      "startLabel": "5:23 AM MST",
+      "endLabel": "7:53 AM MST",
+      "anchorLabel": "6:38 AM MST",
+      "arrival": "2026-11-07T11:53:55.000Z",
+      "arrivalLabel": "4:53 AM MST",
+      "rutSeasonScore": 27,
+      "score": 47,
+      "label": "Off peak",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 100,
+          "temperature": 32,
+          "windMph": 7,
+          "precipChance": 0,
+          "summary": "Mostly Clear",
+          "hazard": null
+        },
+        "west": {
+          "score": 94,
+          "temperature": 20,
+          "windMph": 1,
+          "precipChance": 0,
+          "summary": "Partly Cloudy",
           "hazard": null
         }
       }
@@ -278,7 +278,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 57,
+      "score": 56,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -316,7 +316,7 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 56,
+      "score": 55,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -335,7 +335,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 56,
+      "score": 55,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -354,7 +354,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 56,
+      "score": 55,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 57,
+      "score": 56,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 56,
+      "score": 55,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-11-03T18:46:59+00:00"
+      "updated": "2026-11-04T06:46:38+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-11-03T18:46:59+00:00"
+      "updated": "2026-11-04T06:46:38+00:00"
     }
   ],
   "schemaVersion": 1
