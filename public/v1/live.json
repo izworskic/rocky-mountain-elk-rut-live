@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T15:51:20.673Z",
+  "generatedAt": "2026-11-06T21:25:50.813Z",
   "localDate": "2026-11-06",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -27,18 +27,18 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 46,
-        "windMph": 1,
-        "precipChance": 10,
-        "summary": "Mostly Cloudy",
+        "temperature": 44,
+        "windMph": 2,
+        "precipChance": 9,
+        "summary": "Partly Sunny",
         "hazard": null
       },
       "west": {
         "score": 95,
-        "temperature": 41,
-        "windMph": 3,
+        "temperature": 40,
+        "windMph": 4,
         "precipChance": 15,
-        "summary": "Mostly Cloudy",
+        "summary": "Partly Sunny",
         "hazard": null
       }
     }
@@ -65,18 +65,18 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 46,
-          "windMph": 1,
-          "precipChance": 10,
-          "summary": "Mostly Cloudy",
+          "temperature": 44,
+          "windMph": 2,
+          "precipChance": 9,
+          "summary": "Partly Sunny",
           "hazard": null
         },
         "west": {
           "score": 95,
-          "temperature": 41,
-          "windMph": 3,
+          "temperature": 40,
+          "windMph": 4,
           "precipChance": 15,
-          "summary": "Mostly Cloudy",
+          "summary": "Partly Sunny",
           "hazard": null
         }
       }
@@ -98,11 +98,11 @@
       "score": 47,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 31,
+          "temperature": 29,
           "windMph": 7,
           "precipChance": 0,
           "summary": "Clear",
@@ -113,7 +113,7 @@
           "temperature": 22,
           "windMph": 1,
           "precipChance": 0,
-          "summary": "Clear",
+          "summary": "Mostly Clear",
           "hazard": null
         }
       }
@@ -140,14 +140,14 @@
         "east": {
           "score": 100,
           "temperature": 47,
-          "windMph": 2,
+          "windMph": 3,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 41,
+          "temperature": 42,
           "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
@@ -172,7 +172,7 @@
       "score": 46,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 100,
@@ -184,7 +184,7 @@
         },
         "west": {
           "score": 98,
-          "temperature": 25,
+          "temperature": 26,
           "windMph": 1,
           "precipChance": 0,
           "summary": "Clear",
@@ -213,7 +213,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 51,
+          "temperature": 54,
           "windMph": 8,
           "precipChance": 0,
           "summary": "Sunny",
@@ -221,7 +221,7 @@
         },
         "west": {
           "score": 100,
-          "temperature": 45,
+          "temperature": 46,
           "windMph": 4,
           "precipChance": 0,
           "summary": "Sunny",
@@ -246,11 +246,11 @@
       "score": 44,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 39,
+          "temperature": 40,
           "windMph": 7,
           "precipChance": 0,
           "summary": "Mostly Clear",
@@ -259,9 +259,9 @@
         "west": {
           "score": 100,
           "temperature": 29,
-          "windMph": 1,
+          "windMph": 2,
           "precipChance": 0,
-          "summary": "Clear",
+          "summary": "Mostly Clear",
           "hazard": null
         }
       }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-11-06T06:46:42+00:00"
+      "updated": "2026-11-06T18:47:15+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-11-06T06:46:42+00:00"
+      "updated": "2026-11-06T18:47:15+00:00"
     }
   ],
   "schemaVersion": 1
