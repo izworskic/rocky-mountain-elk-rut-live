@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T15:48:58.433Z",
+  "generatedAt": "2026-11-10T21:44:51.693Z",
   "localDate": "2026-11-10",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -27,18 +27,18 @@
     "weather": {
       "east": {
         "score": 97,
-        "temperature": 49,
+        "temperature": 50,
         "windMph": 10,
         "precipChance": 0,
-        "summary": "Partly Sunny",
+        "summary": "Mostly Cloudy",
         "hazard": null
       },
       "west": {
-        "score": 97,
+        "score": 100,
         "temperature": 43,
-        "windMph": 9,
+        "windMph": 8,
         "precipChance": 0,
-        "summary": "Partly Sunny",
+        "summary": "Mostly Cloudy",
         "hazard": null
       }
     }
@@ -65,18 +65,18 @@
       "weather": {
         "east": {
           "score": 97,
-          "temperature": 49,
+          "temperature": 50,
           "windMph": 10,
           "precipChance": 0,
-          "summary": "Partly Sunny",
+          "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
-          "score": 97,
+          "score": 100,
           "temperature": 43,
-          "windMph": 9,
+          "windMph": 8,
           "precipChance": 0,
-          "summary": "Partly Sunny",
+          "summary": "Mostly Cloudy",
           "hazard": null
         }
       }
@@ -98,7 +98,7 @@
       "score": 37,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 97,
@@ -111,9 +111,9 @@
         "west": {
           "score": 98,
           "temperature": 23,
-          "windMph": 3,
+          "windMph": 2,
           "precipChance": 0,
-          "summary": "Clear",
+          "summary": "Mostly Clear",
           "hazard": null
         }
       }
@@ -140,7 +140,7 @@
         "east": {
           "score": 100,
           "temperature": 51,
-          "windMph": 5,
+          "windMph": 4,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
@@ -148,7 +148,7 @@
         "west": {
           "score": 100,
           "temperature": 43,
-          "windMph": 4,
+          "windMph": 3,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
@@ -172,19 +172,19 @@
       "score": 38,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 38,
-          "windMph": 7,
+          "temperature": 36,
+          "windMph": 6,
           "precipChance": 0,
-          "summary": "Mostly Clear",
+          "summary": "Clear",
           "hazard": null
         },
         "west": {
           "score": 98,
-          "temperature": 25,
+          "temperature": 24,
           "windMph": 1,
           "precipChance": 0,
           "summary": "Clear",
@@ -213,7 +213,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 53,
+          "temperature": 52,
           "windMph": 1,
           "precipChance": 0,
           "summary": "Sunny",
@@ -246,11 +246,11 @@
       "score": 38,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 40,
+          "temperature": 38,
           "windMph": 6,
           "precipChance": 0,
           "summary": "Partly Cloudy",
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-11-10T06:46:14+00:00"
+      "updated": "2026-11-10T18:45:48+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-11-10T06:46:14+00:00"
+      "updated": "2026-11-10T18:45:48+00:00"
     }
   ],
   "schemaVersion": 1
