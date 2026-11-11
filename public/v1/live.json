@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T16:30:23.661Z",
+  "generatedAt": "2026-11-11T23:06:20.622Z",
   "localDate": "2026-11-11",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -27,16 +27,16 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 50,
-        "windMph": 3,
+        "temperature": 48,
+        "windMph": 4,
         "precipChance": 0,
         "summary": "Sunny",
         "hazard": null
       },
       "west": {
         "score": 100,
-        "temperature": 44,
-        "windMph": 3,
+        "temperature": 41,
+        "windMph": 4,
         "precipChance": 0,
         "summary": "Sunny",
         "hazard": null
@@ -65,16 +65,16 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 50,
-          "windMph": 3,
+          "temperature": 48,
+          "windMph": 4,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 44,
-          "windMph": 3,
+          "temperature": 41,
+          "windMph": 4,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
@@ -98,7 +98,7 @@
       "score": 38,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 100,
@@ -110,8 +110,8 @@
         },
         "west": {
           "score": 98,
-          "temperature": 24,
-          "windMph": 1,
+          "temperature": 21,
+          "windMph": 2,
           "precipChance": 0,
           "summary": "Clear",
           "hazard": null
@@ -139,7 +139,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 51,
+          "temperature": 52,
           "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
@@ -147,8 +147,8 @@
         },
         "west": {
           "score": 100,
-          "temperature": 46,
-          "windMph": 1,
+          "temperature": 45,
+          "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
@@ -172,11 +172,11 @@
       "score": 38,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 38,
+          "temperature": 36,
           "windMph": 5,
           "precipChance": 0,
           "summary": "Partly Cloudy",
@@ -184,7 +184,7 @@
         },
         "west": {
           "score": 98,
-          "temperature": 27,
+          "temperature": 24,
           "windMph": 1,
           "precipChance": 0,
           "summary": "Partly Cloudy",
@@ -222,7 +222,7 @@
         "west": {
           "score": 100,
           "temperature": 46,
-          "windMph": 2,
+          "windMph": 1,
           "precipChance": 0,
           "summary": "Partly Sunny",
           "hazard": null
@@ -246,13 +246,13 @@
       "score": 38,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 34,
+          "temperature": 35,
           "windMph": 2,
-          "precipChance": 2,
+          "precipChance": 1,
           "summary": "Mostly Cloudy",
           "hazard": null
         },
@@ -261,7 +261,7 @@
           "temperature": 26,
           "windMph": 1,
           "precipChance": 2,
-          "summary": "Partly Cloudy",
+          "summary": "Mostly Cloudy",
           "hazard": null
         }
       }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-11-11T06:46:14+00:00"
+      "updated": "2026-11-11T18:46:24+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-11-11T06:46:14+00:00"
+      "updated": "2026-11-11T18:46:24+00:00"
     }
   ],
   "schemaVersion": 1
