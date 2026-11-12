@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-12T03:50:30.661Z",
-  "localDate": "2026-11-11",
+  "generatedAt": "2026-11-12T12:29:42.504Z",
+  "localDate": "2026-11-12",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
   "mode": "live",
@@ -35,7 +35,7 @@
       },
       "west": {
         "score": 98,
-        "temperature": 21,
+        "temperature": 22,
         "windMph": 2,
         "precipChance": 0,
         "summary": "Clear",
@@ -73,7 +73,7 @@
         },
         "west": {
           "score": 98,
-          "temperature": 21,
+          "temperature": 22,
           "windMph": 2,
           "precipChance": 0,
           "summary": "Clear",
@@ -98,19 +98,19 @@
       "score": 38,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 52,
-          "windMph": 2,
+          "temperature": 50,
+          "windMph": 3,
           "precipChance": 0,
           "summary": "Sunny",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 45,
+          "temperature": 44,
           "windMph": 2,
           "precipChance": 0,
           "summary": "Sunny",
@@ -140,14 +140,14 @@
         "east": {
           "score": 100,
           "temperature": 36,
-          "windMph": 5,
+          "windMph": 4,
           "precipChance": 0,
-          "summary": "Partly Cloudy",
+          "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
           "score": 98,
-          "temperature": 24,
+          "temperature": 25,
           "windMph": 1,
           "precipChance": 0,
           "summary": "Partly Cloudy",
@@ -172,22 +172,22 @@
       "score": 38,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 52,
-          "windMph": 1,
+          "temperature": 50,
+          "windMph": 2,
           "precipChance": 0,
-          "summary": "Partly Sunny",
+          "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
           "score": 100,
-          "temperature": 46,
-          "windMph": 1,
+          "temperature": 45,
+          "windMph": 2,
           "precipChance": 0,
-          "summary": "Partly Sunny",
+          "summary": "Mostly Cloudy",
           "hazard": null
         }
       }
@@ -213,17 +213,17 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 35,
-          "windMph": 2,
-          "precipChance": 1,
+          "temperature": 34,
+          "windMph": 3,
+          "precipChance": 3,
           "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
           "score": 98,
-          "temperature": 26,
+          "temperature": 25,
           "windMph": 1,
-          "precipChance": 2,
+          "precipChance": 4,
           "summary": "Mostly Cloudy",
           "hazard": null
         }
@@ -246,22 +246,22 @@
       "score": 37,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
           "score": 95,
-          "temperature": 46,
-          "windMph": 1,
-          "precipChance": 30,
-          "summary": "Mostly Cloudy",
+          "temperature": 48,
+          "windMph": 2,
+          "precipChance": 29,
+          "summary": "Slight Chance Rain Showers",
           "hazard": null
         },
         "west": {
           "score": 88,
           "temperature": 42,
-          "windMph": 3,
-          "precipChance": 42,
-          "summary": "Slight Chance Snow Showers",
+          "windMph": 2,
+          "precipChance": 40,
+          "summary": "Chance Rain And Snow Showers",
           "hazard": null
         }
       }
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-11-11T18:46:24+00:00"
+      "updated": "2026-11-12T06:46:18+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-11-11T18:46:24+00:00"
+      "updated": "2026-11-12T06:46:18+00:00"
     }
   ],
   "schemaVersion": 1
