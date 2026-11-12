@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T23:06:20.622Z",
+  "generatedAt": "2026-11-12T03:50:30.661Z",
   "localDate": "2026-11-11",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-11-11-dusk",
-    "date": "Wed, Nov 11",
-    "ymd": "2026-11-11",
-    "period": "Dusk",
-    "start": "2026-11-11T22:33:52.000Z",
-    "end": "2026-11-12T01:18:52.000Z",
-    "anchor": "2026-11-11T23:48:52.000Z",
-    "startLabel": "3:33 PM MST",
-    "endLabel": "6:18 PM MST",
-    "anchorLabel": "4:48 PM MST",
-    "arrival": "2026-11-11T22:03:52.000Z",
-    "arrivalLabel": "3:03 PM MST",
+    "key": "2026-11-12-dawn",
+    "date": "Thu, Nov 12",
+    "ymd": "2026-11-12",
+    "period": "Dawn",
+    "start": "2026-11-12T12:29:46.000Z",
+    "end": "2026-11-12T14:59:46.000Z",
+    "anchor": "2026-11-12T13:44:46.000Z",
+    "startLabel": "5:29 AM MST",
+    "endLabel": "7:59 AM MST",
+    "anchorLabel": "6:44 AM MST",
+    "arrival": "2026-11-12T11:59:46.000Z",
+    "arrivalLabel": "4:59 AM MST",
     "rutSeasonScore": 14,
     "score": 38,
     "label": "Off peak",
@@ -27,60 +27,23 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 48,
-        "windMph": 4,
+        "temperature": 35,
+        "windMph": 6,
         "precipChance": 0,
-        "summary": "Sunny",
+        "summary": "Clear",
         "hazard": null
       },
       "west": {
-        "score": 100,
-        "temperature": 41,
-        "windMph": 4,
+        "score": 98,
+        "temperature": 21,
+        "windMph": 2,
         "precipChance": 0,
-        "summary": "Sunny",
+        "summary": "Clear",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-11-11-dusk",
-      "date": "Wed, Nov 11",
-      "ymd": "2026-11-11",
-      "period": "Dusk",
-      "start": "2026-11-11T22:33:52.000Z",
-      "end": "2026-11-12T01:18:52.000Z",
-      "anchor": "2026-11-11T23:48:52.000Z",
-      "startLabel": "3:33 PM MST",
-      "endLabel": "6:18 PM MST",
-      "anchorLabel": "4:48 PM MST",
-      "arrival": "2026-11-11T22:03:52.000Z",
-      "arrivalLabel": "3:03 PM MST",
-      "rutSeasonScore": 14,
-      "score": 38,
-      "label": "Off peak",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 48,
-          "windMph": 4,
-          "precipChance": 0,
-          "summary": "Sunny",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 41,
-          "windMph": 4,
-          "precipChance": 0,
-          "summary": "Sunny",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-11-12-dawn",
       "date": "Thu, Nov 12",
@@ -262,6 +225,43 @@
           "windMph": 1,
           "precipChance": 2,
           "summary": "Mostly Cloudy",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-11-14-dusk",
+      "date": "Sat, Nov 14",
+      "ymd": "2026-11-14",
+      "period": "Dusk",
+      "start": "2026-11-14T22:31:12.000Z",
+      "end": "2026-11-15T01:16:12.000Z",
+      "anchor": "2026-11-14T23:46:12.000Z",
+      "startLabel": "3:31 PM MST",
+      "endLabel": "6:16 PM MST",
+      "anchorLabel": "4:46 PM MST",
+      "arrival": "2026-11-14T22:01:12.000Z",
+      "arrivalLabel": "3:01 PM MST",
+      "rutSeasonScore": 14,
+      "score": 37,
+      "label": "Off peak",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 95,
+          "temperature": 46,
+          "windMph": 1,
+          "precipChance": 30,
+          "summary": "Mostly Cloudy",
+          "hazard": null
+        },
+        "west": {
+          "score": 88,
+          "temperature": 42,
+          "windMph": 3,
+          "precipChance": 42,
+          "summary": "Slight Chance Snow Showers",
           "hazard": null
         }
       }
