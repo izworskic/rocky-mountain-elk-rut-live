@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T08:58:37.117Z",
+  "generatedAt": "2026-11-17T18:27:19.501Z",
   "localDate": "2026-11-17",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,18 +7,18 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-11-17-dawn",
+    "key": "2026-11-17-dusk",
     "date": "Tue, Nov 17",
     "ymd": "2026-11-17",
-    "period": "Dawn",
-    "start": "2026-11-17T12:35:34.000Z",
-    "end": "2026-11-17T15:05:34.000Z",
-    "anchor": "2026-11-17T13:50:34.000Z",
-    "startLabel": "5:35 AM MST",
-    "endLabel": "8:05 AM MST",
-    "anchorLabel": "6:50 AM MST",
-    "arrival": "2026-11-17T12:05:34.000Z",
-    "arrivalLabel": "5:05 AM MST",
+    "period": "Dusk",
+    "start": "2026-11-17T22:28:49.000Z",
+    "end": "2026-11-18T01:13:49.000Z",
+    "anchor": "2026-11-17T23:43:49.000Z",
+    "startLabel": "3:28 PM MST",
+    "endLabel": "6:13 PM MST",
+    "anchorLabel": "4:43 PM MST",
+    "arrival": "2026-11-17T21:58:49.000Z",
+    "arrivalLabel": "2:58 PM MST",
     "rutSeasonScore": 14,
     "score": 38,
     "label": "Off peak",
@@ -27,60 +27,23 @@
     "weather": {
       "east": {
         "score": 100,
-        "temperature": 36,
-        "windMph": 8,
-        "precipChance": 0,
-        "summary": "Partly Cloudy",
+        "temperature": 52,
+        "windMph": 5,
+        "precipChance": 4,
+        "summary": "Mostly Sunny",
         "hazard": null
       },
       "west": {
-        "score": 98,
-        "temperature": 25,
-        "windMph": 3,
-        "precipChance": 0,
-        "summary": "Mostly Cloudy",
+        "score": 100,
+        "temperature": 49,
+        "windMph": 7,
+        "precipChance": 10,
+        "summary": "Mostly Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-11-17-dawn",
-      "date": "Tue, Nov 17",
-      "ymd": "2026-11-17",
-      "period": "Dawn",
-      "start": "2026-11-17T12:35:34.000Z",
-      "end": "2026-11-17T15:05:34.000Z",
-      "anchor": "2026-11-17T13:50:34.000Z",
-      "startLabel": "5:35 AM MST",
-      "endLabel": "8:05 AM MST",
-      "anchorLabel": "6:50 AM MST",
-      "arrival": "2026-11-17T12:05:34.000Z",
-      "arrivalLabel": "5:05 AM MST",
-      "rutSeasonScore": 14,
-      "score": 38,
-      "label": "Off peak",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 100,
-          "temperature": 36,
-          "windMph": 8,
-          "precipChance": 0,
-          "summary": "Partly Cloudy",
-          "hazard": null
-        },
-        "west": {
-          "score": 98,
-          "temperature": 25,
-          "windMph": 3,
-          "precipChance": 0,
-          "summary": "Mostly Cloudy",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-11-17-dusk",
       "date": "Tue, Nov 17",
@@ -262,6 +225,43 @@
           "windMph": 3,
           "precipChance": 1,
           "summary": "Partly Sunny",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-11-20-dawn",
+      "date": "Fri, Nov 20",
+      "ymd": "2026-11-20",
+      "period": "Dawn",
+      "start": "2026-11-20T12:39:00.000Z",
+      "end": "2026-11-20T15:09:00.000Z",
+      "anchor": "2026-11-20T13:54:00.000Z",
+      "startLabel": "5:39 AM MST",
+      "endLabel": "8:09 AM MST",
+      "anchorLabel": "6:54 AM MST",
+      "arrival": "2026-11-20T12:09:00.000Z",
+      "arrivalLabel": "5:09 AM MST",
+      "rutSeasonScore": 14,
+      "score": 37,
+      "label": "Off peak",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 95,
+          "temperature": 28,
+          "windMph": 4,
+          "precipChance": 24,
+          "summary": "Slight Chance Snow Showers",
+          "hazard": null
+        },
+        "west": {
+          "score": 82,
+          "temperature": 20,
+          "windMph": 4,
+          "precipChance": 44,
+          "summary": "Chance Snow Showers",
           "hazard": null
         }
       }
