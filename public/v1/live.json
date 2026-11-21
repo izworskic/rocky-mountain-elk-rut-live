@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T16:43:13.673Z",
+  "generatedAt": "2026-11-21T21:55:53.229Z",
   "localDate": "2026-11-21",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -20,23 +20,23 @@
     "arrival": "2026-11-21T21:56:06.000Z",
     "arrivalLabel": "2:56 PM MST",
     "rutSeasonScore": 14,
-    "score": 38,
+    "score": 37,
     "label": "Off peak",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 100,
-        "temperature": 34,
-        "windMph": 8,
+        "score": 97,
+        "temperature": 33,
+        "windMph": 9,
         "precipChance": 2,
         "summary": "Sunny",
         "hazard": null
       },
       "west": {
         "score": 97,
-        "temperature": 30,
-        "windMph": 8,
+        "temperature": 29,
+        "windMph": 10,
         "precipChance": 3,
         "summary": "Mostly Sunny",
         "hazard": null
@@ -58,23 +58,23 @@
       "arrival": "2026-11-21T21:56:06.000Z",
       "arrivalLabel": "2:56 PM MST",
       "rutSeasonScore": 14,
-      "score": 38,
+      "score": 37,
       "label": "Off peak",
       "bestZone": "east",
       "confidence": "High",
       "weather": {
         "east": {
-          "score": 100,
-          "temperature": 34,
-          "windMph": 8,
+          "score": 97,
+          "temperature": 33,
+          "windMph": 9,
           "precipChance": 2,
           "summary": "Sunny",
           "hazard": null
         },
         "west": {
           "score": 97,
-          "temperature": 30,
-          "windMph": 8,
+          "temperature": 29,
+          "windMph": 10,
           "precipChance": 3,
           "summary": "Mostly Sunny",
           "hazard": null
@@ -98,7 +98,7 @@
       "score": 36,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 94,
@@ -139,7 +139,7 @@
       "weather": {
         "east": {
           "score": 100,
-          "temperature": 39,
+          "temperature": 40,
           "windMph": 3,
           "precipChance": 0,
           "summary": "Mostly Sunny",
@@ -147,7 +147,7 @@
         },
         "west": {
           "score": 100,
-          "temperature": 35,
+          "temperature": 36,
           "windMph": 4,
           "precipChance": 0,
           "summary": "Mostly Cloudy",
@@ -172,19 +172,19 @@
       "score": 38,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
           "score": 98,
-          "temperature": 22,
-          "windMph": 3,
+          "temperature": 23,
+          "windMph": 2,
           "precipChance": 0,
           "summary": "Mostly Cloudy",
           "hazard": null
         },
         "west": {
-          "score": 94,
-          "temperature": 13,
+          "score": 90,
+          "temperature": 11,
           "windMph": 1,
           "precipChance": 1,
           "summary": "Mostly Cloudy",
@@ -213,18 +213,18 @@
       "weather": {
         "east": {
           "score": 88,
-          "temperature": 36,
-          "windMph": 2,
+          "temperature": 40,
+          "windMph": 1,
           "precipChance": 38,
-          "summary": "Slight Chance Light Snow",
+          "summary": "Slight Chance Snow Showers",
           "hazard": null
         },
         "west": {
           "score": 88,
           "temperature": 33,
           "windMph": 3,
-          "precipChance": 47,
-          "summary": "Slight Chance Light Snow",
+          "precipChance": 45,
+          "summary": "Slight Chance Snow Showers",
           "hazard": null
         }
       }
@@ -246,21 +246,21 @@
       "score": 38,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Lower",
+      "confidence": "Medium",
       "weather": {
         "east": {
           "score": 98,
-          "temperature": 23,
+          "temperature": 20,
           "windMph": 7,
-          "precipChance": 2,
+          "precipChance": 4,
           "summary": "Partly Cloudy",
           "hazard": null
         },
         "west": {
-          "score": 94,
-          "temperature": 16,
-          "windMph": 3,
-          "precipChance": 3,
+          "score": 90,
+          "temperature": 11,
+          "windMph": 2,
+          "precipChance": 5,
           "summary": "Mostly Cloudy",
           "hazard": null
         }
@@ -278,7 +278,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 43,
+      "score": 42,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -297,25 +297,6 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 43,
-      "scoreLabel": "Off peak",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "The standard 2026 timed-entry season is not active on this date."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "upper-beaver-meadows",
-      "name": "Upper Beaver Meadows",
-      "zone": "east",
-      "corridor": "rest",
-      "rank": 90,
-      "place": "Beaver Meadows / east side",
-      "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
-      "lat": 40.365,
-      "lon": -105.577,
       "score": 42,
       "scoreLabel": "Off peak",
       "access": {
@@ -336,6 +317,25 @@
       "lat": 40.271,
       "lon": -105.837,
       "score": 42,
+      "scoreLabel": "Off peak",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "The standard 2026 timed-entry season is not active on this date."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "upper-beaver-meadows",
+      "name": "Upper Beaver Meadows",
+      "zone": "east",
+      "corridor": "rest",
+      "rank": 90,
+      "place": "Beaver Meadows / east side",
+      "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
+      "lat": 40.365,
+      "lon": -105.577,
+      "score": 41,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 43,
+      "score": 42,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 43,
+      "score": 42,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-11-21T14:25:42+00:00"
+      "updated": "2026-11-21T18:46:13+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-11-21T14:25:42+00:00"
+      "updated": "2026-11-21T18:46:13+00:00"
     }
   ],
   "schemaVersion": 1
