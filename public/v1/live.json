@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T20:26:55.892Z",
+  "generatedAt": "2026-11-21T01:41:40.000Z",
   "localDate": "2026-11-20",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
@@ -7,80 +7,43 @@
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-11-20-dusk",
-    "date": "Fri, Nov 20",
-    "ymd": "2026-11-20",
-    "period": "Dusk",
-    "start": "2026-11-20T22:26:44.000Z",
-    "end": "2026-11-21T01:11:44.000Z",
-    "anchor": "2026-11-20T23:41:44.000Z",
-    "startLabel": "3:26 PM MST",
-    "endLabel": "6:11 PM MST",
-    "anchorLabel": "4:41 PM MST",
-    "arrival": "2026-11-20T21:56:44.000Z",
-    "arrivalLabel": "2:56 PM MST",
+    "key": "2026-11-21-dawn",
+    "date": "Sat, Nov 21",
+    "ymd": "2026-11-21",
+    "period": "Dawn",
+    "start": "2026-11-21T12:40:09.000Z",
+    "end": "2026-11-21T15:10:09.000Z",
+    "anchor": "2026-11-21T13:55:09.000Z",
+    "startLabel": "5:40 AM MST",
+    "endLabel": "8:10 AM MST",
+    "anchorLabel": "6:55 AM MST",
+    "arrival": "2026-11-21T12:10:09.000Z",
+    "arrivalLabel": "5:10 AM MST",
     "rutSeasonScore": 14,
-    "score": 32,
+    "score": 38,
     "label": "Off peak",
     "bestZone": "east",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 77,
-        "temperature": 37,
-        "windMph": 22,
-        "precipChance": 12,
-        "summary": "Mostly Sunny",
+        "score": 98,
+        "temperature": 23,
+        "windMph": 8,
+        "precipChance": 10,
+        "summary": "Mostly Cloudy",
         "hazard": null
       },
       "west": {
-        "score": 77,
-        "temperature": 33,
-        "windMph": 23,
-        "precipChance": 16,
-        "summary": "Slight Chance Snow Showers",
+        "score": 89,
+        "temperature": 16,
+        "windMph": 2,
+        "precipChance": 11,
+        "summary": "Mostly Cloudy",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-11-20-dusk",
-      "date": "Fri, Nov 20",
-      "ymd": "2026-11-20",
-      "period": "Dusk",
-      "start": "2026-11-20T22:26:44.000Z",
-      "end": "2026-11-21T01:11:44.000Z",
-      "anchor": "2026-11-20T23:41:44.000Z",
-      "startLabel": "3:26 PM MST",
-      "endLabel": "6:11 PM MST",
-      "anchorLabel": "4:41 PM MST",
-      "arrival": "2026-11-20T21:56:44.000Z",
-      "arrivalLabel": "2:56 PM MST",
-      "rutSeasonScore": 14,
-      "score": 32,
-      "label": "Off peak",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 77,
-          "temperature": 37,
-          "windMph": 22,
-          "precipChance": 12,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        },
-        "west": {
-          "score": 77,
-          "temperature": 33,
-          "windMph": 23,
-          "precipChance": 16,
-          "summary": "Slight Chance Snow Showers",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-11-21-dawn",
       "date": "Sat, Nov 21",
@@ -265,6 +228,43 @@
           "hazard": null
         }
       }
+    },
+    {
+      "key": "2026-11-23-dusk",
+      "date": "Mon, Nov 23",
+      "ymd": "2026-11-23",
+      "period": "Dusk",
+      "start": "2026-11-23T22:24:57.000Z",
+      "end": "2026-11-24T01:09:57.000Z",
+      "anchor": "2026-11-23T23:39:57.000Z",
+      "startLabel": "3:24 PM MST",
+      "endLabel": "6:09 PM MST",
+      "anchorLabel": "4:39 PM MST",
+      "arrival": "2026-11-23T21:54:57.000Z",
+      "arrivalLabel": "2:54 PM MST",
+      "rutSeasonScore": 14,
+      "score": 35,
+      "label": "Off peak",
+      "bestZone": "east",
+      "confidence": "Lower",
+      "weather": {
+        "east": {
+          "score": 88,
+          "temperature": 37,
+          "windMph": 3,
+          "precipChance": 45,
+          "summary": "Slight Chance Snow Showers",
+          "hazard": null
+        },
+        "west": {
+          "score": 81,
+          "temperature": 33,
+          "windMph": 4,
+          "precipChance": 53,
+          "summary": "Chance Snow Showers",
+          "hazard": null
+        }
+      }
     }
   ],
   "spots": [
@@ -278,7 +278,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 37,
+      "score": 43,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -297,7 +297,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 37,
+      "score": 43,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -316,7 +316,7 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 37,
+      "score": 42,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -335,7 +335,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 37,
+      "score": 40,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -354,7 +354,7 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 36,
+      "score": 39,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 37,
+      "score": 43,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 37,
+      "score": 43,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 37,
+      "score": 40,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
