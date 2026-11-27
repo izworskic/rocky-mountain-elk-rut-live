@@ -1,86 +1,49 @@
 {
-  "generatedAt": "2026-11-27T00:04:10.932Z",
-  "localDate": "2026-11-26",
+  "generatedAt": "2026-11-27T08:42:03.493Z",
+  "localDate": "2026-11-27",
   "timezone": "America/Denver",
   "title": "Rocky Mountain Elk Rut Live",
   "mode": "live",
   "dataNote": "Live NWS hourly forecasts are blended with the NPS rut-season baseline for decision support.",
   "errors": [],
   "primary": {
-    "key": "2026-11-26-dusk",
-    "date": "Thu, Nov 26",
-    "ymd": "2026-11-26",
-    "period": "Dusk",
-    "start": "2026-11-26T22:23:29.000Z",
-    "end": "2026-11-27T01:08:29.000Z",
-    "anchor": "2026-11-26T23:38:29.000Z",
-    "startLabel": "3:23 PM MST",
-    "endLabel": "6:08 PM MST",
-    "anchorLabel": "4:38 PM MST",
-    "arrival": "2026-11-26T21:53:29.000Z",
-    "arrivalLabel": "2:53 PM MST",
+    "key": "2026-11-27-dawn",
+    "date": "Fri, Nov 27",
+    "ymd": "2026-11-27",
+    "period": "Dawn",
+    "start": "2026-11-27T12:46:46.000Z",
+    "end": "2026-11-27T15:16:46.000Z",
+    "anchor": "2026-11-27T14:01:46.000Z",
+    "startLabel": "5:46 AM MST",
+    "endLabel": "8:16 AM MST",
+    "anchorLabel": "7:01 AM MST",
+    "arrival": "2026-11-27T12:16:46.000Z",
+    "arrivalLabel": "5:16 AM MST",
     "rutSeasonScore": 14,
-    "score": 37,
+    "score": 36,
     "label": "Off peak",
-    "bestZone": "east",
+    "bestZone": "west",
     "confidence": "High",
     "weather": {
       "east": {
-        "score": 97,
-        "temperature": 40,
-        "windMph": 12,
-        "precipChance": 0,
+        "score": 75,
+        "temperature": 37,
+        "windMph": 30,
+        "precipChance": 5,
         "summary": "Mostly Sunny",
         "hazard": null
       },
       "west": {
-        "score": 100,
-        "temperature": 36,
-        "windMph": 6,
-        "precipChance": 0,
+        "score": 94,
+        "temperature": 24,
+        "windMph": 10,
+        "precipChance": 3,
         "summary": "Mostly Sunny",
         "hazard": null
       }
     }
   },
   "windows": [
-    {
-      "key": "2026-11-26-dusk",
-      "date": "Thu, Nov 26",
-      "ymd": "2026-11-26",
-      "period": "Dusk",
-      "start": "2026-11-26T22:23:29.000Z",
-      "end": "2026-11-27T01:08:29.000Z",
-      "anchor": "2026-11-26T23:38:29.000Z",
-      "startLabel": "3:23 PM MST",
-      "endLabel": "6:08 PM MST",
-      "anchorLabel": "4:38 PM MST",
-      "arrival": "2026-11-26T21:53:29.000Z",
-      "arrivalLabel": "2:53 PM MST",
-      "rutSeasonScore": 14,
-      "score": 37,
-      "label": "Off peak",
-      "bestZone": "east",
-      "confidence": "High",
-      "weather": {
-        "east": {
-          "score": 97,
-          "temperature": 40,
-          "windMph": 12,
-          "precipChance": 0,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        },
-        "west": {
-          "score": 100,
-          "temperature": 36,
-          "windMph": 6,
-          "precipChance": 0,
-          "summary": "Mostly Sunny",
-          "hazard": null
-        }
-      }
-    },
     {
       "key": "2026-11-27-dawn",
       "date": "Fri, Nov 27",
@@ -101,19 +64,19 @@
       "confidence": "High",
       "weather": {
         "east": {
-          "score": 82,
+          "score": 75,
           "temperature": 37,
-          "windMph": 21,
+          "windMph": 30,
           "precipChance": 5,
           "summary": "Mostly Sunny",
           "hazard": null
         },
         "west": {
           "score": 94,
-          "temperature": 23,
+          "temperature": 24,
           "windMph": 10,
           "precipChance": 3,
-          "summary": "Partly Sunny",
+          "summary": "Mostly Sunny",
           "hazard": null
         }
       }
@@ -135,22 +98,22 @@
       "score": 32,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium-high",
+      "confidence": "High",
       "weather": {
         "east": {
           "score": 77,
-          "temperature": 47,
-          "windMph": 24,
+          "temperature": 46,
+          "windMph": 28,
           "precipChance": 14,
-          "summary": "Partly Sunny",
+          "summary": "Mostly Sunny",
           "hazard": null
         },
         "west": {
-          "score": 85,
+          "score": 77,
           "temperature": 41,
-          "windMph": 15,
+          "windMph": 22,
           "precipChance": 16,
-          "summary": "Mostly Cloudy",
+          "summary": "Partly Sunny",
           "hazard": null
         }
       }
@@ -176,17 +139,17 @@
       "weather": {
         "east": {
           "score": 64,
-          "temperature": 34,
-          "windMph": 16,
-          "precipChance": 86,
+          "temperature": 35,
+          "windMph": 18,
+          "precipChance": 89,
           "summary": "Snow Showers",
           "hazard": null
         },
         "west": {
           "score": 68,
-          "temperature": 28,
-          "windMph": 11,
-          "precipChance": 97,
+          "temperature": 25,
+          "windMph": 12,
+          "precipChance": 88,
           "summary": "Snow Showers",
           "hazard": null
         }
@@ -206,25 +169,25 @@
       "arrival": "2026-11-28T21:52:41.000Z",
       "arrivalLabel": "2:52 PM MST",
       "rutSeasonScore": 14,
-      "score": 30,
+      "score": 34,
       "label": "Off peak",
       "bestZone": "east",
-      "confidence": "Medium",
+      "confidence": "Medium-high",
       "weather": {
         "east": {
-          "score": 71,
+          "score": 85,
           "temperature": 31,
-          "windMph": 11,
-          "precipChance": 72,
-          "summary": "Snow Showers",
+          "windMph": 10,
+          "precipChance": 46,
+          "summary": "Snow Showers Likely",
           "hazard": null
         },
         "west": {
-          "score": 62,
+          "score": 75,
           "temperature": 26,
-          "windMph": 15,
-          "precipChance": 80,
-          "summary": "Snow Showers And Patchy Blowing Snow",
+          "windMph": 13,
+          "precipChance": 53,
+          "summary": "Snow Showers Likely",
           "hazard": null
         }
       }
@@ -250,62 +213,61 @@
       "weather": {
         "east": {
           "score": 94,
-          "temperature": 20,
-          "windMph": 11,
-          "precipChance": 1,
-          "summary": "Sunny",
+          "temperature": 22,
+          "windMph": 13,
+          "precipChance": 0,
+          "summary": "Mostly Sunny",
           "hazard": null
         },
         "west": {
           "score": 90,
-          "temperature": 11,
+          "temperature": 8,
           "windMph": 4,
-          "precipChance": 1,
+          "precipChance": 0,
           "summary": "Mostly Sunny",
+          "hazard": null
+        }
+      }
+    },
+    {
+      "key": "2026-11-29-dusk",
+      "date": "Sun, Nov 29",
+      "ymd": "2026-11-29",
+      "period": "Dusk",
+      "start": "2026-11-29T22:22:20.000Z",
+      "end": "2026-11-30T01:07:20.000Z",
+      "anchor": "2026-11-29T23:37:20.000Z",
+      "startLabel": "3:22 PM MST",
+      "endLabel": "6:07 PM MST",
+      "anchorLabel": "4:37 PM MST",
+      "arrival": "2026-11-29T21:52:20.000Z",
+      "arrivalLabel": "2:52 PM MST",
+      "rutSeasonScore": 14,
+      "score": 38,
+      "label": "Off peak",
+      "bestZone": "west",
+      "confidence": "Medium",
+      "weather": {
+        "east": {
+          "score": 90,
+          "temperature": 39,
+          "windMph": 14,
+          "precipChance": 0,
+          "summary": "Sunny",
+          "hazard": null
+        },
+        "west": {
+          "score": 100,
+          "temperature": 33,
+          "windMph": 8,
+          "precipChance": 0,
+          "summary": "Sunny",
           "hazard": null
         }
       }
     }
   ],
   "spots": [
-    {
-      "id": "moraine-park",
-      "name": "Moraine Park",
-      "zone": "east",
-      "corridor": "bear-lake",
-      "rank": 100,
-      "place": "Bear Lake Road corridor",
-      "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
-      "lat": 40.356,
-      "lon": -105.604,
-      "score": 42,
-      "scoreLabel": "Off peak",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "The 2026 Bear Lake Road timed-entry season is not active on this date; normal park entrance requirements still apply."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
-    {
-      "id": "horseshoe-park",
-      "name": "Horseshoe Park",
-      "zone": "east",
-      "corridor": "rest",
-      "rank": 96,
-      "place": "Fall River / east side",
-      "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
-      "lat": 40.406,
-      "lon": -105.628,
-      "score": 42,
-      "scoreLabel": "Off peak",
-      "access": {
-        "status": "Outside timed-entry hours",
-        "tone": "open",
-        "detail": "The standard 2026 timed-entry season is not active on this date."
-      },
-      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
-    },
     {
       "id": "harbison-meadow",
       "name": "Harbison Meadow",
@@ -316,7 +278,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 42,
+      "score": 41,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -335,7 +297,45 @@
       "note": "A quieter west-side rut area with broad valley habitat. Stay on established roads and trails during rut closures.",
       "lat": 40.371,
       "lon": -105.853,
-      "score": 42,
+      "score": 40,
+      "scoreLabel": "Off peak",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "The standard 2026 timed-entry season is not active on this date."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "moraine-park",
+      "name": "Moraine Park",
+      "zone": "east",
+      "corridor": "bear-lake",
+      "rank": 100,
+      "place": "Bear Lake Road corridor",
+      "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
+      "lat": 40.356,
+      "lon": -105.604,
+      "score": 37,
+      "scoreLabel": "Off peak",
+      "access": {
+        "status": "Outside timed-entry hours",
+        "tone": "open",
+        "detail": "The 2026 Bear Lake Road timed-entry season is not active on this date; normal park entrance requirements still apply."
+      },
+      "closure": "Sep. 1–Oct. 31: designated rut meadows are closed to foot travel from 5:00 PM–10:00 AM. Observe from established roads/trails and posted viewing areas."
+    },
+    {
+      "id": "horseshoe-park",
+      "name": "Horseshoe Park",
+      "zone": "east",
+      "corridor": "rest",
+      "rank": 96,
+      "place": "Fall River / east side",
+      "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
+      "lat": 40.406,
+      "lon": -105.628,
+      "score": 36,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -354,7 +354,7 @@
       "note": "Open meadow-edge habitat close to Estes Park, useful for an evening or dawn stop without entering Bear Lake Road.",
       "lat": 40.365,
       "lon": -105.577,
-      "score": 41,
+      "score": 36,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -375,7 +375,7 @@
       "note": "The classic broad-meadow rut view. Strong sightlines and one of the park's best-known elk gathering areas.",
       "lat": 40.356,
       "lon": -105.604,
-      "score": 42,
+      "score": 37,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -394,7 +394,7 @@
       "note": "Wide meadow views with easy roadside observation. A strong alternative when Bear Lake Road access is inconvenient.",
       "lat": 40.406,
       "lon": -105.628,
-      "score": 42,
+      "score": 36,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -413,7 +413,7 @@
       "note": "A west-side meadow just north of Grand Lake with an NPS webcam overlooking the valley.",
       "lat": 40.271,
       "lon": -105.837,
-      "score": 42,
+      "score": 41,
       "scoreLabel": "Off peak",
       "access": {
         "status": "Outside timed-entry hours",
@@ -465,12 +465,12 @@
     {
       "zone": "east",
       "url": "https://api.weather.gov/gridpoints/BOU/44,91/forecast/hourly",
-      "updated": "2026-11-26T18:46:33+00:00"
+      "updated": "2026-11-27T06:46:22+00:00"
     },
     {
       "zone": "west",
       "url": "https://api.weather.gov/gridpoints/BOU/35,89/forecast/hourly",
-      "updated": "2026-11-26T18:46:33+00:00"
+      "updated": "2026-11-27T06:46:22+00:00"
     }
   ],
   "schemaVersion": 1
